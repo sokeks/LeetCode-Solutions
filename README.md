@@ -115,6 +115,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0383-ransom-note](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0383-ransom-note/) | Easy |
 | [0387-first-unique-character-in-a-string](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0387-first-unique-character-in-a-string/) | Easy |
 | [0389-find-the-difference](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0389-find-the-difference/) | Easy |
+| [0409-longest-palindrome](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0409-longest-palindrome/) | Easy |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -128,6 +129,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0389-find-the-difference](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0389-find-the-difference/) | Easy |
 | [0392-is-subsequence](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0392-is-subsequence/) | Easy |
 | [0394-decode-string](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0394-decode-string/) | Medium |
+| [0409-longest-palindrome](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0409-longest-palindrome/) | Easy |
 | [0443-string-compression](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0443-string-compression/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
@@ -176,6 +178,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0334-increasing-triplet-subsequence](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0334-increasing-triplet-subsequence/) | Medium |
+| [0409-longest-palindrome](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0409-longest-palindrome/) | Easy |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
