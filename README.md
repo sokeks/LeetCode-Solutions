@@ -42,6 +42,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0367-valid-perfect-square](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0367-valid-perfect-square/) | Easy |
 | [0412-fizz-buzz](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0412-fizz-buzz/) | Easy |
 | [0415-add-strings](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0415-add-strings/) | Easy |
+| [0441-arranging-coins](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0441-arranging-coins/) | Easy |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -170,6 +171,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0350-intersection-of-two-arrays-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0350-intersection-of-two-arrays-ii/) | Easy |
 | [0367-valid-perfect-square](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0367-valid-perfect-square/) | Easy |
 | [0374-guess-number-higher-or-lower](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0374-guess-number-higher-or-lower/) | Easy |
+| [0441-arranging-coins](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0441-arranging-coins/) | Easy |
 ## Interactive
 | Problem Name | Difficulty |
 | ------- | ------- |
