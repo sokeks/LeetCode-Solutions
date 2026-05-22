@@ -44,6 +44,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0338-counting-bits](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0338-counting-bits/) | Easy |
 | [0342-power-of-four](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0342-power-of-four/) | Easy |
 | [0389-find-the-difference](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0389-find-the-difference/) | Easy |
+| [0401-binary-watch](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0401-binary-watch/) | Easy |
 ## Recursion
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -134,6 +135,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0257-binary-tree-paths](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0257-binary-tree-paths/) | Easy |
+| [0401-binary-watch](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0401-binary-watch/) | Easy |
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
