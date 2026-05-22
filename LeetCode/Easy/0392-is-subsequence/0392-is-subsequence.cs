@@ -18,7 +18,7 @@ public class Solution {
                 idxs[c - 'a']++;
             }
 
-            Console.WriteLine($"c={c} idxs[c - 'a']={idxs[c - 'a']}");
+            // Console.WriteLine($"c={c} idxs[c - 'a']={idxs[c - 'a']}");
 
             if (idxs[c - 'a'] == combinedIndicesT[c - 'a'].Length)
             {
