@@ -35,6 +35,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0292-nim-game](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0292-nim-game/) | Easy |
 | [0326-power-of-three](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0326-power-of-three/) | Easy |
 | [0342-power-of-four](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0342-power-of-four/) | Easy |
+| [0367-valid-perfect-square](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0367-valid-perfect-square/) | Easy |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -134,6 +135,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0278-first-bad-version](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0278-first-bad-version/) | Easy |
 | [0349-intersection-of-two-arrays](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0349-intersection-of-two-arrays/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0350-intersection-of-two-arrays-ii/) | Easy |
+| [0367-valid-perfect-square](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0367-valid-perfect-square/) | Easy |
 ## Interactive
 | Problem Name | Difficulty |
 | ------- | ------- |
