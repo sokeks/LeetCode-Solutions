@@ -76,6 +76,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0344-reverse-string](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0344-reverse-string/) | Easy |
 | [0345-reverse-vowels-of-a-string](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0345-reverse-vowels-of-a-string/) | Easy |
 | [0349-intersection-of-two-arrays](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0349-intersection-of-two-arrays/) | Easy |
+| [0350-intersection-of-two-arrays-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0350-intersection-of-two-arrays-ii/) | Easy |
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -85,6 +86,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0303-range-sum-query-immutable](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0303-range-sum-query-immutable/) | Easy |
 | [0334-increasing-triplet-subsequence](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0334-increasing-triplet-subsequence/) | Medium |
 | [0349-intersection-of-two-arrays](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0349-intersection-of-two-arrays/) | Easy |
+| [0350-intersection-of-two-arrays-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0350-intersection-of-two-arrays-ii/) | Easy |
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -97,6 +99,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0268-missing-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0268-missing-number/) | Easy |
 | [0290-word-pattern](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0290-word-pattern/) | Easy |
 | [0349-intersection-of-two-arrays](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0349-intersection-of-two-arrays/) | Easy |
+| [0350-intersection-of-two-arrays-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0350-intersection-of-two-arrays-ii/) | Easy |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -111,6 +114,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0242-valid-anagram](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0242-valid-anagram/) | Easy |
 | [0268-missing-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0268-missing-number/) | Easy |
 | [0349-intersection-of-two-arrays](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0349-intersection-of-two-arrays/) | Easy |
+| [0350-intersection-of-two-arrays-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0350-intersection-of-two-arrays-ii/) | Easy |
 ## Backtracking
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -129,6 +133,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0268-missing-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0268-missing-number/) | Easy |
 | [0278-first-bad-version](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0278-first-bad-version/) | Easy |
 | [0349-intersection-of-two-arrays](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0349-intersection-of-two-arrays/) | Easy |
+| [0350-intersection-of-two-arrays-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0350-intersection-of-two-arrays-ii/) | Easy |
 ## Interactive
 | Problem Name | Difficulty |
 | ------- | ------- |
