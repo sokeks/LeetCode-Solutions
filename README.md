@@ -34,4 +34,16 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0231-power-of-two](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0231-power-of-two/) | Easy |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0232-implement-queue-using-stacks](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0232-implement-queue-using-stacks/) | Easy |
+## Design
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0232-implement-queue-using-stacks](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0232-implement-queue-using-stacks/) | Easy |
+## Queue
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0232-implement-queue-using-stacks](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0232-implement-queue-using-stacks/) | Easy |
 <!---LeetCode Topics End-->
