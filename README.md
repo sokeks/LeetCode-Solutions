@@ -51,11 +51,13 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0234-palindrome-linked-list](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0234-palindrome-linked-list/) | Easy |
 | [0326-power-of-three](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0326-power-of-three/) | Easy |
 | [0342-power-of-four](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0342-power-of-four/) | Easy |
+| [0394-decode-string](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0394-decode-string/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0232-implement-queue-using-stacks](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0232-implement-queue-using-stacks/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0234-palindrome-linked-list/) | Easy |
+| [0394-decode-string](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0394-decode-string/) | Medium |
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -116,6 +118,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0383-ransom-note](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0383-ransom-note/) | Easy |
 | [0389-find-the-difference](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0389-find-the-difference/) | Easy |
 | [0392-is-subsequence](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0392-is-subsequence/) | Easy |
+| [0394-decode-string](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0394-decode-string/) | Medium |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
