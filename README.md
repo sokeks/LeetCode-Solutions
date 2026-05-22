@@ -101,6 +101,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0290-word-pattern](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0290-word-pattern/) | Easy |
 | [0349-intersection-of-two-arrays](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0349-intersection-of-two-arrays/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0350-intersection-of-two-arrays-ii/) | Easy |
+| [0383-ransom-note](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0383-ransom-note/) | Easy |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -109,6 +110,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0290-word-pattern](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0290-word-pattern/) | Easy |
 | [0344-reverse-string](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0344-reverse-string/) | Easy |
 | [0345-reverse-vowels-of-a-string](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0345-reverse-vowels-of-a-string/) | Easy |
+| [0383-ransom-note](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0383-ransom-note/) | Easy |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -158,4 +160,8 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0338-counting-bits](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0338-counting-bits/) | Easy |
+## Counting
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0383-ransom-note](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0383-ransom-note/) | Easy |
 <!---LeetCode Topics End-->
