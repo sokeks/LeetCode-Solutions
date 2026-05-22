@@ -1,7 +1,7 @@
 public class Solution {
     public int MySqrt(int x) {
         long left = 0;
-        long right = 50000l; // bo max(x) = 2^31 -> 2 * 10^9 -> 20 * 10^8 sqrt(x) = sqrt (20 * 10^8 ) ~= 4,5... * 10^4 ~ 5 * 10^4
+        long right = 50000l; // because max(x) = 2^31 -> 2 * 10^9 -> 20 * 10^8 sqrt(x) = sqrt (20 * 10^8 ) ~= 4,5... * 10^4 ~ 5 * 10^4
 
         while (left <= right)
         {
