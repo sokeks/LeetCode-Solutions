@@ -32,6 +32,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0258-add-digits](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0258-add-digits/) | Easy |
 | [0263-ugly-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0263-ugly-number/) | Easy |
 | [0268-missing-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0268-missing-number/) | Easy |
+| [0292-nim-game](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0292-nim-game/) | Easy |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -112,4 +113,12 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0278-first-bad-version](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0278-first-bad-version/) | Easy |
+## Brainteaser
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0292-nim-game](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0292-nim-game/) | Easy |
+## Game Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0292-nim-game](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0292-nim-game/) | Easy |
 <!---LeetCode Topics End-->
