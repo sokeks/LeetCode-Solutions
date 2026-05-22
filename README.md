@@ -33,6 +33,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0263-ugly-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0263-ugly-number/) | Easy |
 | [0268-missing-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0268-missing-number/) | Easy |
 | [0292-nim-game](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0292-nim-game/) | Easy |
+| [0326-power-of-three](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0326-power-of-three/) | Easy |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -43,6 +44,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | ------- | ------- |
 | [0231-power-of-two](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0231-power-of-two/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0234-palindrome-linked-list/) | Easy |
+| [0326-power-of-three](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0326-power-of-three/) | Easy |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
