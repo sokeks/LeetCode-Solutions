@@ -52,6 +52,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0232-implement-queue-using-stacks](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0232-implement-queue-using-stacks/) | Easy |
+| [0303-range-sum-query-immutable](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0303-range-sum-query-immutable/) | Easy |
 ## Queue
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -71,10 +72,12 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0238-product-of-array-except-self](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0238-product-of-array-except-self/) | Medium |
 | [0268-missing-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0268-missing-number/) | Easy |
 | [0283-move-zeroes](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0283-move-zeroes/) | Easy |
+| [0303-range-sum-query-immutable](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0303-range-sum-query-immutable/) | Easy |
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0238-product-of-array-except-self](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0238-product-of-array-except-self/) | Medium |
+| [0303-range-sum-query-immutable](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0303-range-sum-query-immutable/) | Easy |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
