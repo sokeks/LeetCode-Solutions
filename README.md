@@ -30,6 +30,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | ------- | ------- |
 | [0231-power-of-two](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0231-power-of-two/) | Easy |
 | [0258-add-digits](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0258-add-digits/) | Easy |
+| [0263-ugly-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0263-ugly-number/) | Easy |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
