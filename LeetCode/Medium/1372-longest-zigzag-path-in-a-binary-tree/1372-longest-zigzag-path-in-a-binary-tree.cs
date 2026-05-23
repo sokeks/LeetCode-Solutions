@@ -11,7 +11,9 @@
  *     }
  * }
  */
+ 
 public class Solution {
+    // *** recommended solution - 1 less ternary operation to be done, but much bigger cognitive load - I would stay with mine ***
     public int LongestZigZag(TreeNode root) {
         const int reasonableStartStackSize = 32;
         var stack = new Stack<(TreeNode node, int zigZagCountIfComesFromLeft, int zigZagCountIfComesFromRight)>(reasonableStartStackSize);
@@ -41,7 +43,7 @@ public class Solution {
 
 
 
-    // *** my first solution ***
+    // *** my first solution - 1 more ternary operation to be done, but much less cognitive load ***
     // enum Directions
     // {
     //     none,
