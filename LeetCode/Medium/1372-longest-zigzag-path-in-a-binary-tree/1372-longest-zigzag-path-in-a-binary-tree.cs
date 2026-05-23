@@ -24,15 +24,15 @@ public class Solution {
 
             if (node.right != null)
             {
-                var zigZacCountToRight = zigZagCountIfComesFromLeft + 1;
-                maxZigZagCount = Math.Max(zigZacCountToRight, maxZigZagCount);
-                stack.Push((node.right, 0, zigZacCountToRight));
+                var zigZagCountToRight = zigZagCountIfComesFromLeft + 1;
+                maxZigZagCount = Math.Max(zigZagCountToRight, maxZigZagCount);
+                stack.Push((node.right, 0, zigZagCountToRight));
             }
             if (node.left != null)
             {
-                var zigZacCountToLeft = zigZagCountIfComesFromRight + 1;
-                maxZigZagCount = Math.Max(zigZacCountToLeft, maxZigZagCount);
-                stack.Push((node.left, zigZacCountToLeft, 0));
+                var zigZagCountToLeft = zigZagCountIfComesFromRight + 1;
+                maxZigZagCount = Math.Max(zigZagCountToLeft, maxZigZagCount);
+                stack.Push((node.left, zigZagCountToLeft, 0));
             }
         }
 
