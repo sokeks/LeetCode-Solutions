@@ -8,56 +8,80 @@
  * }
  */
 public class Solution {
-    public TreeNode LowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
-        var pPath = GetNodePath(root, p);
-        var qPath = GetNodePath(root, q);
+    // *** recursive one - easier and cleaner, but less safe for big data sets ***
 
-        var lowerCount = pPath.Count < qPath.Count ? pPath.Count : qPath.Count;
+    public TreeNode LowestCommonAncestor(TreeNode node, TreeNode p, TreeNode q) {
+        if (node == null || node == p || node == q) return node;
+        
+        var left = LowestCommonAncestor(node.left, p, q);
+        var right = LowestCommonAncestor(node.right, p, q);
 
-        var previous = root;
-        for (var i = 1; i < lowerCount; i++)
+        if (left == null)
         {
-            if (pPath[i].val != qPath[i].val) return previous;
-
-            previous = pPath[i];
+            return right;
         }
-
-        return pPath[lowerCount - 1];
-        return root;
-
-        static List<TreeNode> GetNodePath(TreeNode root, TreeNode node)
+        else if (right == null)
         {
-            const int reasonableStartSize = 32;
-            var stack = new Stack<TreeNode>(reasonableStartSize);
-            var path = new List<TreeNode>(reasonableStartSize);
-
-            var current = root;
-            TreeNode lastVisited = null;
-            while (current != null || stack.Count > 0)
-            {
-                while (current != null)
-                {
-                    path.Add(current);
-                    if (current.val == node.val) return path;
-
-                    stack.Push(current);
-                    current = current.left;
-                }
-
-                var peekNode = stack.Peek();
-                if (peekNode.right != null && peekNode.right != lastVisited)
-                {
-                    current = peekNode.right;
-                }
-                else
-                {
-                    var popNode = stack.Pop();
-                    lastVisited = popNode;
-                    path.RemoveAt(path.Count - 1);
-                }
-            }
-
-            throw new System.Diagnostics.UnreachableException("Didn't find a node!");
+            return left;
+        }
+        else
+        {
+            return node;
         }
     }
+
+
+    // *** state in stack managed state - safer for big data sets ***
+    
+    // public TreeNode LowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+    //     var pPath = GetNodePath(root, p);
+    //     var qPath = GetNodePath(root, q);
+
+    //     var lowerCount = Math.Min(pPath.Count, qPath.Count);
+
+    //     var previous = root;
+    //     for (var i = 1; i < lowerCount; i++)
+    //     {
+    //         if (pPath[i] != qPath[i]) return previous;
+
+    //         previous = pPath[i];
+    //     }
+
+    //     return pPath[lowerCount - 1];
+
+    //     static List<TreeNode> GetNodePath(TreeNode root, TreeNode node)
+    //     {
+    //         const int reasonableStartSize = 32;
+    //         var stack = new Stack<TreeNode>(reasonableStartSize);
+    //         var path = new List<TreeNode>(reasonableStartSize);
+
+    //         var current = root;
+    //         TreeNode lastVisited = null;
+    //         while (current != null || stack.Count > 0)
+    //         {
+    //             while (current != null)
+    //             {
+    //                 path.Add(current);
+    //                 if (current == node) return path;
+
+    //                 stack.Push(current);
+    //                 current = current.left;
+    //             }
+
+    //             var peekNode = stack.Peek();
+    //             if (peekNode.right != null && peekNode.right != lastVisited)
+    //             {
+    //                 current = peekNode.right;
+    //             }
+    //             else
+    //             {
+    //                 var popNode = stack.Pop();
+    //                 lastVisited = popNode;
+    //                 path.RemoveAt(path.Count - 1);
+    //             }
+    //         }
+
+    //         throw new System.Diagnostics.UnreachableException("Didn't find a node!");
+    //     }
+    // }
 }
