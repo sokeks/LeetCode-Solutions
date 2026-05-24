@@ -15,35 +15,24 @@ public class Solution {
     public IList<int> RightSideView(TreeNode root) {
         if (root == null) return new int[0];
 
-        var currentLevelCounter = 1;
-        var nextLevelCounter = 0;
+        var currentLevelNodesCount = 1;
 
-        const int reasonableQueueStartSize = 32;
-        var queue = new Queue<TreeNode>(reasonableQueueStartSize);
+        const int reasonableDataStructureStartSize = 32;
+        var queue = new Queue<TreeNode>(reasonableDataStructureStartSize);
         queue.Enqueue(root);
 
-        var rightSideVisibleNodes = new List<int>(reasonableQueueStartSize);
+        var rightSideVisibleNodes = new List<int>(reasonableDataStructureStartSize);
         while (queue.Count > 0)
         {
-            if (currentLevelCounter == 0)
-            {
-                currentLevelCounter = nextLevelCounter;
-                nextLevelCounter = 0;
-            }
             var node = queue.Dequeue();
-            currentLevelCounter--;
-            if (currentLevelCounter == 0) rightSideVisibleNodes.Add(node.val);
+            if (node.left != null) queue.Enqueue(node.left);
+            if (node.right != null) queue.Enqueue(node.right);
 
-            if (node.left != null)
+            currentLevelNodesCount--;
+            if (currentLevelNodesCount == 0)
             {
-                queue.Enqueue(node.left);
-                nextLevelCounter++;
-            }
-
-            if (node.right != null)
-            {
-                queue.Enqueue(node.right);
-                nextLevelCounter++;
+                rightSideVisibleNodes.Add(node.val);
+                currentLevelNodesCount = queue.Count;
             }
         }
 
