@@ -1,6 +1,48 @@
-### LeetCode-Solutions
+# LeetCode-Solutions
 
 This repository keeps all my coded solutions to the tasks from LeetCode webpage. Most (if not all) tasks were moved from LH page to GH via [LeetHub-3.0](https://chromewebstore.google.com/detail/kdkgpjpenaeoodajljkflmlnkoihkmda?utm_source=item-share-cb), which I highly recommend. That also explains why most of the commits are having very close datetimes.
+
+## Approach to solving the tasks
+
+I follow below algorithm:
+1. Read a task and think about the approach (so the concept how to solve it) and solution (so the code how to write it).
+2. If I am not able to find an approach and 15-20 minutes have passed, I am asking any AI for help:
+
+> LeetCode Task:
+>
+> Where did I stuck/what I have tried:
+>
+> Instruction: Trigger **[Socratic Hinting]**. Under no circumstances should you write me ready-to-use code or the full algorithm. Ask 1-2 guiding questions that will point me toward the right pattern or data structure that I am missing. Give me a chance to have an "Aha!" moment.
+
+3. If I am not sure about the approach I verify it with any AI using this prompt:
+
+>  LeetCode Task:
+> 
+>  My concept: Describe it here
+> 
+>  Expected complexity: Time O(N), Space O(N)
+> 
+>  Instruction: Trigger **[Edge-Case Injector]**. Give me 2-3 pathological edge cases or malicious inputs that could destroy this approach. Do not provide code or ready-made solutions; just throw hard test cases at me to think about.
+
+3. If I am sure about the approach, then I write the code and verify it with any AI using this prompt:
+
+> LeetCode Task:
+>
+> Source Code:
+>
+> Instruction: Trigger **[L6 Rubric Grading]** and **[Socratic Review]**. Evaluate the code quality as if this were a production code review at FAANG (readability, variable naming, early returns, modularity, and task-specific aspects) for code written using Design by Contract (not defensively) by an L6 engineer.
+> Bug Handling: If there are bugs (logical or performance), ask me pointed questions targeting the gaps so I can find the bug myself. Do not give me the corrected code.
+>
+> Constraints: Keep LeetCode's sandbox limitations in mind; for example, for security reasons, System.Runtime.InteropServices is blocked (meaning you cannot use ref returns for dictionary values), and ArrayPool.Shared.Rent is unavailable. We do not initialize the data structures with the max input from task decription.
+
+4. If I have successfully resolved all the comments and discussions with AI I move to System Design question:
+
+> Instruction: Trigger **[Constraint Escalation]**. Drastically change the hardware or business constraints of this problem (this may include, but is not limited to: an infinite data stream instead of an in-memory array, data that doesn't fit in RAM, an O(1) space requirement, a distributed environment, etc.).
+> 
+> Actionable Output: Ask me exactly one architectural question about how I would adapt my approach to these new realities.
+
+
+## Last word
 
 Have fun exploring! Always happy to discuss certain resolutions I've decided to make.
 
