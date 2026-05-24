@@ -57,7 +57,7 @@ public class Solution {
                 }
             }
 
-            throw new System.Diagnostics.UnreachableException("Didn't found a node!");
+            throw new System.Diagnostics.UnreachableException("Didn't find a node!");
         }
     }
 }
