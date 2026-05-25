@@ -17,37 +17,33 @@ public class Solution {
         var queue = new Queue<TreeNode>(defaultCapacity);
         queue.Enqueue(root);
 
-        var levelMaxSum = root.val;
-        var levelMaxLevel = 1;
+        var maxSum = 0;
+        var maxSumLevel = 0;
 
         var currentLevel = 1;
-        var currentSum = 0;
-        var levelNodesCount = queue.Count;
 
         while (queue.Count > 0)
         {
-            var node = queue.Dequeue();
-            levelNodesCount--;
-
-            if (node.left != null) queue.Enqueue(node.left);
-            if (node.right != null) queue.Enqueue(node.right);
-
-            currentSum += node.val;
-
-            if (levelNodesCount == 0)
+            var levelNodesCount = queue.Count;
+            var currentSum = 0;
+            for (var i = 0; i < levelNodesCount; i++)
             {
-                if (currentSum > levelMaxSum)
-                {
-                    levelMaxSum = currentSum;
-                    levelMaxLevel = currentLevel;
-                } 
-                levelNodesCount = queue.Count;
-                currentLevel++;
-
-                currentSum = 0;
+                var node = queue.Dequeue();
+                if (node.left != null) queue.Enqueue(node.left);
+                if (node.right != null) queue.Enqueue(node.right);
+                
+                currentSum += node.val;
             }
+
+            if (maxSumLevel == 0 || currentSum > maxSum)
+            {
+                maxSum = currentSum;
+                maxSumLevel = currentLevel;
+            }
+
+            currentLevel++;
         }
 
-        return levelMaxLevel;
+        return maxSumLevel;
     }
 }
