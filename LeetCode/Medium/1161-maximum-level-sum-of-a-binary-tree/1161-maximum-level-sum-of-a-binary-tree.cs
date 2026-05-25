@@ -15,14 +15,12 @@ public class Solution {
     public int MaxLevelSum(TreeNode root) {
         var defaultCapacity = 32;
         var queue = new Queue<TreeNode>(defaultCapacity);
+        queue.Enqueue(root);
 
-        if (root.left != null) queue.Enqueue(root.left);
-        if (root.right != null) queue.Enqueue(root.right);
-        
-        var rowMaxSum = root.val;
-        var rowMaxLevel = 1;
+        var levelMaxSum = root.val;
+        var levelMaxLevel = 1;
 
-        var currentLevel = 2;
+        var currentLevel = 1;
         var currentSum = 0;
         var levelNodesCount = queue.Count;
 
@@ -38,10 +36,10 @@ public class Solution {
 
             if (levelNodesCount == 0)
             {
-                if (currentSum > rowMaxSum)
+                if (currentSum > levelMaxSum)
                 {
-                    rowMaxSum = currentSum;
-                    rowMaxLevel = currentLevel;
+                    levelMaxSum = currentSum;
+                    levelMaxLevel = currentLevel;
                 } 
                 levelNodesCount = queue.Count;
                 currentLevel++;
@@ -50,6 +48,6 @@ public class Solution {
             }
         }
 
-        return rowMaxLevel;
+        return levelMaxLevel;
     }
 }
