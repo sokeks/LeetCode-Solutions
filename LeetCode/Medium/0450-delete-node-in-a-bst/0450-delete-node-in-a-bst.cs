@@ -18,45 +18,75 @@ public class Solution {
         var (deleteNode, previous) = FindDeleteNode(root, sentinel, key);
         if (deleteNode == null) return root;
 
-        // Console.WriteLine($"Found: {deleteNode.val}, {previous.val}");
-
-        if (deleteNode.left == null)
+        if (deleteNode.left == null && deleteNode.right == null)
         {
-            if (previous.left == deleteNode) previous.left = deleteNode.right;
-            else previous.right = deleteNode.right;
+            if (previous.left == deleteNode) previous.left = null;
+            else previous.right = null;
         }
         else
         {
-            if (previous.left == deleteNode) previous.left = deleteNode.left;
-            else previous.right = deleteNode.left;
-
-            // previous.left = deleteNode.left;
-
-            var rightest = deleteNode.left;
-            while (rightest.right != null) rightest = rightest.right;
-            rightest.right = deleteNode.right;
-
-            deleteNode.left = null;
+            ApplyHibardReplacement(deleteNode);
         }
 
-        deleteNode.right = null;
 
         return sentinel.left;
         static (TreeNode, TreeNode) FindDeleteNode(TreeNode current, TreeNode previous, int key)
         {
             while (current != null)
             {
-                // Console.WriteLine($"Loop: {current.val}, {previous.val}");
                 if (current.val == key) return (current, previous);
                 
                 previous = current;
                 if (current.val > key) current = current.left;
                 else current = current.right;
-                
-
             }
 
             return (null, previous);
         }
+        static void ApplyHibardReplacement(TreeNode deleteNode)
+        {
+            var previous = deleteNode;
+            TreeNode current = null;
+            if (deleteNode.left != null)
+            {
+                current = deleteNode.left;
+                while (current.right != null)
+                {
+                    previous = current;
+                    current = current.right;
+                }
+
+                if (current == deleteNode.left)
+                {
+                    deleteNode.left = current.left;
+                }
+                else
+                {
+                    // Console.WriteLine($"{previous.val} {current.val}");
+                    previous.right = current.left;
+                }
+            }
+            else
+            {
+                current = deleteNode.right;
+                while (current.left != null)
+                {
+                    previous = current;
+                    current = current.left;
+                }
+                
+                if (current == deleteNode.right)
+                {
+                    deleteNode.right = current.right;
+                }
+                else
+                {
+                    previous.left = current.right;
+                }
+
+            }
+            deleteNode.val = current.val;
+        }
     }
+
 }
