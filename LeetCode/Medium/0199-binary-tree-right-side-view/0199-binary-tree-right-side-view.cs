@@ -15,7 +15,6 @@ public class Solution {
     public IList<int> RightSideView(TreeNode root) {
         if (root == null) return Array.Empty<int>();
 
-
         const int defaultCapacity = 32;
         var queue = new Queue<TreeNode>(defaultCapacity);
         queue.Enqueue(root);
