@@ -17,13 +17,9 @@ public class Solution {
 
         while (current != null)
         {
-            if (current.val == val)
-            {
-                return current;
-            }
-
-            if (current.val < val) current = current.right;
-            else if (current.val > val) current = current.left;
+            if (current.val == val) return current;
+            else if (current.val < val) current = current.right;
+            else current = current.left;
         }
 
         return null;
