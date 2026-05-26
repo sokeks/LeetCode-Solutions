@@ -24,8 +24,8 @@ public class Solution {
                 return current;
             }
 
-            if (current.right != null) stack.Push(current.right);
-            if (current.left != null) stack.Push(current.left);
+            if (current.val < val && current.right != null) stack.Push(current.right);
+            if (current.val > val && current.left != null) stack.Push(current.left);
         }
 
         return null;
