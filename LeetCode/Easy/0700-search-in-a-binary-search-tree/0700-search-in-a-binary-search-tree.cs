@@ -13,19 +13,17 @@
  */
 public class Solution {
     public TreeNode SearchBST(TreeNode root, int val) {
-        var stack = new Stack<TreeNode>();
-        stack.Push(root);
+        var current = root;
 
-        while (stack.Count > 0)
+        while (current != null)
         {
-            var current = stack.Pop();
             if (current.val == val)
             {
                 return current;
             }
 
-            if (current.val < val && current.right != null) stack.Push(current.right);
-            if (current.val > val && current.left != null) stack.Push(current.left);
+            if (current.val < val) current = current.right;
+            else if (current.val > val) current = current.left;
         }
 
         return null;
