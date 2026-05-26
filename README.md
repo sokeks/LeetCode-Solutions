@@ -56,6 +56,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0257-binary-tree-paths](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0257-binary-tree-paths/) | Easy |
 | [0404-sum-of-left-leaves](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0404-sum-of-left-leaves/) | Easy |
+| [0450-delete-node-in-a-bst](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0450-delete-node-in-a-bst/) | Medium |
 | [0700-search-in-a-binary-search-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0700-search-in-a-binary-search-tree/) | Easy |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/1161-maximum-level-sum-of-a-binary-tree/) | Medium |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/1372-longest-zigzag-path-in-a-binary-tree/) | Medium |
@@ -84,6 +85,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0257-binary-tree-paths](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0257-binary-tree-paths/) | Easy |
 | [0404-sum-of-left-leaves](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0404-sum-of-left-leaves/) | Easy |
+| [0450-delete-node-in-a-bst](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0450-delete-node-in-a-bst/) | Medium |
 | [0700-search-in-a-binary-search-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0700-search-in-a-binary-search-tree/) | Easy |
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/1161-maximum-level-sum-of-a-binary-tree/) | Medium |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/1372-longest-zigzag-path-in-a-binary-tree/) | Medium |
@@ -262,5 +264,6 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0450-delete-node-in-a-bst](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0450-delete-node-in-a-bst/) | Medium |
 | [0700-search-in-a-binary-search-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0700-search-in-a-binary-search-tree/) | Easy |
 <!---LeetCode Topics End-->
