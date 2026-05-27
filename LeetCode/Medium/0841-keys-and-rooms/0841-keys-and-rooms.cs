@@ -1,20 +1,24 @@
 public class Solution {
     public bool CanVisitAllRooms(IList<IList<int>> rooms) {
-        var defaultCapacity = 32;
-        var nums = new Stack<int>(defaultCapacity);
-        nums.Push(0);
-        var visitedRooms = new HashSet<int>();
+        var keysToTry = new Stack<int>(rooms.Count);
+        keysToTry.Push(0);
+        Span<bool> visitedRooms = rooms.Count <= 1024 ? stackalloc bool[rooms.Count] : new bool[rooms.Count];
+        var visitedRoomsCount = 0;
 
-        while (nums.Count > 0 && visitedRooms.Count != rooms.Count)
+        while (keysToTry.Count > 0 && visitedRoomsCount != rooms.Count)
         {
-            var num = nums.Pop();
-            visitedRooms.Add(num);
-            for (var i = 0; i < rooms[num].Count; i++)
+            var key = keysToTry.Pop();
+            if (!visitedRooms[key])
             {
-                if (!visitedRooms.Contains(rooms[num][i])) nums.Push(rooms[num][i]);
+                visitedRooms[key] = true;
+                visitedRoomsCount++;
+            }
+            for (var i = 0; i < rooms[key].Count; i++)
+            {
+                if (!visitedRooms[rooms[key][i]]) keysToTry.Push(rooms[key][i]);
             }
         }
 
-        return rooms.Count == visitedRooms.Count;
+        return rooms.Count == visitedRoomsCount;
     }
 }
