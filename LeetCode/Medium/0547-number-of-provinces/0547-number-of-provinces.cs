@@ -1,4 +1,7 @@
 public class Solution {
+    // *** my second solution based on Disjoint Set (Union-Find Data Structure) - due to minimizing dependency on GC mainatained 
+    // structures - especially Stack<int>, as new bool[..] in prod systems could be replaced with Arrays.Shared - it should be faster ***
+    //
     public int FindCircleNum(int[][] isConnected) {
         Span<int> parent = isConnected.Length <= 1024 ? stackalloc int[isConnected.Length] : new int[isConnected.Length];
 
@@ -39,7 +42,8 @@ public class Solution {
         }
     }
 
-    // *** my first solution ***
+    // *** my first solution based on graphs DFS ***
+    //
     // public int FindCircleNum(int[][] isConnected) {
     //     var provincesCount = 0;
 
