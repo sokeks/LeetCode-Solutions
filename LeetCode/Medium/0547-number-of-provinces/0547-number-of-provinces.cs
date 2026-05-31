@@ -4,32 +4,24 @@ public class Solution {
 
         var townsToVisit = new Stack<int>(isConnected.Length);
         Span<bool> visitedTowns = isConnected.Length <= 1024 ? stackalloc bool[isConnected.Length] : new bool[isConnected.Length];
-        var visitedTownsCount = 0;
 
-        while (visitedTownsCount < isConnected.Length)
+        for (var i = 0; i < isConnected.Length ; i++)
         {
-            for (var i = 0; i < isConnected.Length; i++)
-            {
-                if (!visitedTowns[i])
-                {
-                    visitedTowns[i] = true;
-                    townsToVisit.Push(i);
-                    visitedTownsCount++;
-                    provincesCount++;
-                    break;
-                }
-            }
+            if (visitedTowns[i]) continue;
+
+            visitedTowns[i] = true;
+            townsToVisit.Push(i);
+            provincesCount++;
 
             while (townsToVisit.Count > 0)
             {
                 var visitingTown = townsToVisit.Pop();
-                for (var i = 0; i < isConnected[visitingTown].Length; i++)
+                for (var j = 0; j < isConnected[visitingTown].Length; j++)
                 {
-                    if (isConnected[visitingTown][i] == 1 && !visitedTowns[i])
+                    if (isConnected[visitingTown][j] == 1 && !visitedTowns[j])
                     {
-                        visitedTowns[i] = true;
-                        visitedTownsCount++;
-                        townsToVisit.Push(i);
+                        visitedTowns[j] = true;
+                        townsToVisit.Push(j);
                     }
                 }
             }
