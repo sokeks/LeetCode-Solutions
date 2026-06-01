@@ -38,7 +38,9 @@ public class Solution {
         {
             if (parent[i] == i) return i;
 
-            return Find(parent[i], parent);
+            parent[i] = Find(parent[i], parent);
+
+            return parent[i];
         }
     }
 
