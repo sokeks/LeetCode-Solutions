@@ -38,6 +38,7 @@ public class Solution {
         {
             if (parent[i] == i) return i;
 
+            // path compression
             parent[i] = Find(parent[i], parent);
 
             return parent[i];
