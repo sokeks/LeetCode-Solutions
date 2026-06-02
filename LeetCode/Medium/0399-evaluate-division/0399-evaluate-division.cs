@@ -15,13 +15,13 @@ public class Solution {
                 continue;
             }
 
-            var visitedVariables = new HashSet<string>();
             var nextVariables = new Stack<(string variable, double result)>();
             nextVariables.Push((query[0], 1.0));
+            var visitedVariables = new HashSet<string>();
+            visitedVariables.Add(query[0]);
             while (answers[i] == -1 && nextVariables.Count > 0)
             {
                 var (variable, currentResult) = nextVariables.Pop();
-                visitedVariables.Add(variable);
 
                 foreach (var (neighbour, weight) in adjacency[variable])
                 {
@@ -34,6 +34,7 @@ public class Solution {
                         break;
                     }
                     nextVariables.Push((neighbour, result));
+                    visitedVariables.Add(neighbour);
                 }
             }
         }
