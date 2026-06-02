@@ -9,6 +9,11 @@ public class Solution {
         {
             var query = queries[i];
             if (!adjacency.ContainsKey(query[0]) || !adjacency.ContainsKey(query[1])) continue;
+            if (query[0] == query[1])
+            {
+                answers[i] = 1;
+                continue;
+            }
 
             var visitedVariables = new HashSet<string>();
             var nextVariables = new Stack<(string variable, double result)>();
