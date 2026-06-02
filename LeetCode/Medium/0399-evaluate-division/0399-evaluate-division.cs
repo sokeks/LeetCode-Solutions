@@ -7,7 +7,6 @@ public class Solution {
         for (var i = 0; i < queries.Count; i++)
         {
             var query = queries[i];
-
             answers[i] = !adjacency.ContainsKey(query[0]) || !adjacency.ContainsKey(query[1])
                 ? -1
                 : CalculateAnswerToQuery(adjacency, query);
