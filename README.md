@@ -67,6 +67,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0226-invert-binary-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0226-invert-binary-tree/) | Easy |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
 | [0257-binary-tree-paths](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0257-binary-tree-paths/) | Easy |
+| [0399-evaluate-division](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0399-evaluate-division/) | Medium |
 | [0404-sum-of-left-leaves](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0404-sum-of-left-leaves/) | Easy |
 | [0547-number-of-provinces](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
 | [0841-keys-and-rooms](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
@@ -78,6 +79,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | ------- | ------- |
 | [0199-binary-tree-right-side-view](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
 | [0226-invert-binary-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0226-invert-binary-tree/) | Easy |
+| [0399-evaluate-division](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0399-evaluate-division/) | Medium |
 | [0404-sum-of-left-leaves](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0404-sum-of-left-leaves/) | Easy |
 | [0547-number-of-provinces](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
 | [0841-keys-and-rooms](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
@@ -168,6 +170,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0334-increasing-triplet-subsequence](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0334-increasing-triplet-subsequence/) | Medium |
 | [0349-intersection-of-two-arrays](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0349-intersection-of-two-arrays/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0350-intersection-of-two-arrays-ii/) | Easy |
+| [0399-evaluate-division](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0399-evaluate-division/) | Medium |
 | [0414-third-maximum-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0414-third-maximum-number/) | Easy |
 ## Prefix Sum
 | Problem Name | Difficulty |
@@ -199,6 +202,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0389-find-the-difference](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0389-find-the-difference/) | Easy |
 | [0392-is-subsequence](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0392-is-subsequence/) | Easy |
 | [0394-decode-string](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0394-decode-string/) | Medium |
+| [0399-evaluate-division](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0399-evaluate-division/) | Medium |
 | [0409-longest-palindrome](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0409-longest-palindrome/) | Easy |
 | [0412-fizz-buzz](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0412-fizz-buzz/) | Easy |
 | [0415-add-strings](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0415-add-strings/) | Easy |
@@ -275,11 +279,17 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 ## Graph Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0399-evaluate-division](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0399-evaluate-division/) | Medium |
 | [0547-number-of-provinces](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
 | [0841-keys-and-rooms](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0841-keys-and-rooms/) | Medium |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0399-evaluate-division](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0399-evaluate-division/) | Medium |
 | [0547-number-of-provinces](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
+## Shortest Path
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0399-evaluate-division](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0399-evaluate-division/) | Medium |
 <!---LeetCode Topics End-->
