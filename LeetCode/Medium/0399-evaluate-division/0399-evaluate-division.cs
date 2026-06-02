@@ -18,9 +18,10 @@ public class Solution {
             var visitedVariables = new HashSet<string>();
             var nextVariables = new Stack<(string variable, double result)>();
             nextVariables.Push((query[0], 1.0));
-            while (nextVariables.Count > 0)
+            while (answers[i] == -1 && nextVariables.Count > 0)
             {
                 var (variable, currentResult) = nextVariables.Pop();
+                visitedVariables.Add(variable);
 
                 foreach (var (neighbour, weight) in adjacency[variable])
                 {
@@ -32,7 +33,6 @@ public class Solution {
                         answers[i] = result;
                         break;
                     }
-                    visitedVariables.Add(neighbour);
                     nextVariables.Push((neighbour, result));
                 }
             }
