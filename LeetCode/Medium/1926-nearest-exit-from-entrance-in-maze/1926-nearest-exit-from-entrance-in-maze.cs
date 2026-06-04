@@ -1,16 +1,12 @@
 public class Solution {
-    private int _rowsCount;
-    private int _columnsCount;
-
     public int NearestExit(char[][] maze, int[] entrance) {
-        _rowsCount = maze.Length;
-        _columnsCount = maze[0].Length;
+        var mazeW = new MazeWrapper(maze);
+        var cellsMemory = new CellsMemory(maze);
 
         var nextCells = new Queue<(int x, int y, int stepsMade)>();
         nextCells.Enqueue((entrance[0], entrance[1], 0));
 
-        var cellsVisited = new bool[_rowsCount * _columnsCount];
-        cellsVisited[CalculateVisitedIndex(entrance)] = true;
+        cellsMemory.MarkAsVisited(entrance);
 
         ReadOnlySpan<(int, int)> offsets = [(- 1, 0), (1, 0), (0, -1), (0, 1)];
         while (nextCells.Count > 0)
@@ -21,11 +17,10 @@ public class Solution {
             {
                 var newX = x + horizontal;
                 var newY = y + vertical;
-                if (IsAllowed(newX, newY, maze, cellsVisited, out int cellsVisitedIndex))
+                if (mazeW.IsStepAllowed(newX, newY) && !cellsMemory.IsVisitedAndMarkAs(newX, newY))
                 {
-                    if (IsOnEdge(newX, newY, maze)) return stepsMade + 1;
+                    if (mazeW.IsOnEdge(newX, newY)) return stepsMade + 1;
                     nextCells.Enqueue((newX, newY, stepsMade + 1));
-                    cellsVisited[cellsVisitedIndex] = true;
                 }                
             }
         }
@@ -33,23 +28,52 @@ public class Solution {
         return -1;
     }
 
-    private bool IsAllowed(int x, int y, char[][] maze, bool[] cellsVisited, out int cellsVisitedIndex)
+    public ref struct MazeWrapper
     {
-        if (x >= 0 && x < _rowsCount && y >= 0 && y < _columnsCount && maze[x][y] == '.')
+        private readonly char[][] _maze;
+        private readonly int _rowsCount;
+        private readonly int _columnsCount;
+
+        public MazeWrapper(char[][] maze)
         {
-            cellsVisitedIndex = CalculateVisitedIndex(x, y);
-            return !cellsVisited[cellsVisitedIndex];
+            _maze = maze;
+            _rowsCount = maze.Length;
+            _columnsCount = maze[0].Length;
         }
-        cellsVisitedIndex = -1;
-        return false;
-     } 
 
-    private bool IsOnEdge(int x, int y, char[][] maze)
-        => x == 0 || x == _rowsCount - 1 || y == 0 || y == _columnsCount - 1;
+        public bool IsStepAllowed(int x, int y)
+            => x >= 0 && x < _rowsCount && y >= 0 && y < _columnsCount && _maze[x][y] == '.';
 
-    private int CalculateVisitedIndex(int[] coordinates)
-        => CalculateVisitedIndex(coordinates[0], coordinates[1]);
+        public bool IsOnEdge(int x, int y)
+            => x == 0 || x == _rowsCount - 1 || y == 0 || y == _columnsCount - 1;
+    }
 
-    private int CalculateVisitedIndex(int x, int y)
+    public ref struct CellsMemory
+    {
+        private readonly bool[] _cellsVisited;
+        private readonly int _columnsCount;
+
+        public CellsMemory(char[][] maze)
+        {
+            _columnsCount = maze[0].Length;
+            _cellsVisited = new bool[maze.Length * _columnsCount];
+        }
+
+        public void MarkAsVisited(int[] coordinates)
+            => _cellsVisited[CalculateVisitedIndex(coordinates[0], coordinates[1])] = true;
+
+        public bool IsVisitedAndMarkAs(int x, int y)
+        {
+            var idx = CalculateVisitedIndex(x, y);
+            var isVisited = _cellsVisited[idx];
+            if (!isVisited) _cellsVisited[idx] = true;
+            return isVisited;
+        }
+
+        public bool IsVisited(int x, int y)
+            => _cellsVisited[CalculateVisitedIndex(x, y)];
+
+        private int CalculateVisitedIndex(int x, int y)
             => x * _columnsCount + y;
+    }
 }
