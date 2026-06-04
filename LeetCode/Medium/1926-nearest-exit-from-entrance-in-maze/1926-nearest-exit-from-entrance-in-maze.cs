@@ -17,11 +17,11 @@ public class Solution {
             {
                 var stepX = x + horizontal;
                 var stepY = y + vertical;
-                if (mazeW.IsStepAllowed(stepX, stepY) && !cellsMemory.IsVisitedAndMarkAs(stepX, stepY))
+                if (mazeW.IsStepAllowed(stepX, stepY) && cellsMemory.TryMarkAsVisited(stepX, stepY))
                 {
                     if (mazeW.IsOnEdge(stepX, stepY)) return stepsMade + 1;
                     nextCells.Enqueue((stepX, stepY, stepsMade + 1));
-                }                
+                }
             }
         }
 
@@ -62,12 +62,12 @@ public class Solution {
         public void MarkAsVisited(int[] coordinates)
             => _cellsVisited[CalculateVisitedIndex(coordinates[0], coordinates[1])] = true;
 
-        public bool IsVisitedAndMarkAs(int x, int y)
+        public bool TryMarkAsVisited(int x, int y)
         {
             var idx = CalculateVisitedIndex(x, y);
             var isVisited = _cellsVisited[idx];
             if (!isVisited) _cellsVisited[idx] = true;
-            return isVisited;
+            return !isVisited;
         }
 
         public bool IsVisited(int x, int y)
