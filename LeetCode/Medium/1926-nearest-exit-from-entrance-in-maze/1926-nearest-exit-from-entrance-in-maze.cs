@@ -15,12 +15,12 @@ public class Solution {
 
             foreach (var (horizontal, vertical) in offsets)
             {
-                var newX = x + horizontal;
-                var newY = y + vertical;
-                if (mazeW.IsStepAllowed(newX, newY) && !cellsMemory.IsVisitedAndMarkAs(newX, newY))
+                var stepX = x + horizontal;
+                var stepY = y + vertical;
+                if (mazeW.IsStepAllowed(stepX, stepY) && !cellsMemory.IsVisitedAndMarkAs(stepX, stepY))
                 {
-                    if (mazeW.IsOnEdge(newX, newY)) return stepsMade + 1;
-                    nextCells.Enqueue((newX, newY, stepsMade + 1));
+                    if (mazeW.IsOnEdge(stepX, stepY)) return stepsMade + 1;
+                    nextCells.Enqueue((stepX, stepY, stepsMade + 1));
                 }                
             }
         }
