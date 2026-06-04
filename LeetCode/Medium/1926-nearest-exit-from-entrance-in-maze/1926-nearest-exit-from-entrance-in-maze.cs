@@ -28,7 +28,7 @@ public class Solution {
         return -1;
     }
 
-    public ref struct MazeWrapper
+    public readonly ref struct MazeWrapper
     {
         private readonly char[][] _maze;
         private readonly int _rowsCount;
@@ -48,7 +48,7 @@ public class Solution {
             => x == 0 || x == _rowsCount - 1 || y == 0 || y == _columnsCount - 1;
     }
 
-    public ref struct CellsMemory
+    public readonly ref struct CellsMemory
     {
         private readonly bool[] _cellsVisited;
         private readonly int _columnsCount;
