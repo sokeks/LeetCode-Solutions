@@ -37,10 +37,11 @@ public class Solution {
             var columnsCount = grid[0].Length;
             for (var r = 0; r < grid.Length; r++)
             {
+                var row = grid[r];
                 for (var c = 0; c < columnsCount; c++)
                 {
-                    if (grid[r][c] == 1) totalFreshOranges++;
-                    else if (grid[r][c] == 2)
+                    if (row[c] == 1) totalFreshOranges++;
+                    else if (row[c] == 2)
                     {
                         nextOranges.Enqueue((r, c));
                         cellsMemory.MarkAsVisited(r, c);
@@ -88,14 +89,9 @@ public class Solution {
         public bool TryMarkAsVisited((int x, int y) move)
         {
             var idx = CalculateIdx(move.x, move.y);
-            var isVisited = _cellsVisited[idx];
-
-            if (!isVisited)
-            {
-                _cellsVisited[idx] = true;
-                return true;
-            }
-            else return false;
+            var wasVisited = _cellsVisited[idx];
+            _cellsVisited[idx] = true;
+            return !wasVisited;
         }
 
         private int CalculateIdx(int r, int c) => r * _columnsCount + c;
