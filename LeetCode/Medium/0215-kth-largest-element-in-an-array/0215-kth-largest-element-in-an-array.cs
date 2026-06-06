@@ -5,8 +5,6 @@ public class Solution {
 
         var kIdx = copy.Length - k;
 
-        Console.WriteLine($"Begin: {string.Join(',', nums.ToArray())}");
-
         return ThreeWayQuickSelect(copy, kIdx);
 
         static int ThreeWayQuickSelect(Span<int> nums, int kIdx)
@@ -14,30 +12,28 @@ public class Solution {
             var left = 0;
             var right = nums.Length;
 
-            while (left <= right)
+            while (left < right)
             {
-                var (lessThanIdx, greaterThanIdx) = Partition(nums, left, right);
-                // Console.WriteLine($"{lessThanIdx} | {greaterThanIdx} | {left} | {right} | {string.Join(',', nums.ToArray())}");
+                var (pivotStartIdx, pivotEndIdx) = Partition(nums, left, right);
 
-                if (kIdx >= lessThanIdx && kIdx <= greaterThanIdx)
+                if (kIdx >= pivotStartIdx && kIdx <= pivotEndIdx)
                 {
                     return nums[kIdx];
                 }
-                else if (kIdx > greaterThanIdx)
+                else if (kIdx > pivotEndIdx)
                 {
-                    left = greaterThanIdx;
+                    left = pivotEndIdx + 1;
                 }
-                else // if (kIdx < lessThanIdx)
+                else // if (kIdx < pivotStartIdx)
                 {
-                    right = lessThanIdx;
+                    right = pivotStartIdx;
                 }
             }
 
             throw new System.Diagnostics.UnreachableException("Flaw in the Algorithm");
-            static (int lessThanIdx, int greaterThanIdx) Partition(Span<int> nums, int left, int right)
+            static (int pivotStartIdx, int pivotEndIdx) Partition(Span<int> nums, int left, int right)
             {
                 var pivotIdx = Random.Shared.Next(left, right);
-                // Console.WriteLine(pivotIdx);
                 var pivot = nums[pivotIdx];
 
                 var lessThanIdx = left;
@@ -66,6 +62,5 @@ public class Solution {
                 return (lessThanIdx, greaterThanIdx);
             }
         }
-
     }
 }
