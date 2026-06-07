@@ -141,6 +141,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | ------- | ------- |
 | [0232-implement-queue-using-stacks](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0232-implement-queue-using-stacks/) | Easy |
 | [0303-range-sum-query-immutable](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0303-range-sum-query-immutable/) | Easy |
+| [2336-smallest-number-in-infinite-set](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/2336-smallest-number-in-infinite-set/) | Medium |
 ## Queue
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -194,6 +195,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0387-first-unique-character-in-a-string](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0387-first-unique-character-in-a-string/) | Easy |
 | [0389-find-the-difference](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0389-find-the-difference/) | Easy |
 | [0409-longest-palindrome](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0409-longest-palindrome/) | Easy |
+| [2336-smallest-number-in-infinite-set](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/2336-smallest-number-in-infinite-set/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -311,8 +313,13 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
+| [2336-smallest-number-in-infinite-set](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/2336-smallest-number-in-infinite-set/) | Medium |
 ## Quickselect
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
+## Ordered Set
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [2336-smallest-number-in-infinite-set](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/2336-smallest-number-in-infinite-set/) | Medium |
 <!---LeetCode Topics End-->
