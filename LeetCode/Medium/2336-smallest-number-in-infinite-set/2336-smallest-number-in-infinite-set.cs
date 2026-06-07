@@ -4,7 +4,7 @@ public class SmallestInfiniteSet {
     private readonly HashSet<int> _inHeap = new(); 
     
     public int PopSmallest() {
-        if (_minHeap.Count > 0 && _minHeap.Peek() < _setStart)
+        if (_minHeap.Count > 0)
         {
             var val = _minHeap.Dequeue();
             _inHeap.Remove(val);
