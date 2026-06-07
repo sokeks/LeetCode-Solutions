@@ -1,24 +1,4 @@
 public class Solution {
-    public int FindKthLargest(int[] nums, int k) {
-        var queue = new PriorityQueue<int, int>(k);
-        var i = 0;
-        for (; i < k; i++)
-        {
-            queue.Enqueue(nums[i], nums[i]);
-        }
-
-        for (; i < nums.Length; i++)
-        {
-            if (queue.Peek() < nums[i])
-            {
-                queue.Dequeue();
-                queue.Enqueue(nums[i], nums[i]);
-            }
-        }
-
-        return queue.Peek();
-    }
-
     // --- 3 way QuickSelect solution (the fastest) ---
     // public int FindKthLargest(int[] nums, int k) {
     //     Span<int> copy = nums.Length <= 1024 ? stackalloc int[nums.Length] : new int[nums.Length];
@@ -89,7 +69,6 @@ public class Solution {
     //         //     right = right - 1;  // moving from exclusive range to inclusive
     //         //     var pivot = nums[right];
     //         //     var storeIdx = left;
-
     //         //     for (var i = left; i < right; i++)
     //         //     {
     //         //         if (nums[i] < pivot)
@@ -105,4 +84,18 @@ public class Solution {
     //         // }
     //     }
     // }
+
+    // --- PriorityminHeap (minHeap) solution - not as fast as with 3way QuickSelect ---
+    public int FindKthLargest(int[] nums, int k) {
+        var minHeap = new PriorityQueue<int, int>(k);
+        
+        foreach (var n in nums.AsSpan()[..k]) minHeap.Enqueue(n, n);
+
+        foreach (var n in nums.AsSpan()[k..])
+        {
+            if (minHeap.Peek() < n) minHeap.DequeueEnqueue(n, n);
+        }
+
+        return minHeap.Peek();
+    }
 }
