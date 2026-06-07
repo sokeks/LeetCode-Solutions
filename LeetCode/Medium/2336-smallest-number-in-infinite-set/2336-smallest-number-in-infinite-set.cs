@@ -1,13 +1,13 @@
 public class SmallestInfiniteSet {
     private int _setStart = 1;
-    private readonly PriorityQueue<int, int> _minHeap = new(); 
-    private readonly HashSet<int> _inHeap = new(); 
+    private readonly PriorityQueue<int, int> _addedElements = new(); 
+    private readonly HashSet<int> _inAddedElements = new(); 
     
     public int PopSmallest() {
-        if (_minHeap.Count > 0)
+        if (_addedElements.Count > 0)
         {
-            var val = _minHeap.Dequeue();
-            _inHeap.Remove(val);
+            var val = _addedElements.Dequeue();
+            _inAddedElements.Remove(val);
             return val;
         }
         
@@ -15,10 +15,10 @@ public class SmallestInfiniteSet {
     }
     
     public void AddBack(int num) {
-        if (num < _setStart && !_inHeap.Contains(num))
+        if (num < _setStart && !_inAddedElements.Contains(num))
         {
-            _minHeap.Enqueue(num, num);
-            _inHeap.Add(num);
+            _addedElements.Enqueue(num, num);
+            _inAddedElements.Add(num);
         }        
     }
 }
