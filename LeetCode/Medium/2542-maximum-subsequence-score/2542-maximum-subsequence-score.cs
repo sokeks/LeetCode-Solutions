@@ -2,6 +2,10 @@ public class Solution {
     public long MaxScore(int[] nums1, int[] nums2, int k) {
         var combined = nums1.Length <= 1024 ? stackalloc (int num1, int num2)[nums1.Length] : new (int num1, int num2)[nums1.Length];
         PopulateAndSortBySecond(combined, nums1, nums2);
+        if (k == 1)
+        {
+            return CalculateMaxProduct(nums1, nums2);
+        }
 
         var sum = 0L;
         var topValues = new PriorityQueue<int, int>(k - 1);
@@ -29,15 +33,23 @@ public class Solution {
         {
             for (var i = 0; i < combined.Length; i++) combined[i] = (nums1[i], nums2[i]);
 
-            combined.Sort((t1, t2) => t2.num2.CompareTo(t1.num2));
+            combined.Sort(new CombinedComparer());
+        }
+
+        static long CalculateMaxProduct(int[] nums1, int[] nums2)
+        {
+            long maxScore = 0;
+            for (var i = 0; i < nums1.Length; i++)
+            {
+                maxScore = Math.Max((long)nums1[i] * nums2[i], maxScore);
+            }
+
+            return maxScore;
         }
     }
 
-    public readonly struct IndexComparer : IComparer<int>
+    public readonly struct CombinedComparer : IComparer<(int num1, int num2)>
     {
-        private readonly int[] _values;
-        public IndexComparer(int[] values) => _values = values;
-
-        public int Compare(int i1, int i2) => _values[i2].CompareTo(_values[i1]);
+        public int Compare((int num1, int num2) c1, (int num1, int num2) c2) => c2.num2.CompareTo(c1.num2);
     }
 }
