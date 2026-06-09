@@ -1,35 +1,35 @@
 public class Solution {
     public long MaxScore(int[] nums1, int[] nums2, int k) {
-        var indices = nums1.Length <= 1024 ? stackalloc int[nums1.Length] : new int[nums1.Length];
-        SortIndicesByArrayValues(indices, nums2);
+        var combined = nums1.Length <= 1024 ? stackalloc (int num1, int num2)[nums1.Length] : new (int num1, int num2)[nums1.Length];
+        PopulateAndSortBySecond(combined, nums1, nums2);
 
         var sum = 0L;
         var topValues = new PriorityQueue<int, int>(k - 1);
-        foreach (var i in indices[..(k - 1)])
+        foreach (var c in combined[..(k - 1)])
         {
-            sum += nums1[i];
-            topValues.Enqueue(nums1[i], nums1[i]);
+            sum += c.num1;
+            topValues.Enqueue(c.num1, c.num1);
         }
 
         var maxScore = 0L;
-        foreach (var i in indices[(k - 1)..])
+        foreach (var c in combined[(k - 1)..])
         {
-            var score = (sum + nums1[i]) * nums2[i];
+            var score = (sum + c.num1) * c.num2;
             if (score > maxScore) maxScore = score;
 
-            if (topValues.Count > 0 && nums1[i] > topValues.Peek())
+            if (topValues.Count > 0 && c.num1 > topValues.Peek())
             {
-                var previous = topValues.DequeueEnqueue(nums1[i], nums1[i]);
-                sum = sum - previous + nums1[i];
+                var previous = topValues.DequeueEnqueue(c.num1, c.num1);
+                sum = sum - previous + c.num1;
             }            
         }
 
         return maxScore;
-        static void SortIndicesByArrayValues(Span<int> indices, int[] values)
+        static void PopulateAndSortBySecond(Span<(int num1, int num2)> combined, int[] nums1, int[] nums2)
         {
-            for (var i = 0; i < indices.Length; i++) indices[i] = i;
+            for (var i = 0; i < combined.Length; i++) combined[i] = (nums1[i], nums2[i]);
 
-            indices.Sort(new IndexComparer(values));
+            combined.Sort((t1, t2) => t2.num2.CompareTo(t1.num2));
         }
     }
 
