@@ -4,18 +4,18 @@ public class Solution {
         SortIndicesByArrayValues(indices, nums2);
 
         var sum = 0L;
-        var topValues = new PriorityQueue<int, int>();
+        var topValues = new PriorityQueue<int, int>(k - 1);
         foreach (var i in indices[..(k - 1)])
         {
             sum += nums1[i];
             topValues.Enqueue(nums1[i], nums1[i]);
         }
 
-        long? maxScore = null;
+        var maxScore = 0L;
         foreach (var i in indices[(k - 1)..])
         {
             var score = (sum + nums1[i]) * nums2[i];
-            if (maxScore is null || score > maxScore) maxScore = score;
+            if (score > maxScore) maxScore = score;
 
             if (topValues.Count > 0 && nums1[i] > topValues.Peek())
             {
@@ -24,7 +24,7 @@ public class Solution {
             }            
         }
 
-        return maxScore.Value;
+        return maxScore;
         static void SortIndicesByArrayValues(Span<int> indices, int[] values)
         {
             for (var i = 0; i < indices.Length; i++) indices[i] = i;
@@ -38,6 +38,6 @@ public class Solution {
         private readonly int[] _values;
         public IndexComparer(int[] values) => _values = values;
 
-        public int Compare(int i1, int i2) => -1 * _values[i1].CompareTo(_values[i2]);
+        public int Compare(int i1, int i2) => _values[i2].CompareTo(_values[i1]);
     }
 }
