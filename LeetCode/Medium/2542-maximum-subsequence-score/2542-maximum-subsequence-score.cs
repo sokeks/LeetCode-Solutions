@@ -1,11 +1,11 @@
 public class Solution {
     public long MaxScore(int[] nums1, int[] nums2, int k) {
-        var combined = nums1.Length <= 1024 ? stackalloc (int num1, int num2)[nums1.Length] : new (int num1, int num2)[nums1.Length];
-        PopulateAndSortBySecond(combined, nums1, nums2);
         if (k == 1)
         {
             return CalculateMaxProduct(nums1, nums2);
         }
+        var combined = nums1.Length <= 1024 ? stackalloc (int num1, int num2)[nums1.Length] : new (int num1, int num2)[nums1.Length];
+        PopulateAndSortBySecond(combined, nums1, nums2);
 
         var sum = 0L;
         var topValues = new PriorityQueue<int, int>(k - 1);
@@ -21,7 +21,7 @@ public class Solution {
             var score = (sum + c.num1) * c.num2;
             if (score > maxScore) maxScore = score;
 
-            if (topValues.Count > 0 && c.num1 > topValues.Peek())
+            if (c.num1 > topValues.Peek())
             {
                 var previous = topValues.DequeueEnqueue(c.num1, c.num1);
                 sum = sum - previous + c.num1;
