@@ -163,6 +163,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0350-intersection-of-two-arrays-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0350-intersection-of-two-arrays-ii/) | Easy |
 | [0392-is-subsequence](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0392-is-subsequence/) | Easy |
 | [0443-string-compression](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0443-string-compression/) | Medium |
+| [2462-total-cost-to-hire-k-workers](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/2462-total-cost-to-hire-k-workers/) | Medium |
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -178,6 +179,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0414-third-maximum-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0414-third-maximum-number/) | Easy |
 | [0994-rotting-oranges](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0994-rotting-oranges/) | Medium |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/1926-nearest-exit-from-entrance-in-maze/) | Medium |
+| [2462-total-cost-to-hire-k-workers](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/2462-total-cost-to-hire-k-workers/) | Medium |
 | [2542-maximum-subsequence-score](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/2542-maximum-subsequence-score/) | Medium |
 ## Prefix Sum
 | Problem Name | Difficulty |
@@ -238,6 +240,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0258-add-digits](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0258-add-digits/) | Easy |
 | [0412-fizz-buzz](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0412-fizz-buzz/) | Easy |
 | [0415-add-strings](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0415-add-strings/) | Easy |
+| [2462-total-cost-to-hire-k-workers](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/2462-total-cost-to-hire-k-workers/) | Medium |
 ## Number Theory
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -317,6 +320,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | ------- | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
 | [2336-smallest-number-in-infinite-set](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/2336-smallest-number-in-infinite-set/) | Medium |
+| [2462-total-cost-to-hire-k-workers](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/2462-total-cost-to-hire-k-workers/) | Medium |
 | [2542-maximum-subsequence-score](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/2542-maximum-subsequence-score/) | Medium |
 ## Quickselect
 | Problem Name | Difficulty |
