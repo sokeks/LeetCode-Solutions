@@ -13,8 +13,6 @@ public class Solution {
             var leftWorker = leftWorkers.Peek();
             var rightWorker = rightWorkers.Peek();
 
-            Console.WriteLine($"{sessionCount}: {left}->{leftWorker} {right}->{rightWorker}");
-
             if (leftWorker <= rightWorker)
             {
                 totalCost += leftWorker;
@@ -36,7 +34,6 @@ public class Solution {
         if (sessionCount == k) return totalCost;
 
         var workers = leftWorkers.Count > 0 ? leftWorkers : rightWorkers;
-
         for (; sessionCount < k && workers.Count > 0; sessionCount++)
         {
             totalCost += workers.Dequeue();
