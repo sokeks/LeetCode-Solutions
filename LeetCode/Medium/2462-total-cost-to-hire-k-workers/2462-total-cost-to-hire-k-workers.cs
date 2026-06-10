@@ -10,24 +10,28 @@ public class Solution {
         var totalCost = 0L;
         for (; sessionCount < k && leftWorkers.Count > 0 && rightWorkers.Count > 0; sessionCount++)
         {
-            var leftWorker = leftWorkers.Peek();
-            var rightWorker = rightWorkers.Peek();
+            var leftWorkerCost = leftWorkers.Peek();
+            var rightWorkerCost = rightWorkers.Peek();
 
-            if (leftWorker <= rightWorker)
+            if (leftWorkerCost <= rightWorkerCost)
             {
-                totalCost += leftWorker;
-                if (left <= right) leftWorkers.DequeueEnqueue(costs[left], (costs[left], left));
+                totalCost += leftWorkerCost;
+                if (left <= right)
+                {
+                    leftWorkers.DequeueEnqueue(costs[left], (costs[left], left));
+                    left++;
+                }
                 else leftWorkers.Dequeue();
-                
-                left++;
             }
             else
             {
-                totalCost += rightWorker;
-                if (left <= right) rightWorkers.DequeueEnqueue(costs[right], (costs[right], right));
+                totalCost += rightWorkerCost;
+                if (left <= right)
+                {
+                    rightWorkers.DequeueEnqueue(costs[right], (costs[right], right));
+                    right--;
+                }
                 else rightWorkers.Dequeue();
-                
-                right--;
             }
         }
 
