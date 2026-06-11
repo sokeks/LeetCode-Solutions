@@ -8,13 +8,20 @@ public class Solution {
 
         for (var i = 0; i < spells.Length; i++)
         {
+            var potionPosition = BsFirstSuccessfulPotion(potionsSorted, spells[i], success);
+            pairsCount[i] = potionsSorted.Length - potionPosition;
+        }
+
+        return pairsCount;
+        static int BsFirstSuccessfulPotion(Span<int> potionsSorted, long spell, long success)
+        {
             var left = 0;
             var right = potionsSorted.Length;
             while (left < right)
             {
                 var mid = left + (right - left) / 2;
 
-                if ((long)potionsSorted[mid] * spells[i] >= success)
+                if (spell * potionsSorted[mid] >= success)
                 {
                     right = mid;
                 }
@@ -23,9 +30,8 @@ public class Solution {
                     left = mid + 1;
                 }
             }
-            pairsCount[i] = potionsSorted.Length - left;
-        }
 
-        return pairsCount;
+            return left;
+        }
     }
 }
