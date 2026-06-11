@@ -13,6 +13,7 @@ public class Solution {
         }
 
         return pairsCount;
+        // [MethodImpl(MethodImplOptions.AggressiveInlining)] - potentially, but LC does not accept it
         static int BsFirstSuccessfulPotion(Span<int> potionsSorted, long spell, long success)
         {
             var left = 0;
