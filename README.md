@@ -168,6 +168,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0162-find-peak-element](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0162-find-peak-element/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0238-product-of-array-except-self/) | Medium |
 | [0268-missing-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0268-missing-number/) | Easy |
@@ -251,6 +252,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0162-find-peak-element](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0162-find-peak-element/) | Medium |
 | [0268-missing-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0268-missing-number/) | Easy |
 | [0278-first-bad-version](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0278-first-bad-version/) | Easy |
 | [0349-intersection-of-two-arrays](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0349-intersection-of-two-arrays/) | Easy |
