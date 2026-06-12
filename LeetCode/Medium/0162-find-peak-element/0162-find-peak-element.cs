@@ -20,6 +20,3 @@ public class Solution {
         return left;
     }
 }
-
-
-            // Console.WriteLine($"{left}|{right}->{mid}");
