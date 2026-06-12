@@ -8,8 +8,7 @@ public class Solution {
             var mid = left + (right - left) / 2;
             if (nums[mid] > nums[mid + 1])
             {
-                if (mid == 0 || nums[mid] > nums[mid - 1]) return mid;
-                right = mid - 1;
+                right = mid;
             }
             else
             {
