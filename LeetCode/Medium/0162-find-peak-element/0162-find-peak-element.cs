@@ -5,9 +5,11 @@ public class Solution {
         var left = 0;
         var right = nums.Length - 1;
 
-        while (left <= right)
+        while (left < right)
         {
             var mid = left + (right - left) / 2;
+
+            // Console.WriteLine($"{left}|{right}->{mid}");
 
             if (mid != 0 && mid != nums.Length - 1)
             {
@@ -36,6 +38,6 @@ public class Solution {
             }
         }
 
-        throw new System.Diagnostics.UnreachableException();
+        return left;
     }
 }
