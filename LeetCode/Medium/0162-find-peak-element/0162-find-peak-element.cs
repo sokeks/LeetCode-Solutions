@@ -3,7 +3,7 @@ public class Solution {
         var left = 0;
         var right = nums.Length - 1;
 
-        while (left < right) // makes ending up at (nums.length - 1) impossible to achieve
+        while (left < right)
         {
             var mid = left + (right - left) / 2;
             if (nums[mid] > nums[mid + 1])
