@@ -1,7 +1,6 @@
 public class Solution {
     public int MinEatingSpeed(int[] piles, int h) {
-        if (piles.Length == 1) return (int)Math.Ceiling((double)piles[0] / h);
-        var pilesSum = Sum(piles);
+        if (piles.Length == 1) return (piles[0] + h - 1) / h;
         var minEatingSpeed = 1;
         var maxEatingSpeed = piles.Max();
 
@@ -19,12 +18,6 @@ public class Solution {
         }
 
         return minEatingSpeed;
-        static long Sum(int[] arr)
-        {
-            var sum = 0L;
-            foreach(var a in arr) sum += a;
-            return sum;
-        }
 
         static bool CanEatAllInTime(int eatingSpeed, int[] piles, long h)
         {
