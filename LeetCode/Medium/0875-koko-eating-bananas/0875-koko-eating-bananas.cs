@@ -3,9 +3,7 @@ public class Solution {
         if (piles.Length == 1) return (int)Math.Ceiling((double)piles[0] / h);
         var pilesSum = Sum(piles);
         var minEatingSpeed = 1;
-        var maxEatingSpeedLong = (pilesSum - (piles.Length - 1)) / (h - (piles.Length - 1))
-            + (((pilesSum - (piles.Length - 1)) % (h - (piles.Length - 1))) == 0 ? 0 : 1);
-        var maxEatingSpeed = (int)Math.Min(maxEatingSpeedLong, int.MaxValue);
+        var maxEatingSpeed = piles.Max();
 
         while (minEatingSpeed < maxEatingSpeed)
         {
@@ -28,12 +26,12 @@ public class Solution {
             return sum;
         }
 
-        static bool CanEatAllInTime(int eatingSpeed, int[] piles, int h)
+        static bool CanEatAllInTime(int eatingSpeed, int[] piles, long h)
         {
-            var spentTime = 0;
+            var spentTime = 0L;
             foreach (var p in piles)
             {
-                spentTime += ((p / eatingSpeed) + ((p % eatingSpeed) == 0 ? 0 : 1));
+                spentTime += (p + eatingSpeed - 1) / eatingSpeed;
                 if (spentTime > h) return false;
             }
 
