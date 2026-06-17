@@ -1,11 +1,11 @@
 public class Solution {
     public IList<string> LetterCombinations(string digits) {
-        string[] keyMap = new string[] { "", "",  "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz" };
-        var combinations = new string[CalculateTotalCombinations(digits, keyMap)];
+        
+        var combinations = new string[CalculateTotalCombinations(digits)];
         
         var last = digits.Length - 1;
         var stack = new Stack<(char letter, int position)>();
-        foreach (var c in keyMap[digits[0] - '0']) stack.Push((c, 0));
+        foreach (var c in GetLettersFor(digits[0])) stack.Push((c, 0));
 
         var buffer = digits.Length < 1024 ? stackalloc char[digits.Length] : new char[digits.Length];
         var combinationsCount = 0;
@@ -14,17 +14,23 @@ public class Solution {
             var (letter, position) = stack.Pop();
             buffer[position] = letter;
             if (position == last) combinations[combinationsCount++] = new string(buffer);
-            else foreach (var c in keyMap[digits[position + 1] - '0']) stack.Push((c, position + 1));
+            else foreach (var c in GetLettersFor(digits[position + 1])) stack.Push((c, position + 1));
         }
 
         return combinations;
-        static int CalculateTotalCombinations(string digits, string[] keyMap)
+        static int CalculateTotalCombinations(string digits)
         {
             var length = 1;
-            foreach (var d in digits) length *= keyMap[d - '0'].Length;
+            foreach (var d in digits) length *= GetLettersFor(d).Length;
 
             return length;
-        } 
+        }
+
+        static string GetLettersFor(char digit)
+        {
+            string[] keyMap = new string[] { "", "",  "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz" };
+            return keyMap[digit - '0'];
+        }
     }
 
     // --- recursive option, simpler to write (and to invent), but is not a bullet-proof for a very long input --
