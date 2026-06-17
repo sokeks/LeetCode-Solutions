@@ -7,14 +7,13 @@ public class Solution {
         var stack = new Stack<(char letter, int position)>();
         foreach (var c in keyMap[digits[0] - '0']) stack.Push((c, 0));
 
-        var sb = new StringBuilder(digits.Length);
+        var buffer = digits.Length < 1024 ? stackalloc char[digits.Length] : new char[digits.Length];
         var combinationsCount = 0;
         while (stack.Count > 0)
         {
             var (letter, position) = stack.Pop();
-            sb.Length = position;
-            sb.Append(letter);
-            if (position == last) combinations[combinationsCount++] = sb.ToString();
+            buffer[position] = letter;
+            if (position == last) combinations[combinationsCount++] = new string(buffer);
             else foreach (var c in keyMap[digits[position + 1] - '0']) stack.Push((c, position + 1));
         }
 
