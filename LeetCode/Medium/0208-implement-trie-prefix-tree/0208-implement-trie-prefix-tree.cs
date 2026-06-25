@@ -1,15 +1,15 @@
 public class Trie 
 {
-    private static int AlphabetLettersCount = 26;
+    private const int AlphabetLettersCount = 26;
     private TrieNode root = new TrieNode();
     
     public void Insert(string word) {
         var current = root;
         foreach (var c in word)
         {
-            if (current.Children == null || current.Children[c - 'a'] == null)
+            if (current.Children?[c - 'a'] == null)
             {
-                if (current.Children == null) current.Children = new TrieNode[AlphabetLettersCount]; 
+                current.Children ??= new TrieNode[AlphabetLettersCount]; 
                 current.Children[c - 'a'] = new TrieNode();
             }
             current = current.Children[c - 'a'];
