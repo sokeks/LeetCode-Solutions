@@ -181,6 +181,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0350-intersection-of-two-arrays-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0350-intersection-of-two-arrays-ii/) | Easy |
 | [0399-evaluate-division](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0399-evaluate-division/) | Medium |
 | [0414-third-maximum-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0414-third-maximum-number/) | Easy |
+| [0746-min-cost-climbing-stairs](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0746-min-cost-climbing-stairs/) | Easy |
 | [0875-koko-eating-bananas](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0875-koko-eating-bananas/) | Medium |
 | [0994-rotting-oranges](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0994-rotting-oranges/) | Medium |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/1926-nearest-exit-from-entrance-in-maze/) | Medium |
@@ -295,6 +296,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | ------- | ------- |
 | [0338-counting-bits](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0338-counting-bits/) | Easy |
 | [0392-is-subsequence](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0392-is-subsequence/) | Easy |
+| [0746-min-cost-climbing-stairs](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0746-min-cost-climbing-stairs/) | Easy |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/1372-longest-zigzag-path-in-a-binary-tree/) | Medium |
 ## Counting
 | Problem Name | Difficulty |
