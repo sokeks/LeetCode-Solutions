@@ -171,6 +171,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | ------- | ------- |
 | [0162-find-peak-element](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0162-find-peak-element/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
+| [0216-combination-sum-iii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0216-combination-sum-iii/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0238-product-of-array-except-self/) | Medium |
 | [0268-missing-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0268-missing-number/) | Easy |
 | [0283-move-zeroes](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0283-move-zeroes/) | Easy |
@@ -243,6 +244,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0017-letter-combinations-of-a-phone-number/) | Medium |
+| [0216-combination-sum-iii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0216-combination-sum-iii/) | Medium |
 | [0257-binary-tree-paths](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0257-binary-tree-paths/) | Easy |
 | [0401-binary-watch](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0401-binary-watch/) | Easy |
 ## Simulation
