@@ -6,7 +6,7 @@ class Item(NamedTuple):
 
 class Solution:
     def _populate_stack_with_next_numbers(self, stack : Deque[Item], current: Item, target_k: int, target_sum: int):
-        for i in range(current.number + 1, 10):
+        for i in range(current.number + 1, 10 - ((target_k - 1) - (current.position + 1))):
             new_sum = current.current_sum + i
             if new_sum > target_sum: break
             stack.append(Item(number=i, position=current.position + 1, current_sum=new_sum))
