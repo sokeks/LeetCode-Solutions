@@ -300,6 +300,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0338-counting-bits](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0338-counting-bits/) | Easy |
 | [0392-is-subsequence](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0392-is-subsequence/) | Easy |
 | [0746-min-cost-climbing-stairs](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0746-min-cost-climbing-stairs/) | Easy |
+| [0790-domino-and-tromino-tiling](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0790-domino-and-tromino-tiling/) | Medium |
 | [1137-n-th-tribonacci-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/1137-n-th-tribonacci-number/) | Easy |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/1372-longest-zigzag-path-in-a-binary-tree/) | Medium |
 ## Counting
