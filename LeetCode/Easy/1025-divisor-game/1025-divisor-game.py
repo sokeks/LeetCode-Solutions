@@ -16,13 +16,15 @@ class Solution:
     
     # DP solution O(n^2) calculation and O(n) memory
     def divisorGame(self, n: int) -> bool:
-        isAliceWinning = [False] * (n + 1)
-        for i in range (2, n + 1):
-            for x in range (1, i):
-                if i % x != 0 or isAliceWinning[i - x]: continue
-                isAliceWinning[i] = True
-                break
+        is_alice_winning = [False] * (n + 1)
+        for interim_n in range (2, n + 1):
+            for x in range (1, interim_n // 2 + 1):
+                is_valid_move = (interim_n % x == 0)
+                if not is_valid_move: continue
 
+                makes_bob_loosing = not is_alice_winning[interim_n - x]
+                if makes_bob_loosing:
+                    is_alice_winning[interim_n] = True
+                    break
 
-
-        return isAliceWinning[n]
+        return is_alice_winning[n]
