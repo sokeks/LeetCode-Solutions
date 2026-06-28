@@ -24,7 +24,7 @@ I follow below algorithm:
 > 
 >  Instruction: Trigger **[Edge-Case Injector]**. Give me 2-3 pathological edge cases or malicious inputs that could destroy this approach. Do not provide code or ready-made solutions; just throw hard test cases at me to think about.
 
-3. If I am sure about the approach, then I write the code and verify it with any AI using this prompt:
+4. If I am sure about the approach, then I write the code and verify it with any AI using this prompt:
 
 > LeetCode Task:
 >
@@ -33,9 +33,9 @@ I follow below algorithm:
 > Instruction: Trigger **[L6 Rubric Grading]** and **[Socratic Review]**. Evaluate the code quality as if this were a production code review at FAANG (readability, variable naming, early returns, modularity, and task-specific aspects) for code written using Design by Contract (not defensively) by an L6 engineer.
 > Bug Handling: If there are bugs (logical or performance), ask me pointed questions targeting the gaps so I can find the bug myself. Do not give me the corrected code.
 >
-> Constraints: Keep LeetCode's sandbox limitations in mind; for example, for security reasons, System.Runtime.InteropServices is blocked (meaning you cannot use ref returns for dictionary values), and ArrayPool.Shared.Rent is unavailable. We do not initialize the data structures with the max input from task decription.
+> Constraints: Keep LeetCode's sandbox limitations in mind; for example, for security reasons, System.Runtime.InteropServices is blocked (meaning you cannot use ref returns for dictionary values), C# is the most modern, and ArrayPool.Shared.Rent is unavailable. We do not initialize the data structures with the max input from task decription. When adding standardized Computer Size terminology like Data Structure, Algorithm or Concept mark it in bold to avoid missing it. Always assume the code is executable in LeetCode environment.
 
-4. If I have successfully resolved all the comments and discussions with AI I move to System Design question:
+5. If I have successfully resolved all the comments and discussions with AI I move to System Design question:
 
 > Instruction: Trigger **[Constraint Escalation]**. Drastically change the hardware or business constraints of this problem (this may include, but is not limited to: an infinite data stream instead of an in-memory array, data that doesn't fit in RAM, an O(1) space requirement, a distributed environment, etc.).
 > 
