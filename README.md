@@ -113,6 +113,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0412-fizz-buzz](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0412-fizz-buzz/) | Easy |
 | [0415-add-strings](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0415-add-strings/) | Easy |
 | [0441-arranging-coins](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0441-arranging-coins/) | Easy |
+| [0509-fibonacci-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0509-fibonacci-number/) | Easy |
 | [1137-n-th-tribonacci-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/1137-n-th-tribonacci-number/) | Easy |
 ## Bit Manipulation
 | Problem Name | Difficulty |
@@ -131,6 +132,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0326-power-of-three](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0326-power-of-three/) | Easy |
 | [0342-power-of-four](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0342-power-of-four/) | Easy |
 | [0394-decode-string](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0394-decode-string/) | Medium |
+| [0509-fibonacci-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0509-fibonacci-number/) | Easy |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -299,6 +301,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0198-house-robber](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0198-house-robber/) | Medium |
 | [0338-counting-bits](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0338-counting-bits/) | Easy |
 | [0392-is-subsequence](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0392-is-subsequence/) | Easy |
+| [0509-fibonacci-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0509-fibonacci-number/) | Easy |
 | [0746-min-cost-climbing-stairs](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0746-min-cost-climbing-stairs/) | Easy |
 | [0790-domino-and-tromino-tiling](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0790-domino-and-tromino-tiling/) | Medium |
 | [1137-n-th-tribonacci-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/1137-n-th-tribonacci-number/) | Easy |
@@ -360,5 +363,6 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 ## Memoization
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0509-fibonacci-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0509-fibonacci-number/) | Easy |
 | [1137-n-th-tribonacci-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/1137-n-th-tribonacci-number/) | Easy |
 <!---LeetCode Topics End-->
