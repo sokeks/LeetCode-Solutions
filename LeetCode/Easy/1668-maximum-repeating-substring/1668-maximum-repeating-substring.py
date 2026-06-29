@@ -9,7 +9,7 @@ class Solution:
         for i in range(word_len,  seq_len + 1):
             i_truncated = i % word_len
             if sequence.endswith(word, i - word_len, i):
-                repeating_word_count[i_truncated] = repeating_word_count[(i - word_len) % word_len] + 1
+                repeating_word_count[i_truncated] = repeating_word_count[i_truncated] + 1
                 if repeating_word_count[i_truncated] > max_k:
                     max_k = repeating_word_count[i_truncated]
             else:
