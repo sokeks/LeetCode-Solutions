@@ -7,12 +7,13 @@ class Solution:
         repeating_word_count = [0] * word_len
         max_k = 0
         for i in range(word_len,  seq_len + 1):
+            i_truncated = i % word_len
             if sequence.endswith(word, i - word_len, i):
-                repeating_word_count[i % word_len] = repeating_word_count[(i - word_len) % word_len] + 1
-                if repeating_word_count[i % word_len] > max_k:
-                    max_k = repeating_word_count[i % word_len]
+                repeating_word_count[i_truncated] = repeating_word_count[(i - word_len) % word_len] + 1
+                if repeating_word_count[i_truncated] > max_k:
+                    max_k = repeating_word_count[i_truncated]
             else:
-                repeating_word_count[i % word_len] = 0
+                repeating_word_count[i_truncated] = 0
 
         return max_k
 
