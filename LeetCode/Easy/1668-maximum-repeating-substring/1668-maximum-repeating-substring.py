@@ -8,7 +8,6 @@ class Solution:
         max_k = 0
         for i in range(word_len,  seq_len + 1):
             if sequence.endswith(word, i - word_len, i):
-                i_mod_word_len = i % word_len
                 repeating_word_count[i] = repeating_word_count[i - word_len] + 1
                 if repeating_word_count[i] > max_k:
                     max_k = repeating_word_count[i]
