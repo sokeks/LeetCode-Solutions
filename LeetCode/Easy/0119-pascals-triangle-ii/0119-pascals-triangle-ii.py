@@ -1,16 +1,21 @@
+
 class Solution:
-    def getRow(self, rowIndex: int) -> List[int]:
-        row_by_idx = [1] * (rowIndex + 1)
+    # # classic, DP solution
+    # def getRow(self, rowIndex: int) -> List[int]:
+    #     row = [1] * (rowIndex + 1)
 
-        for row in range(2, rowIndex + 1):
-            for col in range(row - 1, 0, -1):
-                row_by_idx[col] = row_by_idx[col] + row_by_idx[col - 1]
-
-
-        # for i in range(1, rowIndex + 1):
-        #     left_shifted = itertools.chain((0,), row)
-        #     right_shifted = itertools.chain(row, (0,))
-
-        #     row = [a + b for a, b in zip(left_shifted, right_shifted)]
+    #     for r in range(2, rowIndex + 1):
+    #         for c in range(r - 1, 0, -1):
+    #             row[c] += row[c - 1]
             
-        return row_by_idx
+    #     return row
+
+    # binomial coefficient solution
+    def getRow(self, rowIndex: int) -> List[int]:
+        row = [1] * (rowIndex + 1)
+        
+        for i in range(1, rowIndex + 1):
+            # Multiply first, then integer division to prevent truncation
+            row[i] = row[i - 1] * (rowIndex - i + 1) // i
+            
+        return row
