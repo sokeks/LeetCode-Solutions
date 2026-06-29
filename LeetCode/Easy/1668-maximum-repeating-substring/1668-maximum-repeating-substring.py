@@ -1,14 +1,14 @@
 class Solution:
     # DP version
     def maxRepeating(self, sequence: str, word: str) -> int:
-        m, n = len(word), len(sequence)
-        if m > n: return 0
+        word_len, seq_len = len(word), len(sequence)
+        if word_len > seq_len: return 0
 
-        repeating_word_count = [0] * (n + 1)
+        repeating_word_count = [0] * (seq_len + 1)
         max_k = 0
-        for i in range(m,  n + 1):
-            if sequence.endswith(word, i - m, i):
-                repeating_word_count[i] = repeating_word_count[i - m] + 1
+        for i in range(word_len,  seq_len + 1):
+            if sequence.endswith(word, i - word_len, i):
+                repeating_word_count[i] = repeating_word_count[i - word_len] + 1
                 if repeating_word_count[i] > max_k:
                     max_k = repeating_word_count[i]
 
