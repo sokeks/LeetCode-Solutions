@@ -4,13 +4,15 @@ class Solution:
         word_len, seq_len = len(word), len(sequence)
         if word_len > seq_len: return 0
 
-        repeating_word_count = [0] * (seq_len + 1)
+        repeating_word_count = [0] * word_len
         max_k = 0
         for i in range(word_len,  seq_len + 1):
             if sequence.endswith(word, i - word_len, i):
-                repeating_word_count[i] = repeating_word_count[i - word_len] + 1
-                if repeating_word_count[i] > max_k:
-                    max_k = repeating_word_count[i]
+                repeating_word_count[i % word_len] = repeating_word_count[(i - word_len) % word_len] + 1
+                if repeating_word_count[i % word_len] > max_k:
+                    max_k = repeating_word_count[i % word_len]
+            else:
+                repeating_word_count[i % word_len] = 0
 
         return max_k
 
