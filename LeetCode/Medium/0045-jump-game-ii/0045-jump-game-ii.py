@@ -9,8 +9,7 @@ class Solution:
             if current_reach == i:
                 jumps_count += 1
                 current_reach = next_reach
+                if current_reach >= len(nums) - 1:
+                    return jumps_count
 
         return jumps_count
-
-
-        
