@@ -176,6 +176,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0045-jump-game-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0045-jump-game-ii/) | Medium |
 | [0118-pascals-triangle](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0118-pascals-triangle/) | Easy |
 | [0119-pascals-triangle-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0119-pascals-triangle-ii/) | Easy |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0121-best-time-to-buy-and-sell-stock/) | Easy |
@@ -307,6 +308,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0045-jump-game-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0045-jump-game-ii/) | Medium |
 | [0334-increasing-triplet-subsequence](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0334-increasing-triplet-subsequence/) | Medium |
 | [0409-longest-palindrome](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0409-longest-palindrome/) | Easy |
 | [2542-maximum-subsequence-score](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/2542-maximum-subsequence-score/) | Medium |
@@ -314,6 +316,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0045-jump-game-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0045-jump-game-ii/) | Medium |
 | [0070-climbing-stairs](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0070-climbing-stairs/) | Easy |
 | [0118-pascals-triangle](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0118-pascals-triangle/) | Easy |
 | [0119-pascals-triangle-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0119-pascals-triangle-ii/) | Easy |
