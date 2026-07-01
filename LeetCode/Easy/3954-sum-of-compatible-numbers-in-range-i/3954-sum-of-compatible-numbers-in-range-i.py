@@ -1,6 +1,7 @@
 class Solution:
     # Below version is for maximized constaints, where the scope of x goes high above, what's given originally for this task. I
     # have done it for the purposes of learning Digit DP approach. For the solution strictly related to this task's constraints
+    # look at the bottom. Note, that this is the very modified version od the Digit DP, see below for more standardized ones
     #
     def sumOfGoodIntegers(self, n: int, k: int) -> int:
         @cache
@@ -18,7 +19,7 @@ class Solution:
             
             return (suffixes_sum, suffixes_count)
         
-        def sumOfGoodIntegersTight(bit_count: int, limit: int):
+        def sumOfGoodIntegersTightIter(bit_count: int, limit: int):
             total_sum = 0
             prefix_value = 0
 
@@ -36,33 +37,33 @@ class Solution:
 
             return total_sum + prefix_value
 
-        return sumOfGoodIntegersTight(60, k + n) - sumOfGoodIntegersTight(60, max(1, n - k) - 1)
+        return sumOfGoodIntegersTightIter(60, k + n) - sumOfGoodIntegersTightIter(60, max(1, n - k) - 1)
 
+        
+        def sumOfGoodIntegersTight(bit_pos: int, limit: int) -> Tuple[int, int]:
+            if bit_pos == -1: return (0,1)
 
-        # def sumOfGoodIntegersTight(bit_pos: int, limit: int) -> Tuple[int, int]:
-        #     if bit_pos == -1: return (0,1)
+            current_bit_limit = (limit >> bit_pos) & 0x01
 
-        #     current_bit_limit = (limit >> bit_pos) & 0x01
+            suffixes_sum, suffixes_count = 0,0
+            for bit_value in (0, 1):
+                if bit_value > current_bit_limit or ((n >> bit_pos) & (bit_value)): continue
 
-        #     suffixes_sum, suffixes_count = 0,0
-        #     for bit_value in (0, 1):
-        #         if bit_value > current_bit_limit or ((n >> bit_pos) & (bit_value)): continue
-
-        #         if bit_value == current_bit_limit:
-        #             result = sumOfGoodIntegersTight(bit_pos - 1, limit)
-        #         else:
-        #             result = sumOfGoodIntegersNoTight(bit_pos - 1)
-        #         tail_suffixes_sum, tail_suffixes_count = result
+                if bit_value == current_bit_limit:
+                    result = sumOfGoodIntegersTight(bit_pos - 1, limit)
+                else:
+                    result = sumOfGoodIntegersNoTight(bit_pos - 1)
+                tail_suffixes_sum, tail_suffixes_count = result
                 
-        #         suffixes_sum += (bit_value * (1 << bit_pos) * tail_suffixes_count) + tail_suffixes_sum
-        #         suffixes_count += tail_suffixes_count
+                suffixes_sum += (bit_value * (1 << bit_pos) * tail_suffixes_count) + tail_suffixes_sum
+                suffixes_count += tail_suffixes_count
 
-        #     return suffixes_sum, suffixes_count
+            return suffixes_sum, suffixes_count
 
-        # return sumOfGoodIntegersTight(60, k + n)[0] - sumOfGoodIntegersTight(60, max(1, n - k) - 1)[0]
+        return sumOfGoodIntegersTight(60, k + n)[0] - sumOfGoodIntegersTight(60, max(1, n - k) - 1)[0]
 
     # Below version is for maximized constaints, where the scope of x goes high above, what's given originally for this task. I
-    # have done it for the purposes of learning Digit DP approach. For the solution strictly related to this task's constraints.
+    # have done it for the purposes of learning Digit DP approach. For the solution strictly related to this task's constraints look below.
     # Also please note, that below shows standard approach for Digit DP algo with Tight flag.
     #
     # def sumOfGoodIntegers(self, n: int, k: int) -> int:
