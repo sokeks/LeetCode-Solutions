@@ -4,21 +4,21 @@ class Solution:
     #
     def sumOfGoodIntegers(self, n: int, k: int) -> int:
         @cache
-        def sumOfIntegersRec(bit_pos: int) -> Tuple[suffixes_sum: int, suffixes_count: int]:
+        def sumOfGoodIntegersNoTight(bit_pos: int) -> Tuple[suffixes_sum: int, suffixes_count: int]:
             if bit_pos == -1: return (0, 1)
             
             suffixes_sum, suffixes_count = 0,0
             for bit_value in (0, 1):
                 if ((n >> bit_pos) & (bit_value)): continue
 
-                tail_suffixes_sum, tail_suffixes_count = sumOfIntegersRec(bit_pos - 1)
+                tail_suffixes_sum, tail_suffixes_count = sumOfGoodIntegersNoTight(bit_pos - 1)
 
                 suffixes_sum += (bit_value * (1 << bit_pos) * tail_suffixes_count) + tail_suffixes_sum
                 suffixes_count += tail_suffixes_count
             
             return (suffixes_sum, suffixes_count)
 
-        def sumOfGoodIntegersRec(bit_pos: int, limit: int) -> Tuple[int, int]:
+        def sumOfGoodIntegersTight(bit_pos: int, limit: int) -> Tuple[int, int]:
             if bit_pos == -1: return (0,1)
 
             current_bit_limit = (limit >> bit_pos) & 0x01
@@ -27,14 +27,18 @@ class Solution:
             for bit_value in (0, 1):
                 if bit_value > current_bit_limit or ((n >> bit_pos) & (bit_value)): continue
 
-                tail_suffixes_sum, tail_suffixes_count = sumOfGoodIntegersRec(bit_pos - 1, limit) if bit_value == current_bit_limit else sumOfIntegersRec(bit_pos - 1)
+                if bit_value == current_bit_limit:
+                    result = sumOfGoodIntegersTight(bit_pos - 1, limit)
+                else:
+                    result = sumOfGoodIntegersNoTight(bit_pos - 1)
+                tail_suffixes_sum, tail_suffixes_count = result
                 
                 suffixes_sum += (bit_value * (1 << bit_pos) * tail_suffixes_count) + tail_suffixes_sum
                 suffixes_count += tail_suffixes_count
 
             return suffixes_sum, suffixes_count
 
-        return sumOfGoodIntegersRec(60, k + n)[0] - sumOfGoodIntegersRec(60, max(1, n - k) - 1)[0]
+        return sumOfGoodIntegersTight(60, k + n)[0] - sumOfGoodIntegersTight(60, max(1, n - k) - 1)[0]
 
         # def sumOfGoodIntegersRec(bit_pos: int, tight: bool, limit: int) -> Tuple[int, int]:
         #     if bit_pos == -1:
