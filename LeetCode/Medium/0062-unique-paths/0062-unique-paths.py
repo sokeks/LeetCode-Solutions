@@ -5,6 +5,7 @@ class Solution:
         @cache
         def unique_paths_rec(column: int, row: int) -> int:
             if (column, row) == (0, 0): return 1
+            # using the property of symmetrical solution, e.g. unique_path to (2, 5) is the same number as to (5, 2)
             if column > row: return unique_paths_rec(row, column) 
 
             from_left = unique_paths_rec(column - 1, row) if column > 0 else 0
