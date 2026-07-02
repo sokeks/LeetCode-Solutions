@@ -4,12 +4,12 @@ class Solution:
     # way to get there is either from the left or from the top. See comments inside.
     def uniquePaths(self, m: int, n: int) -> int:
         # there is only 1 way to get to the top row
-        unqiue_paths_row = [1] * n
+        unique_paths_row = [1] * n
         for _ in range(1, m):
             for j in range(1, n):
-                # j - paths from the top, (j - 1) - paths from the left 
-                unqiue_paths_row[j] += unqiue_paths_row[j - 1]
-        return unqiue_paths_row[-1]
+                # unique_paths_row[j] - paths from the top, unique_paths_row[j - 1] - paths from the left 
+                unique_paths_row[j] += unique_paths_row[j - 1]
+        return unique_paths_row[-1]
 
 
     # Based on combinatorics - we know we need to make m - 1 steps down and n - 1 steps right, so it's about permutation of those.
