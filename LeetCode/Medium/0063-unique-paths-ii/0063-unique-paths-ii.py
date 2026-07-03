@@ -25,13 +25,13 @@ class Solution:
 
     # Recursive version, less efficient due to cache locality misses related to @cache allocating (row, col) and version in different places of a heap.
     # Additionally, in bigger grids we may hit stack overflow.
-    def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
-        @cache
-        def uniquePathsWithObstaclesRec(row: int, col: int) -> int:
-            if row < 0 or col < 0: return 0
-            if obstacleGrid[row][col] == 1: return 0
-            if (row, col) == (0, 0): return 1
+    # def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
+    #     @cache
+    #     def uniquePathsWithObstaclesRec(row: int, col: int) -> int:
+    #         if row < 0 or col < 0: return 0
+    #         if obstacleGrid[row][col] == 1: return 0
+    #         if (row, col) == (0, 0): return 1
 
-            return uniquePathsWithObstaclesRec(row - 1, col) + uniquePathsWithObstaclesRec(row, col - 1)
+    #         return uniquePathsWithObstaclesRec(row - 1, col) + uniquePathsWithObstaclesRec(row, col - 1)
 
-        return  uniquePathsWithObstaclesRec(len(obstacleGrid) - 1, len(obstacleGrid[0]) - 1)
+    #     return  uniquePathsWithObstaclesRec(len(obstacleGrid) - 1, len(obstacleGrid[0]) - 1)
