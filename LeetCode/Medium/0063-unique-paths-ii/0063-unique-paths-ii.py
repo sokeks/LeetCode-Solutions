@@ -6,9 +6,6 @@ class Solution:
 
     def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
         def get_first_row_unique_paths(row):
-            # adding additional column to have conditional-less main loop
-            yield 0
-
             was_obstacle = False
             for square in row:
                 if square == 1 or was_obstacle:
@@ -18,14 +15,14 @@ class Solution:
         
         unique_paths_row = list(get_first_row_unique_paths(obstacleGrid[0]))
 
-        columns_count = len(unique_paths_row)
+        columns_count = len(obstacleGrid[0])
         for i in range(1, len(obstacleGrid)):
+            if obstacleGrid[i][0] == 1:
+                unique_paths_row[0] = 0
             for j in range(1, columns_count):
-                if obstacleGrid[i][j - 1] == 1:
+                if obstacleGrid[i][j] == 1:
                     unique_paths_row[j] = 0
                 else:
-                    from_left = unique_paths_row[j - 1]
-                    from_top = unique_paths_row[j]
-                    unique_paths_row[j] = from_left + from_top
+                    unique_paths_row[j] += unique_paths_row[j - 1]
 
         return unique_paths_row[-1]
