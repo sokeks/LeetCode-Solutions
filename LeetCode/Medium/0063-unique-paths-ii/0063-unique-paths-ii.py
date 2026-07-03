@@ -6,6 +6,9 @@ class Solution:
 
     def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
         def get_first_row_unique_paths(row):
+
+
+
             was_obstacle = False
             for square in row:
                 if square == 1 or was_obstacle:
