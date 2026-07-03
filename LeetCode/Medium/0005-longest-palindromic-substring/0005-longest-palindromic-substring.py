@@ -21,6 +21,6 @@ class Solution:
                 substring_start, substring_end = (with_mid_start, with_mid_end) if with_mid_len > without_mid_len else (without_mid_start, without_mid_end)
                 substring_len = substring_end - substring_start
 
-            # if substring_len > len(s) - i: break
+            # if substring_len >= len(s) - i: break
 
         return s[substring_start:substring_end]
