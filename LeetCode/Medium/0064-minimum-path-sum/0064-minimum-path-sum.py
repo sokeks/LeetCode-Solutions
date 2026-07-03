@@ -10,7 +10,7 @@ class Solution:
         
         return cost_row[-1]
 
-    # recursve version 
+    # recursve version, slightly more elegant, but bringing danger of stack overflow
     def minPathSum(self, grid: List[List[int]]) -> int:
         @cache
         def min_path_sum_rec(row: int, col: int) -> int:
