@@ -5,11 +5,6 @@ public class Solution {
         
         var currentLengthStart = 0;
         var currentLengthEnd = 0;
-
-        for (var ii = 0; ii < 5; ++ii)
-        {
-            Console.WriteLine(" ii = " + ii);
-        }
         
         for (var ii = 0; ii < (s.Length - 1); ++ii)
         {
