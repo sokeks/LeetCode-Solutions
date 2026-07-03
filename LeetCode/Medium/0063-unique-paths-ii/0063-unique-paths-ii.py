@@ -2,11 +2,11 @@ class Solution:
     def uniquePathsWithObstacles(self, obstacleGrid: List[List[int]]) -> int:
         @cache
         def uniquePathsWithObstaclesRec(row: int, col: int) -> int:
+            if row < 0 or col < 0: return 0
             if obstacleGrid[row][col] == 1: return 0
             if (row, col) == (0, 0): return 1
 
-            return ((uniquePathsWithObstaclesRec(row - 1, col) if row > 0 else 0)
-                    + (uniquePathsWithObstaclesRec(row, col - 1) if col > 0 else 0))
+            return uniquePathsWithObstaclesRec(row - 1, col) + uniquePathsWithObstaclesRec(row, col - 1)
 
         return  uniquePathsWithObstaclesRec(len(obstacleGrid) - 1, len(obstacleGrid[0]) - 1)
 
