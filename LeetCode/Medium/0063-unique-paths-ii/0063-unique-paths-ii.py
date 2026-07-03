@@ -17,7 +17,6 @@ class Solution:
                 else: yield 1
         
         unique_paths_row = list(get_first_row_unique_paths(obstacleGrid[0]))
-        print(unique_paths_row)
 
         columns_count = len(unique_paths_row)
         for i in range(1, len(obstacleGrid)):
