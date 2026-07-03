@@ -10,13 +10,14 @@ class Solution:
         
         return cost_row[-1]
 
+    # recursve version 
     def minPathSum(self, grid: List[List[int]]) -> int:
         @cache
-        def minPathSum(row: int, col: int) -> int:
+        def min_path_sum_rec(row: int, col: int) -> int:
             if row < 0 or col < 0: return sys.maxsize
-            if (row, col) == (0, 0): return grid[row][col]
+            if row == 0 and col == 0: return grid[row][col]
 
-            return  grid[row][col] + min(minPathSum(row - 1, col), minPathSum(row, col - 1))
+            return  grid[row][col] + min(min_path_sum_rec(row - 1, col), min_path_sum_rec(row, col - 1))
         
-        return minPathSum(len(grid) - 1, len(grid[0]) - 1)
+        return min_path_sum_rec(len(grid) - 1, len(grid[0]) - 1)
         
