@@ -233,6 +233,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0005-longest-palindromic-substring/) | Medium |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0017-letter-combinations-of-a-phone-number/) | Medium |
+| [0022-generate-parentheses](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0022-generate-parentheses/) | Medium |
 | [0208-implement-trie-prefix-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0208-implement-trie-prefix-tree/) | Medium |
 | [0242-valid-anagram](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0242-valid-anagram/) | Easy |
 | [0257-binary-tree-paths](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0257-binary-tree-paths/) | Easy |
@@ -269,6 +270,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0017-letter-combinations-of-a-phone-number/) | Medium |
+| [0022-generate-parentheses](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0022-generate-parentheses/) | Medium |
 | [0216-combination-sum-iii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0216-combination-sum-iii/) | Medium |
 | [0257-binary-tree-paths](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0257-binary-tree-paths/) | Easy |
 | [0401-binary-watch](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0401-binary-watch/) | Easy |
@@ -325,6 +327,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0005-longest-palindromic-substring/) | Medium |
+| [0022-generate-parentheses](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0022-generate-parentheses/) | Medium |
 | [0045-jump-game-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0045-jump-game-ii/) | Medium |
 | [0053-maximum-subarray](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0053-maximum-subarray/) | Medium |
 | [0055-jump-game](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0055-jump-game/) | Medium |
