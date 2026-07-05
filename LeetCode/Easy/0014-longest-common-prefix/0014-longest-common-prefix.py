@@ -4,4 +4,4 @@ class Solution:
             if any(c != chars[0] for c in chars):
                 return strs[0][:idx]
         
-        return strs[0][0:len(min(strs, key=len))]
+        return min(strs, key=len)
