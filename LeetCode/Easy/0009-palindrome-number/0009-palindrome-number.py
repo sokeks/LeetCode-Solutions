@@ -10,7 +10,4 @@ class Solution:
             x_reversed = x_reversed * 10 + copy % 10
             copy //= 10
 
-        print(copy)
-        print(x_reversed)
-
         return x_reversed == copy or (x_reversed // 10) == copy
