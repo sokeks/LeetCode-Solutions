@@ -103,6 +103,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0009-palindrome-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0009-palindrome-number/) | Easy |
+| [0013-roman-to-integer](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0013-roman-to-integer/) | Easy |
 | [0062-unique-paths](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0062-unique-paths/) | Medium |
 | [0070-climbing-stairs](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0070-climbing-stairs/) | Easy |
 | [0231-power-of-two](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0231-power-of-two/) | Easy |
@@ -219,6 +220,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0001-two-sum/) | Easy |
+| [0013-roman-to-integer](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0013-roman-to-integer/) | Easy |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0208-implement-trie-prefix-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0208-implement-trie-prefix-tree/) | Medium |
 | [0242-valid-anagram](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0242-valid-anagram/) | Easy |
@@ -235,6 +237,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0005-longest-palindromic-substring/) | Medium |
+| [0013-roman-to-integer](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0013-roman-to-integer/) | Easy |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0022-generate-parentheses](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0022-generate-parentheses/) | Medium |
 | [0208-implement-trie-prefix-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0208-implement-trie-prefix-tree/) | Medium |
