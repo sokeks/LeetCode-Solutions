@@ -14,9 +14,8 @@ class Solution:
 
         return integer
 
-
-
-
+        # previous version, going from 0->len(s), demands retro-corrections, so more operations, less efficient comparing to above
+        integer = 0
         previous_char_val = self._ROMAN_VALUES_TO_DEC["M"]
         for c in s:
             c_int = self._ROMAN_VALUES_TO_DEC[c]
