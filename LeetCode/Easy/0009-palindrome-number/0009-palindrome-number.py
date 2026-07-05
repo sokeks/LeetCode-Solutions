@@ -1,24 +1,16 @@
 class Solution:
     def isPalindrome(self, x: int) -> bool:
-        def calcualte_length_and_reversed(x: int) -> Tuple[length: int, x_reversed: int]:
-            x_reversed = 0
-            copy = x
-            length = 0
+        if x == 0: return True
+        if x < 0 or (x >= 10 and x % 10 == 0): return False
 
-            while copy > 0:
-                x_reversed = x_reversed * 10 + copy % 10
-                copy //= 10
-                length += 1
+        x_reversed = 0
+        copy = x
 
-            return (length, x_reversed)
+        while x_reversed < copy:
+            x_reversed = x_reversed * 10 + copy % 10
+            copy //= 10
 
-        if x < 0: return False
-        
-        (length, x_reversed) = calcualte_length_and_reversed(x)
+        print(copy)
+        print(x_reversed)
 
-        for _ in range(length // 2):
-            if x % 10 != x_reversed % 10: return False
-            x //= 10
-            x_reversed //= 10
-
-        return True
+        return x_reversed == copy or (x_reversed // 10) == copy
