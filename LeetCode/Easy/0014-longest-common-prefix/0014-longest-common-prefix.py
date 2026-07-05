@@ -1,11 +1,7 @@
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
-        prefix_chars = []
-        for chars in zip(*strs):
-            if len(set(chars)) > 1:
-                return "".join(prefix_chars)
-            prefix_chars.append(chars[0])
+        for idx, chars in enumerate(zip(*strs)):
+            if any(c != chars[0] for c in chars):
+                return strs[0][:idx]
         
-        return "".join(prefix_chars)
-
-        
+        return strs[0][0:len(min(strs, key=len))]
