@@ -170,6 +170,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0005-longest-palindromic-substring/) | Medium |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0234-palindrome-linked-list/) | Easy |
 | [0283-move-zeroes](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0283-move-zeroes/) | Easy |
 | [0344-reverse-string](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0344-reverse-string/) | Easy |
@@ -185,6 +186,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | ------- | ------- |
 | [0001-two-sum](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0001-two-sum/) | Easy |
 | [0014-longest-common-prefix](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0014-longest-common-prefix/) | Easy |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0045-jump-game-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0045-jump-game-ii/) | Medium |
 | [0053-maximum-subarray](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0053-maximum-subarray/) | Medium |
 | [0055-jump-game](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0055-jump-game/) | Medium |
