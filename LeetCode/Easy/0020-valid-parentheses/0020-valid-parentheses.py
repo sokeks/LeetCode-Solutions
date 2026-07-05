@@ -11,4 +11,4 @@ class Solution:
             else:
                 opened_parentheses.pop()
         
-        return len(opened_parentheses) == 0
+        return not opened_parentheses
