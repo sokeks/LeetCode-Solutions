@@ -181,6 +181,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0001-two-sum](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0001-two-sum/) | Easy |
+| [0014-longest-common-prefix](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0014-longest-common-prefix/) | Easy |
 | [0045-jump-game-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0045-jump-game-ii/) | Medium |
 | [0053-maximum-subarray](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0053-maximum-subarray/) | Medium |
 | [0055-jump-game](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0055-jump-game/) | Medium |
@@ -238,6 +239,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0005-longest-palindromic-substring/) | Medium |
 | [0013-roman-to-integer](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0013-roman-to-integer/) | Easy |
+| [0014-longest-common-prefix](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0014-longest-common-prefix/) | Easy |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0022-generate-parentheses](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0022-generate-parentheses/) | Medium |
 | [0208-implement-trie-prefix-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0208-implement-trie-prefix-tree/) | Medium |
@@ -413,6 +415,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 ## Trie
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0014-longest-common-prefix](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0014-longest-common-prefix/) | Easy |
 | [0208-implement-trie-prefix-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0208-implement-trie-prefix-tree/) | Medium |
 ## Memoization
 | Problem Name | Difficulty |
