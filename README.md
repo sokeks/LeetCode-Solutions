@@ -102,6 +102,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 ## Math
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0009-palindrome-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0009-palindrome-number/) | Easy |
 | [0062-unique-paths](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0062-unique-paths/) | Medium |
 | [0070-climbing-stairs](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0070-climbing-stairs/) | Easy |
 | [0231-power-of-two](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0231-power-of-two/) | Easy |
