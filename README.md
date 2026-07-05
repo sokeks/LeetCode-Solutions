@@ -143,6 +143,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0020-valid-parentheses](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0020-valid-parentheses/) | Easy |
 | [0232-implement-queue-using-stacks](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0232-implement-queue-using-stacks/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0234-palindrome-linked-list/) | Easy |
 | [0394-decode-string](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0394-decode-string/) | Medium |
@@ -241,6 +242,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0013-roman-to-integer](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0013-roman-to-integer/) | Easy |
 | [0014-longest-common-prefix](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0014-longest-common-prefix/) | Easy |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0017-letter-combinations-of-a-phone-number/) | Medium |
+| [0020-valid-parentheses](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0020-valid-parentheses/) | Easy |
 | [0022-generate-parentheses](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0022-generate-parentheses/) | Medium |
 | [0208-implement-trie-prefix-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0208-implement-trie-prefix-tree/) | Medium |
 | [0242-valid-anagram](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0242-valid-anagram/) | Easy |
