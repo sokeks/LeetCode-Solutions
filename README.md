@@ -105,6 +105,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0009-palindrome-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0009-palindrome-number/) | Easy |
 | [0013-roman-to-integer](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0013-roman-to-integer/) | Easy |
 | [0062-unique-paths](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0062-unique-paths/) | Medium |
+| [0067-add-binary](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0067-add-binary/) | Easy |
 | [0070-climbing-stairs](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0070-climbing-stairs/) | Easy |
 | [0231-power-of-two](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0231-power-of-two/) | Easy |
 | [0258-add-digits](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0258-add-digits/) | Easy |
@@ -124,6 +125,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0067-add-binary](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0067-add-binary/) | Easy |
 | [0231-power-of-two](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0231-power-of-two/) | Easy |
 | [0268-missing-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0268-missing-number/) | Easy |
 | [0338-counting-bits](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0338-counting-bits/) | Easy |
@@ -254,6 +256,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0022-generate-parentheses](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0022-generate-parentheses/) | Medium |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 | [0058-length-of-last-word](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0058-length-of-last-word/) | Easy |
+| [0067-add-binary](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0067-add-binary/) | Easy |
 | [0208-implement-trie-prefix-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0208-implement-trie-prefix-tree/) | Medium |
 | [0242-valid-anagram](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0242-valid-anagram/) | Easy |
 | [0257-binary-tree-paths](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0257-binary-tree-paths/) | Easy |
@@ -297,6 +300,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0067-add-binary](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0067-add-binary/) | Easy |
 | [0258-add-digits](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0258-add-digits/) | Easy |
 | [0412-fizz-buzz](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0412-fizz-buzz/) | Easy |
 | [0415-add-strings](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0415-add-strings/) | Easy |
