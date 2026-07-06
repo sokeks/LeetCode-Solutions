@@ -190,6 +190,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0014-longest-common-prefix](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0014-longest-common-prefix/) | Easy |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0027-remove-element](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0027-remove-element/) | Easy |
+| [0035-search-insert-position](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0035-search-insert-position/) | Easy |
 | [0045-jump-game-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0045-jump-game-ii/) | Medium |
 | [0053-maximum-subarray](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0053-maximum-subarray/) | Medium |
 | [0055-jump-game](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0055-jump-game/) | Medium |
@@ -306,6 +307,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 ## Binary Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0035-search-insert-position](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0035-search-insert-position/) | Easy |
 | [0162-find-peak-element](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0162-find-peak-element/) | Medium |
 | [0268-missing-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0268-missing-number/) | Easy |
 | [0278-first-bad-version](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0278-first-bad-version/) | Easy |
