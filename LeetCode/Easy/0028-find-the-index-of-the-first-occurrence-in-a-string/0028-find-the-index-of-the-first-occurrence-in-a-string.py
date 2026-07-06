@@ -21,16 +21,15 @@ class Solution:
             return lps
 
         lps = build_lps()
-        # print(lps)
 
         i = 0
         j = 0
         while i < h_len:
             if haystack[i] == needle[j]:
-                if j == n_len - 1:
-                    return i - j
                 i += 1
                 j += 1
+                if j == n_len:
+                    return i - j
             else:
                 if j > 0:
                     j = lps[j - 1]
@@ -38,9 +37,6 @@ class Solution:
                     i += 1
 
         return -1
-
-
-
 
         # using pointer by pointer, looks more optimal but CPython startswith is optimized
         h_len, n_len = len(haystack), len(needle)
