@@ -106,6 +106,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0013-roman-to-integer](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0013-roman-to-integer/) | Easy |
 | [0062-unique-paths](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0062-unique-paths/) | Medium |
 | [0067-add-binary](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0067-add-binary/) | Easy |
+| [0069-sqrtx](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0069-sqrtx/) | Easy |
 | [0070-climbing-stairs](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0070-climbing-stairs/) | Easy |
 | [0231-power-of-two](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0231-power-of-two/) | Easy |
 | [0258-add-digits](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0258-add-digits/) | Easy |
@@ -314,6 +315,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0035-search-insert-position](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0035-search-insert-position/) | Easy |
+| [0069-sqrtx](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0069-sqrtx/) | Easy |
 | [0162-find-peak-element](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0162-find-peak-element/) | Medium |
 | [0268-missing-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0268-missing-number/) | Easy |
 | [0278-first-bad-version](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0278-first-bad-version/) | Easy |
