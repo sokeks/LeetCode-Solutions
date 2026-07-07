@@ -1,33 +1,44 @@
 class Solution:
     def addBinary(self, a: str, b: str) -> str:
-        a_len = len(a)
-        b_len = len(b)
-
+        # less pythonic, but more efficient
         carry = 0
-        shorter_len, longer_len, longer = (a_len, b_len, b) if a_len < b_len else (b_len, a_len, a)
-        binary_sum = [0] * longer_len
+        binary_sum = []
 
-        for i in range(shorter_len):
-            bit_sum_result = int(a[a_len - 1 - i]) + int(b[b_len - 1 - i]) + carry
-            carry, reminder = divmod(bit_sum_result, 2)
-            
-            binary_sum[longer_len - 1 - i] = reminder
+        for (a_bit, b_bit) in zip(reversed(a), reversed(b)):
+            carry, result = divmod(int(a_bit) + int(b_bit) + carry, 2)
+            binary_sum.append(str(result))
+
+        longer, shorter_len = (a, len(b)) if len(a) > len(b) else (b, len(a))
+        reminding_longer_bits = islice(reversed(longer), shorter_len, None)
+
+        if carry == 1:
+            for l_bit in reminding_longer_bits:
+                carry, result = divmod(int(l_bit) + carry, 2)
+                binary_sum.append(str(result))
+
+                if carry == 0:
+                    break
         
-        print(binary_sum)
-
-        i += 1
-        while carry == 1 and i < longer_len:
-            bit_sum_result = int(longer[longer_len - 1 - i]) + carry
-            carry, reminder = divmod(bit_sum_result, 2)
-            binary_sum[longer_len - 1 - i] = reminder
-            i += 1
-
-        print(binary_sum)
+        if carry == 1:
+            binary_sum.append('1')
+        else:
+            binary_sum.extend(reminding_longer_bits)
         
+        return "".join(reversed(binary_sum))
+
+
+
+        # very pythonic, but with little micro-inefficiencies for the readability purposes (if a & b differ much in length, there will be unnecessary run of code)
+        carry = 0
+        binary_sum = []
+        for (a_bit, b_bit) in itertools.zip_longest(reversed(a), reversed(b), fillvalue='0'):
+            carry, result = divmod(int(a_bit) + int(b_bit) + carry, 2)
+            binary_sum.append(str(result))
+
+        if carry == 1:
+            binary_sum.append('1')
         
-        binary_sum[:(longer_len - i)] = [int(x) for x in longer[:(longer_len - i)]]
+        return "".join(reversed(binary_sum))
 
-        print(binary_sum)
-
-
-        return "".join(str(x) for x in (binary_sum if carry == 0 else [1] + binary_sum))
+        # heavily optimized version python built-in function provides. [:2] eliminates "0b" prefix
+        return bin(int(a, 2) + int(b, 2))[2:]
