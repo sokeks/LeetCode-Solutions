@@ -138,6 +138,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0067-add-binary](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0067-add-binary/) | Easy |
 | [0069-sqrtx](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0069-sqrtx/) | Easy |
 | [0070-climbing-stairs](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0070-climbing-stairs/) | Easy |
+| [0168-excel-sheet-column-title](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0168-excel-sheet-column-title/) | Easy |
 | [0231-power-of-two](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0231-power-of-two/) | Easy |
 | [0258-add-digits](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0258-add-digits/) | Easy |
 | [0263-ugly-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0263-ugly-number/) | Easy |
@@ -305,6 +306,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0058-length-of-last-word](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0058-length-of-last-word/) | Easy |
 | [0067-add-binary](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0067-add-binary/) | Easy |
 | [0125-valid-palindrome](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0125-valid-palindrome/) | Easy |
+| [0168-excel-sheet-column-title](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0168-excel-sheet-column-title/) | Easy |
 | [0208-implement-trie-prefix-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0208-implement-trie-prefix-tree/) | Medium |
 | [0242-valid-anagram](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0242-valid-anagram/) | Easy |
 | [0257-binary-tree-paths](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0257-binary-tree-paths/) | Easy |
