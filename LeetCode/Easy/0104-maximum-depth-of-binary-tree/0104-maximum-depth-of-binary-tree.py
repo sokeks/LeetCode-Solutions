@@ -13,10 +13,11 @@ class Solution:
 
         while stack:
             node, depth = stack.pop()
-            if node is None:
-                continue
             max_depth = max(depth, max_depth)
-            stack.append((node.right, depth + 1))
-            stack.append((node.left, depth + 1))
+            
+            if node.right:
+                stack.append((node.right, depth + 1))
+            if node.left:
+                stack.append((node.left, depth + 1))
 
         return max_depth
