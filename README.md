@@ -53,6 +53,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | ------- | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0094-binary-tree-inorder-traversal/) | Easy |
 | [0100-same-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0100-same-tree/) | Easy |
+| [0101-symmetric-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0101-symmetric-tree/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
 | [0226-invert-binary-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0226-invert-binary-tree/) | Easy |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
@@ -67,6 +68,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | ------- | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0094-binary-tree-inorder-traversal/) | Easy |
 | [0100-same-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0100-same-tree/) | Easy |
+| [0101-symmetric-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0101-symmetric-tree/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
 | [0226-invert-binary-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0226-invert-binary-tree/) | Easy |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
@@ -82,6 +84,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0100-same-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0100-same-tree/) | Easy |
+| [0101-symmetric-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0101-symmetric-tree/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
 | [0226-invert-binary-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0226-invert-binary-tree/) | Easy |
 | [0399-evaluate-division](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0399-evaluate-division/) | Medium |
@@ -97,6 +100,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | ------- | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0094-binary-tree-inorder-traversal/) | Easy |
 | [0100-same-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0100-same-tree/) | Easy |
+| [0101-symmetric-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0101-symmetric-tree/) | Easy |
 | [0199-binary-tree-right-side-view](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0199-binary-tree-right-side-view/) | Medium |
 | [0226-invert-binary-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0226-invert-binary-tree/) | Easy |
 | [0236-lowest-common-ancestor-of-a-binary-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0236-lowest-common-ancestor-of-a-binary-tree/) | Medium |
