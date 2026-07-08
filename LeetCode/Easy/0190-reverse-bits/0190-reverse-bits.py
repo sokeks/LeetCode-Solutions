@@ -1,4 +1,5 @@
 class Solution:
+    _SIGNED_INT_BIT_COUNT = 31
     def reverseBits(self, n: int) -> int:
         reversed_n = 0
         bits_count = 0
@@ -9,9 +10,6 @@ class Solution:
             n >>= 1
             bits_count += 1
 
-        reversed_n <<= (31 - bits_count)
+        reversed_n <<= (self._SIGNED_INT_BIT_COUNT - bits_count)
         
         return reversed_n
-            
-
-        
