@@ -17,8 +17,7 @@ class Solution:
             
             node = stack.pop()
             output.append(node.val)
-            if node.right is not None:
-                current = node.right
+            current = node.right
             
         return output
         
