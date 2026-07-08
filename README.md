@@ -151,6 +151,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0067-add-binary](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0067-add-binary/) | Easy |
+| [0136-single-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0136-single-number/) | Easy |
 | [0231-power-of-two](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0231-power-of-two/) | Easy |
 | [0268-missing-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0268-missing-number/) | Easy |
 | [0338-counting-bits](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0338-counting-bits/) | Easy |
@@ -232,6 +233,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0118-pascals-triangle](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0118-pascals-triangle/) | Easy |
 | [0119-pascals-triangle-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0119-pascals-triangle-ii/) | Easy |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0121-best-time-to-buy-and-sell-stock/) | Easy |
+| [0136-single-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0136-single-number/) | Easy |
 | [0162-find-peak-element](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0162-find-peak-element/) | Medium |
 | [0198-house-robber](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0198-house-robber/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
