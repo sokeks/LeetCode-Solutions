@@ -11,12 +11,13 @@ class Solution:
 
         while stack:
             p_node, q_node = stack.pop()
-            if ((p_node is None) != (q_node is None)):
+            if not p_node and not q_node:
+                continue
+            if not p_node or not q_node or p_node.val != q_node.val:
                 return False
-            elif p_node is not None and q_node is not None:
-                if p_node.val != q_node.val:
-                    return False
-                stack.append((p_node.right, q_node.right))
-                stack.append((p_node.left, q_node.left))
+
+            stack.append((p_node.right, q_node.right))
+            stack.append((p_node.left, q_node.left))
+                
                 
         return True
