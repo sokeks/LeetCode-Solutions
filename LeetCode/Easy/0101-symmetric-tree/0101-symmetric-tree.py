@@ -6,7 +6,7 @@
 #         self.right = right
 class Solution:
     def isSymmetric(self, root: Optional[TreeNode]) -> bool:
-        stack: List[Tuple[TreeNode, TreeNode]] = []
+        stack: list[tuple[TreeNode, TreeNode]] = []
         stack.append((root.left, root.right))
 
         while stack:
