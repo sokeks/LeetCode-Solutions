@@ -6,13 +6,12 @@
 #         self.right = right
 class Solution:
     def sortedArrayToBST(self, nums: List[int]) -> Optional[TreeNode]:
-        stack: list[tuple[TreeNode, tuple[int, int], tuple[int, int]]] = []
         left = 0
         right = len(nums)
-
         mid = (left + right) // 2
         root = TreeNode(val=nums[mid])
-        stack.append((root, (left, mid), (mid + 1, right)))
+
+        stack: list[tuple[TreeNode, tuple[int, int], tuple[int, int]]] = [(root, (left, mid), (mid + 1, right))]
 
         while stack:
             node, (left_left, left_right), (right_left, right_right) = stack.pop()
