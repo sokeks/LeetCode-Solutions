@@ -177,6 +177,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0026-remove-duplicates-from-sorted-array](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0026-remove-duplicates-from-sorted-array/) | Easy |
 | [0027-remove-element](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0027-remove-element/) | Easy |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
+| [0088-merge-sorted-array](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0088-merge-sorted-array/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0234-palindrome-linked-list/) | Easy |
 | [0283-move-zeroes](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0283-move-zeroes/) | Easy |
 | [0344-reverse-string](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0344-reverse-string/) | Easy |
@@ -200,6 +201,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0055-jump-game](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0055-jump-game/) | Medium |
 | [0063-unique-paths-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0063-unique-paths-ii/) | Medium |
 | [0064-minimum-path-sum](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0064-minimum-path-sum/) | Medium |
+| [0088-merge-sorted-array](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0088-merge-sorted-array/) | Easy |
 | [0118-pascals-triangle](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0118-pascals-triangle/) | Easy |
 | [0119-pascals-triangle-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0119-pascals-triangle-ii/) | Easy |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0121-best-time-to-buy-and-sell-stock/) | Easy |
@@ -282,6 +284,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0088-merge-sorted-array](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0088-merge-sorted-array/) | Easy |
 | [0215-kth-largest-element-in-an-array](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
 | [0242-valid-anagram](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0242-valid-anagram/) | Easy |
 | [0268-missing-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0268-missing-number/) | Easy |
