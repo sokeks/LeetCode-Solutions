@@ -6,7 +6,7 @@
 #         self.right = right
 class Solution:
     def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
-        stack: List[Tuple[TreeNode, TreeNode]] = []
+        stack: list[tuple[TreeNode, TreeNode]] = []
         stack.append((p, q))
 
         while stack:
@@ -18,6 +18,5 @@ class Solution:
 
             stack.append((p_node.right, q_node.right))
             stack.append((p_node.left, q_node.left))
-                
                 
         return True
