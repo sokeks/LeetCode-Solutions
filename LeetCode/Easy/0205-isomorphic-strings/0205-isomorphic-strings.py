@@ -1,6 +1,7 @@
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
-        ASCII_COUNT = 128
+
+        ASCII_COUNT = 127
         s_to_t_map = ['\0'] * ASCII_COUNT
         s_to_t_exist = [False] * ASCII_COUNT
         t_to_s_exist = [False] * ASCII_COUNT
