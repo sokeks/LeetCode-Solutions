@@ -17,7 +17,3 @@ class Solution:
                 t_to_s_exist[ord(tc) - 1] = True
 
         return True
-
-
-        # s = "dog"
-        # t = "\127\0g"
