@@ -9,15 +9,15 @@ class Solution:
 
             return result
 
-        # version with 2 pointers - gives only O(1) space complexity
+        # version with 2 pointers - gives only O(1) space complexity - based on linked lists loops detection
 
         slow = generate_next_number(n)
         fast = generate_next_number(generate_next_number(n))
-        while slow != fast:
+        while slow != fast and fast != 1:
             slow = generate_next_number(slow)
             fast = generate_next_number(generate_next_number(fast))
             
-        return slow == 1
+        return fast == 1
 
         # version with set - adding O(N) space complexity
         occurred = set()
