@@ -6,4 +6,7 @@ class Solution:
                 return True
             num_2_position[n] = i
 
+            if i > k:
+                num_2_position.pop((nums[i - k]), None)
+
         return False
