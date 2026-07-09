@@ -15,10 +15,7 @@ public class Solution {
         ListNode current = head;
         while (current != null)
         {
-            var next = current.next;
-            current.next = previous;
-            previous = current;
-            current = next;
+            (current.next, previous, current) = (previous, current, current.next);
         }
 
         return previous;
