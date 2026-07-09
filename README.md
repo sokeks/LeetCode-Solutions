@@ -160,6 +160,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0067-add-binary](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0067-add-binary/) | Easy |
 | [0136-single-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0136-single-number/) | Easy |
 | [0190-reverse-bits](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0190-reverse-bits/) | Easy |
+| [0191-number-of-1-bits](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0191-number-of-1-bits/) | Easy |
 | [0231-power-of-two](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0231-power-of-two/) | Easy |
 | [0268-missing-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0268-missing-number/) | Easy |
 | [0338-counting-bits](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0338-counting-bits/) | Easy |
@@ -469,6 +470,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0053-maximum-subarray](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0053-maximum-subarray/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0190-reverse-bits](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0190-reverse-bits/) | Easy |
+| [0191-number-of-1-bits](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0191-number-of-1-bits/) | Easy |
 | [0215-kth-largest-element-in-an-array](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
 ## Heap (Priority Queue)
 | Problem Name | Difficulty |
