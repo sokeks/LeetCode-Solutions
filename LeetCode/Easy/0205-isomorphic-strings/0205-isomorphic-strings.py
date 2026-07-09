@@ -6,15 +6,15 @@ class Solution:
         t_to_s_exist = [False] * ASCII_COUNT
 
         for (ac, tc) in zip(s, t):
-            if s_to_t_exist[ord(ac) + 1]:
-                if s_to_t_map[ord(ac) + 1] != tc:
+            if s_to_t_exist[ord(ac) - 1]:
+                if s_to_t_map[ord(ac) - 1] != tc:
                     return False
             else:
-                if t_to_s_exist[ord(tc) + 1]:
+                if t_to_s_exist[ord(tc) - 1]:
                     return False
-                s_to_t_exist[ord(ac) + 1] = True
-                s_to_t_map[ord(ac) + 1] = tc
-                t_to_s_exist[ord(tc) + 1] = True
+                s_to_t_exist[ord(ac) - 1] = True
+                s_to_t_map[ord(ac) - 1] = tc
+                t_to_s_exist[ord(tc) - 1] = True
 
         return True
 
