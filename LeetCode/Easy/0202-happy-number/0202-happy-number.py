@@ -8,8 +8,18 @@ class Solution:
                 result += (remainder ** 2)
 
             return result
-                
 
+        # version with 2 pointers - gives only O(1) space complexity
+
+        slow = generate_next_number(n)
+        fast = generate_next_number(generate_next_number(n))
+        while slow != fast:
+            slow = generate_next_number(slow)
+            fast = generate_next_number(generate_next_number(fast))
+            
+        return slow == 1
+
+        # version with set - adding O(N) space complexity
         occurred = set()
 
         while n != 1:
@@ -19,5 +29,4 @@ class Solution:
             occurred.add(n)
             n = generate_next_number(n)
             
-        
         return True
