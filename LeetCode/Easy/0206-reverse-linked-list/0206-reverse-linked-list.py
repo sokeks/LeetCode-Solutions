@@ -9,11 +9,6 @@ class Solution:
         previous = None
 
         while current:
-            next_node = current.next
-            current.next = previous
-            
-            previous = current
-            current = next_node
+            current.next, previous, current = previous, current, current.next
         
         return previous
-        
