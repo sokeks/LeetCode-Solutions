@@ -3,27 +3,24 @@ class MyQueue:
     def __init__(self):
         self.inbound = []
         self.outbound = []
-        self.first_x = None
+
+    def _pour_into_outboud(self) -> None:
+        while self.inbound:
+            self.outbound.append(self.inbound.pop())
 
     def push(self, x: int) -> None:
-        if not self.inbound and not self.outbound:
-            self.first_x = x
-
-        while self.outbound:
-            self.inbound.append(self.outbound.pop())
-
         self.inbound.append(x)
 
     def pop(self) -> int:
-        while len(self.inbound) > 1:
-            self.outbound.append(self.inbound.pop())     
+        if not self.outbound:
+            self._pour_into_outboud()
 
-        x = self.inbound.pop() if self.inbound else self.outbound.pop()
-        self.first_x = self.outbound[-1] if self.outbound else None
-        return x
+        return self.outbound.pop()
 
     def peek(self) -> int:
-        return self.first_x
+        if not self.outbound:
+            self._pour_into_outboud()
+        return self.outbound[-1]
 
     def empty(self) -> bool:
         return not self.inbound and not self.outbound
