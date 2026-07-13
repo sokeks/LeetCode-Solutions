@@ -9,8 +9,9 @@ class Solution:
             
             chars[write_idx] = chars[anchor]
             write_idx += 1
-            if read_idx - anchor > 1:
-                count = str(read_idx - anchor)
+            group_length = read_idx - anchor
+            if group_length > 1:
+                count = str(group_length)
 
                 for c in count:
                     chars[write_idx] = c
