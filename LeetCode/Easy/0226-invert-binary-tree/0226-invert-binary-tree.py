@@ -8,6 +8,7 @@ class Solution:
     def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
         if not root: return root
 
+        # note, that while this task seems to be fitting queue version, stack is more efficient in space complexity
         stack = [root]
 
         while stack:
