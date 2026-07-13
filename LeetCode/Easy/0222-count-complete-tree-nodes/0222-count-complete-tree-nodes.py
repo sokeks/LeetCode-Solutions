@@ -6,35 +6,36 @@
 #         self.right = right
 class Solution:
     # recursive version - optimal one, due to certainty, it's not a skewed tree, but complete - so
-    # depth -> O(log N)
-    # def countNodes(self, root: Optional[TreeNode]) -> int:
-    #     def find_left_depth(root: TreeNode) -> int:
-    #         depth = 0
-    #         current = root
-    #         while current:
-    #             depth += 1
-    #             current = current.left
-    #         return depth
+    # depth -> O(log N) and code easiness
+    def countNodes(self, root: Optional[TreeNode]) -> int:
+        def find_left_depth(root: TreeNode) -> int:
+            depth = 0
+            current = root
+            while current:
+                depth += 1
+                current = current.left
+            return depth
 
-    #     def find_right_depth(root: TreeNode) -> int:
-    #         depth = 0
-    #         current = root
-    #         while current:
-    #             depth += 1
-    #             current = current.right
-    #         return depth
+        def find_right_depth(root: TreeNode) -> int:
+            depth = 0
+            current = root
+            while current:
+                depth += 1
+                current = current.right
+            return depth
         
-    #     if not root:
-    #         return 0
+        if not root:
+            return 0
 
-    #     lh = find_left_depth(root)
-    #     rh = find_right_depth(root)
+        lh = find_left_depth(root)
+        rh = find_right_depth(root)
 
-    #     if lh == rh:
-    #         return (1 << lh) - 1
+        if lh == rh:
+            return (1 << lh) - 1
         
-    #     return 1 + self.countNodes(root.left) + self.countNodes(root.right)
+        return 1 + self.countNodes(root.left) + self.countNodes(root.right)
 
+    # iterative version - theoretically more optimal, due to O(1) space complexity, but more complex and one-off error prone
     def countNodes(self, root: Optional[TreeNode]) -> int:
         def find_right_depth(root: TreeNode) -> int:
             depth = 0
@@ -56,8 +57,7 @@ class Solution:
         def does_node_exist(node: TreeNode, path: int):
             for i in range((tree_depth - 1), -1, -1):
                 step = (path >> i) & 1
-                print(f"step={step} i={i}")
-                # path, reminder = divmod(path, 2)
+
                 node = node.left if not step else node.right
             print(bool(node))
             return bool(node)
