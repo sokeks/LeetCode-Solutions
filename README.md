@@ -171,6 +171,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0342-power-of-four](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0342-power-of-four/) | Easy |
 | [0389-find-the-difference](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0389-find-the-difference/) | Easy |
 | [0401-binary-watch](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0401-binary-watch/) | Easy |
+| [3095-shortest-subarray-with-or-at-least-k-i](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/3095-shortest-subarray-with-or-at-least-k-i/) | Easy |
 | [3954-sum-of-compatible-numbers-in-range-i](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/3954-sum-of-compatible-numbers-in-range-i/) | Easy |
 ## Recursion
 | Problem Name | Difficulty |
@@ -288,6 +289,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [2462-total-cost-to-hire-k-workers](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/2462-total-cost-to-hire-k-workers/) | Medium |
 | [2542-maximum-subsequence-score](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/2542-maximum-subsequence-score/) | Medium |
 | [2900-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/2900-longest-unequal-adjacent-groups-subsequence-i/) | Easy |
+| [3095-shortest-subarray-with-or-at-least-k-i](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/3095-shortest-subarray-with-or-at-least-k-i/) | Easy |
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -547,6 +549,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0219-contains-duplicate-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0219-contains-duplicate-ii/) | Easy |
+| [3095-shortest-subarray-with-or-at-least-k-i](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/3095-shortest-subarray-with-or-at-least-k-i/) | Easy |
 ## Bucket Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
