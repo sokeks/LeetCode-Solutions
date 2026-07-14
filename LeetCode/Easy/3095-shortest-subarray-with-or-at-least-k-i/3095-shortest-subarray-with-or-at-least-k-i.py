@@ -2,11 +2,12 @@ class Solution:
     # with the original constraints, it's ok to do it brute force. I do this task for constraints much bigger
     def minimumSubarrayLength(self, nums: List[int], k: int) -> int:
         if k == 0: return 1
+
         left = 0
         right = 0
         bit_set_count = [0 for _ in range(32)]
         running_or = 0
-        min_length = float("+inf")
+        min_length = math.inf
 
         while right < len(nums):
             while right < len(nums) and running_or < k:
@@ -16,8 +17,9 @@ class Solution:
                 
                 pos = 0
                 while num:
-                    num, rem = divmod(num, 2)
-                    bit_set_count[pos] += 1 if rem else 0
+                    bit_status = num & 1
+                    num >>= 1
+                    bit_set_count[pos] += bit_status
                     pos += 1
             
 
@@ -28,9 +30,10 @@ class Solution:
 
                 pos = 0
                 while num:
-                    num, rem = divmod(num, 2)
-                    bit_set_count[pos] -= 1 if rem else 0
-                    if not bit_set_count[pos]:
+                    bit_status = num & 1
+                    num >>= 1
+                    bit_set_count[pos] -= bit_status
+                    if bit_status and not bit_set_count[pos]:
                         running_or &= ~(1 << pos)
                     pos += 1
         
