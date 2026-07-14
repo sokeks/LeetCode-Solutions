@@ -1,21 +1,21 @@
 class Solution:
     def topKFrequent(self, nums: List[int], k: int) -> List[int]:
+        # O
         frequencies: dict[int, int] = Counter(nums)
 
         freq_to_nums: list[list[int]] = [[] for _ in range(len(nums) + 1)]
-
         for num, freq in frequencies.items():
             freq_to_nums[freq].append(num)
 
         top_k_freqs = []
-        for bucket in freq_to_nums[::-1]:
+        for bucket in reversed(freq_to_nums):
             for item in bucket:
                 top_k_freqs.append(item)
                 if len(top_k_freqs) == k:
                     return top_k_freqs
 
 
-        # O N logK (due to last loop) approach, sufficient for this task
+        # O (N logK) (due to last loop) approach, sufficient for this task
         frequencies: dict[int, int] = defaultdict(int)
         
         for n in nums:
