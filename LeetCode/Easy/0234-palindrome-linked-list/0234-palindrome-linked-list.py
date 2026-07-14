@@ -5,7 +5,7 @@
 #         self.next = next
 class Solution:
     def isPalindrome(self, head: Optional[ListNode]) -> bool:
-        def find_after_mid_node(current: ListNode) -> ListNode:
+        def find_after_mid_node() -> ListNode:
             slow = head
             fast = head
             while fast and fast.next:
@@ -33,7 +33,7 @@ class Solution:
             reverse_list(second_half_head)
             return True
 
-        second_half_head = reverse_list(find_after_mid_node(head))
+        second_half_head = reverse_list(find_after_mid_node())
         return compare_reversed_with_straight(second_half_head, head)
         
         
