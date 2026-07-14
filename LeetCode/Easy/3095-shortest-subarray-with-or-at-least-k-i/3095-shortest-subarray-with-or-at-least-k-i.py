@@ -5,7 +5,7 @@ class Solution:
 
         left = 0
         right = 0
-        bit_set_count = [0 for _ in range(32)]
+        bit_set_count = [0] * 32
         running_or = 0
         min_length = math.inf
 
@@ -38,4 +38,3 @@ class Solution:
                     pos += 1
         
         return min_length if min_length != math.inf else -1
-                
