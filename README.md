@@ -264,6 +264,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0136-single-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0136-single-number/) | Easy |
 | [0162-find-peak-element](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0162-find-peak-element/) | Medium |
 | [0198-house-robber](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0198-house-robber/) | Medium |
+| [0209-minimum-size-subarray-sum](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0209-minimum-size-subarray-sum/) | Medium |
 | [0215-kth-largest-element-in-an-array](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0215-kth-largest-element-in-an-array/) | Medium |
 | [0216-combination-sum-iii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0216-combination-sum-iii/) | Medium |
 | [0217-contains-duplicate](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0217-contains-duplicate/) | Easy |
@@ -293,6 +294,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0209-minimum-size-subarray-sum/) | Medium |
 | [0238-product-of-array-except-self](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0238-product-of-array-except-self/) | Medium |
 | [0303-range-sum-query-immutable](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0303-range-sum-query-immutable/) | Easy |
 | [0560-subarray-sum-equals-k](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0560-subarray-sum-equals-k/) | Medium |
@@ -397,6 +399,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0035-search-insert-position](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0035-search-insert-position/) | Easy |
 | [0069-sqrtx](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0069-sqrtx/) | Easy |
 | [0162-find-peak-element](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0162-find-peak-element/) | Medium |
+| [0209-minimum-size-subarray-sum](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0209-minimum-size-subarray-sum/) | Medium |
 | [0222-count-complete-tree-nodes](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0222-count-complete-tree-nodes/) | Easy |
 | [0268-missing-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0268-missing-number/) | Easy |
 | [0278-first-bad-version](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0278-first-bad-version/) | Easy |
@@ -548,6 +551,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0209-minimum-size-subarray-sum](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0209-minimum-size-subarray-sum/) | Medium |
 | [0219-contains-duplicate-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0219-contains-duplicate-ii/) | Easy |
 | [3095-shortest-subarray-with-or-at-least-k-i](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/3095-shortest-subarray-with-or-at-least-k-i/) | Easy |
 ## Bucket Sort
