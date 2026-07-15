@@ -7,6 +7,7 @@ class Solution:
         for n in nums:
             if n in visited:
                 continue
+            visited.add(n)
             
             lower = n
             while (lower - 1) in available:
