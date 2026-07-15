@@ -1,5 +1,22 @@
 class Solution:
     def longestConsecutive(self, nums: List[int]) -> int:
+        # proposed version, but failing with Timi Limit Exceeded
+        available = set(nums)
+        max_length = 0
+
+        for n in available:
+            if (n - 1) in available:
+                continue
+            
+            current = n
+            while current in available:
+                current += 1
+            
+            max_length = max(max_length, current - n)
+
+        return max_length
+
+        # my initial version
         available = set(nums)
         visited = set()
         max_length = 0
