@@ -4,10 +4,7 @@ class Solution:
         prime_factors = (2, 3, 5)
 
         for prime in prime_factors:
-            while True:
-                quotient, rem = divmod(n, prime)
-                if rem:
-                    break
-                n = quotient
+            while n % prime == 0:
+                n //= prime
         
         return n == 1
