@@ -3,5 +3,10 @@ class Solution:
         """
         Do not return anything, modify s in-place instead.
         """
+        # super pythonic
+        s.reverse()
+        return
+
+        # algorythmic
         for i in range(len(s) // 2):
             s[i], s[~i] = s[~i], s[i]
