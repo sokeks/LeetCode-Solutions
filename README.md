@@ -358,6 +358,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0434-number-of-segments-in-a-string](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0434-number-of-segments-in-a-string/) | Easy |
 | [0443-string-compression](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0443-string-compression/) | Medium |
 | [0902-numbers-at-most-n-given-digit-set](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Hard/0902-numbers-at-most-n-given-digit-set/) | Hard |
+| [1143-longest-common-subsequence](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/1143-longest-common-subsequence/) | Medium |
 | [1668-maximum-repeating-substring](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/1668-maximum-repeating-substring/) | Easy |
 | [2900-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/2900-longest-unequal-adjacent-groups-subsequence-i/) | Easy |
 ## Sorting
@@ -461,6 +462,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0902-numbers-at-most-n-given-digit-set](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Hard/0902-numbers-at-most-n-given-digit-set/) | Hard |
 | [1025-divisor-game](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/1025-divisor-game/) | Easy |
 | [1137-n-th-tribonacci-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/1137-n-th-tribonacci-number/) | Easy |
+| [1143-longest-common-subsequence](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/1143-longest-common-subsequence/) | Medium |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/1372-longest-zigzag-path-in-a-binary-tree/) | Medium |
 | [1668-maximum-repeating-substring](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/1668-maximum-repeating-substring/) | Easy |
 | [2900-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/2900-longest-unequal-adjacent-groups-subsequence-i/) | Easy |
