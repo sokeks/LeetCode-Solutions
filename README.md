@@ -282,6 +282,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0399-evaluate-division](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0399-evaluate-division/) | Medium |
 | [0414-third-maximum-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0414-third-maximum-number/) | Easy |
 | [0560-subarray-sum-equals-k](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0560-subarray-sum-equals-k/) | Medium |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
 | [0746-min-cost-climbing-stairs](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0746-min-cost-climbing-stairs/) | Easy |
 | [0875-koko-eating-bananas](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0875-koko-eating-bananas/) | Medium |
 | [0902-numbers-at-most-n-given-digit-set](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Hard/0902-numbers-at-most-n-given-digit-set/) | Hard |
@@ -436,6 +437,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0055-jump-game](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0055-jump-game/) | Medium |
 | [0334-increasing-triplet-subsequence](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0334-increasing-triplet-subsequence/) | Medium |
 | [0409-longest-palindrome](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0409-longest-palindrome/) | Easy |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
 | [2542-maximum-subsequence-score](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/2542-maximum-subsequence-score/) | Medium |
 | [2900-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/2900-longest-unequal-adjacent-groups-subsequence-i/) | Easy |
 ## Dynamic Programming
@@ -457,6 +459,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0338-counting-bits](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0338-counting-bits/) | Easy |
 | [0392-is-subsequence](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0392-is-subsequence/) | Easy |
 | [0509-fibonacci-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0509-fibonacci-number/) | Easy |
+| [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
 | [0746-min-cost-climbing-stairs](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0746-min-cost-climbing-stairs/) | Easy |
 | [0790-domino-and-tromino-tiling](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0790-domino-and-tromino-tiling/) | Medium |
 | [0902-numbers-at-most-n-given-digit-set](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Hard/0902-numbers-at-most-n-given-digit-set/) | Hard |
