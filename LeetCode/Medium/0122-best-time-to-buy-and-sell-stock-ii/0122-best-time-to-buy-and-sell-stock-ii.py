@@ -1,5 +1,13 @@
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
+
+        running_profit = 0
+        for today, tomorrow in zip(islice(prices, 0, len(prices) - 1), islice(prices, 1, None)):
+            profit = tomorrow - today
+            if profit > 0:
+                running_profit += profit
+        
+        return running_profit
         
         
         # solution coming from DP - 714. Best Time to Buy and Sell Stock with Transaction Fee
