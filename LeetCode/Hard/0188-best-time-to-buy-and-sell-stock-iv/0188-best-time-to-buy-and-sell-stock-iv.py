@@ -12,12 +12,12 @@ class Solution:
             return max(sold_stocks)
 
         def max_profit_of_unlimited_options():
-            without_stock = 0
-            with_stock = -prices[0]
+            running_profit = 0
 
-            for p in islice(prices, 1, None):
-                without_stock, with_stock = max(without_stock, with_stock + p), max(with_stock, without_stock - p)
+            for i in range(1, len(prices)):
+                if prices[i] > prices[i - 1]:
+                    running_profit += (prices[i] - prices[i - 1])
             
-            return without_stock
+            return running_profit
 
         return max_profit_of_limited_options() if k < len(prices) // 2 else max_profit_of_unlimited_options()
