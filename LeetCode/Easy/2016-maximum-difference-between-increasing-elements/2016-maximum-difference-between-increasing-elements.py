@@ -9,6 +9,6 @@ class Solution:
             else:
                 difference = n - running_global_min
                 if difference > 0 and difference > running_max_difference:
-                    running_max_difference = n - running_global_min
+                    running_max_difference = difference
         
         return running_max_difference
