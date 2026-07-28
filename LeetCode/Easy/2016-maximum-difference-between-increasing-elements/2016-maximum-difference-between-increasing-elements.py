@@ -1,6 +1,6 @@
 class Solution:
     def maximumDifference(self, nums: List[int]) -> int:
-        running_max_difference = float("-inf")
+        running_max_difference = -1
         running_global_min = float("inf")
 
         for n in nums:
@@ -11,6 +11,4 @@ class Solution:
                 if difference > 0 and difference > running_max_difference:
                     running_max_difference = n - running_global_min
         
-        return running_max_difference if running_max_difference != float("-inf") else -1
-
-        
+        return running_max_difference
