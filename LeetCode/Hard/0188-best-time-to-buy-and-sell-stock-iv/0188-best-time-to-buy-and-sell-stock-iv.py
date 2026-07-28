@@ -6,8 +6,19 @@ class Solution:
 
             for p in islice(prices, 1, None):
                 for i in range(k - 1, -1, -1):
-                    sold_stocks[i + 1] = max(bought_stocks[i] + p, sold_stocks[i + 1])
-                    bought_stocks[i] = max(sold_stocks[i] - p, bought_stocks[i])
+                    profit_after_sell = bought_stocks[i] + p
+                    if profit_after_sell > sold_stocks[i + 1]:
+                        sold_stocks[i + 1] = profit_after_sell
+                    
+                    profit_after_buy = sold_stocks[i] - p
+                    if profit_after_buy > bought_stocks[i]:
+                        bought_stocks[i] = profit_after_buy
+
+
+
+
+                    # sold_stocks[i + 1] = max(bought_stocks[i] + p, sold_stocks[i + 1])
+                    # bought_stocks[i] = max(sold_stocks[i] - p, bought_stocks[i])
 
             return max(sold_stocks)
 
