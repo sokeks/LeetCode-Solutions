@@ -19,8 +19,10 @@ class Solution:
             short_sold_stock = prices[0]
 
             for p in islice(prices, 1, None):
-                no_stock, bought_stock, short_sold_stock = (max(no_stock, bought_stock + p, short_sold_stock - p),
-                    max(bought_stock, no_stock + p), max(short_sold_stock, no_stock - p))
+                no_stock, bought_stock, short_sold_stock = (
+                    max(no_stock, bought_stock + p, short_sold_stock - p),
+                    max(bought_stock, no_stock - p),
+                    max(short_sold_stock, no_stock + p))
             
             return no_stock
         
