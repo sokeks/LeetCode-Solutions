@@ -299,6 +299,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [2542-maximum-subsequence-score](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/2542-maximum-subsequence-score/) | Medium |
 | [2900-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/2900-longest-unequal-adjacent-groups-subsequence-i/) | Easy |
 | [3095-shortest-subarray-with-or-at-least-k-i](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/3095-shortest-subarray-with-or-at-least-k-i/) | Easy |
+| [3573-best-time-to-buy-and-sell-stock-v](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/3573-best-time-to-buy-and-sell-stock-v/) | Medium |
 ## Prefix Sum
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -480,6 +481,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/1372-longest-zigzag-path-in-a-binary-tree/) | Medium |
 | [1668-maximum-repeating-substring](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/1668-maximum-repeating-substring/) | Easy |
 | [2900-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/2900-longest-unequal-adjacent-groups-subsequence-i/) | Easy |
+| [3573-best-time-to-buy-and-sell-stock-v](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/3573-best-time-to-buy-and-sell-stock-v/) | Medium |
 | [3954-sum-of-compatible-numbers-in-range-i](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/3954-sum-of-compatible-numbers-in-range-i/) | Easy |
 ## Counting
 | Problem Name | Difficulty |
