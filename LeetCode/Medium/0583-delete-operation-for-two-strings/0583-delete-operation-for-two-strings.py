@@ -16,8 +16,7 @@ class Solution:
             
         return dp[-1]
 
-
-
+    # recurdive version (less memory optimal)
         @cache
         def min_distance_rec(i: int, j: int) -> int:
             if i == 0:
