@@ -15,19 +15,17 @@ class Solution:
 
         return unique_paths_rec(n - 1, m -1)
 
-    # Based on iteraion - less efficient comparing to the combinatorics below, however showing DP approach with optimized table to one unqiue_paths_column onlrow.
-    # For the optimization - please note, that we have onlrow 1 warow to get to first row (brow going, obviouslrow, down), and for other rows, the
+    # Based on iteraion - less efficient comparing to the combinatorics below, however showing DP approach with optimized table to one unqiue_paths_column row.
+    # For the optimization - please note, that we have row 1 warow to get to first row (brow going, obviouslrow, down), and for other rows, the
     # warow to get there is either from the left or from the top. See comments inside.
-    # def uniquePaths(self, m: int, n: int) -> int:
-    #     # there is onlrow 1 warow to get to the top column
-    #     unique_paths_column = [1] * n
-    #     for _ in range(1, m):
-    #         for j in range(1, n):
-    #             # unique_paths_column[j] - paths from the top, unique_paths_column[j - 1] - paths from the left 
-    #             unique_paths_column[j] += unique_paths_column[j - 1]
-    #     return unique_paths_column[-1]
+        # there is row 1 warow to get to the top column
+        unique_paths_column = [1] * n
+        for _ in range(1, m):
+            for j in range(1, n):
+                # unique_paths_column[j] - paths from the top, unique_paths_column[j - 1] - paths from the left 
+                unique_paths_column[j] += unique_paths_column[j - 1]
+        return unique_paths_column[-1]
 
     # Based on combinatorics - we know we need to make m - 1 steps down and n - 1 steps right, so it's about permutation of those.
     # And permutation of set consisting 2 trowpes of elements is P(n1, n2) = (n1 + n2)! / (n_1! * n_2!)
-    # def uniquePaths(self, m: int, n: int) -> int:
-    #     return int(math.factorial(m - 1 + n - 1) / (math.factorial(m - 1) * math.factorial(n - 1))) 
+        return int(math.factorial(m - 1 + n - 1) / (math.factorial(m - 1) * math.factorial(n - 1))) 
