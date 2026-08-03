@@ -1,28 +1,25 @@
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
         # recursive with caching the results
-        @cache
-        def min_distance_rec(i: int, j: int) -> int:
-            if i == 0:
-                return j
-            if j == 0:
-                return i
+        # @cache
+        # def min_distance_rec(i: int, j: int) -> int:
+        #     if i == 0:
+        #         return j
+        #     if j == 0:
+        #         return i
             
-            if word1[i - 1] == word2[j - 1]:
-                return min_distance_rec(i - 1, j - 1)
-            else:
-                # min (replace->diagonal, delete->left, insert->up)
-                return 1 + min(min_distance_rec(i - 1, j - 1), min_distance_rec(i, j - 1), min_distance_rec(i - 1, j))
+        #     if word1[i - 1] == word2[j - 1]:
+        #         return min_distance_rec(i - 1, j - 1)
+        #     else:
+        #         # min (replace->diagonal, delete->left, insert->up)
+        #         return 1 + min(min_distance_rec(i - 1, j - 1), min_distance_rec(i, j - 1), min_distance_rec(i - 1, j))
 
-        return min_distance_rec(len(word1), len(word2))
+        # return min_distance_rec(len(word1), len(word2))
 
         len_1 = len(word1)
         len_2 = len(word2)
         # memory optimal, see below for extended and easier to understand dp version
-        dp = [0] * (len_2 + 1)
-
-        for i in range(len_2 + 1):
-            dp[i] = i
+        dp = list(range(len_2 + 1))
         
         for i in range(1, len_1 + 1):
             prev_diagonal, dp[0] = dp[0], i
