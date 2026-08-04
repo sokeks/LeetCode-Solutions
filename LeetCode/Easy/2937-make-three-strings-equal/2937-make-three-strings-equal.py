@@ -8,6 +8,6 @@ class Solution:
                 common_prefix_len = i
                 break
         else:
-            common_prefix_len += (i + 1)
+            common_prefix_len = i + 1
         
         return -1 if common_prefix_len == 0 else len(s1) + len(s2) + len(s3) - 3 * common_prefix_len
