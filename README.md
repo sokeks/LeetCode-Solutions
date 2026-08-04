@@ -371,6 +371,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [1143-longest-common-subsequence](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/1143-longest-common-subsequence/) | Medium |
 | [1668-maximum-repeating-substring](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/1668-maximum-repeating-substring/) | Easy |
 | [2900-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/2900-longest-unequal-adjacent-groups-subsequence-i/) | Easy |
+| [2937-make-three-strings-equal](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/2937-make-three-strings-equal/) | Easy |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
