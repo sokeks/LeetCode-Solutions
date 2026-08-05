@@ -10,7 +10,7 @@ class Solution:
                 smallest = n
             elif medium >= n:
                 medium = n
-            elif n > medium:
+            else:
                 return True
 
         return False
