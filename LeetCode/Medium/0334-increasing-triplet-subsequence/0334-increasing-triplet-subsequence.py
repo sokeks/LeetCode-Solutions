@@ -14,7 +14,5 @@ class Solution:
             elif num_3 > n > num_2:
                 return True
 
-            print(f"{num_1} ; {num_2} ; {num_3}")
-
         return False
         
