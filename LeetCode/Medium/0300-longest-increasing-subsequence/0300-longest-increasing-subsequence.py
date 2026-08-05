@@ -1,5 +1,30 @@
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
+    # O(n log n) time complexity + O(n) space complexit version
+        def substitute_first_bigger(l: list[int], n: int):
+            left = 0
+            right = len(l)
+            while left < right:
+                mid = (left + right) // 2
+                if l[mid] < n:
+                    left = mid + 1
+                else:
+                    right = mid
+
+            l[left] = n
+
+        subsequence_tails = [nums[0]]
+
+        for n in nums:
+            if n > subsequence_tails[-1]:
+                subsequence_tails.append(n)
+            else:
+                substitute_first_bigger(subsequence_tails, n)
+        
+        return len(subsequence_tails)
+
+
+    # O(n^2) time complexity version + O(n) space complexity - easier version
         dp = [0] * len(nums)
 
         for i, n in enumerate(nums):
