@@ -277,6 +277,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0238-product-of-array-except-self](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0238-product-of-array-except-self/) | Medium |
 | [0268-missing-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0268-missing-number/) | Easy |
 | [0283-move-zeroes](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0283-move-zeroes/) | Easy |
+| [0300-longest-increasing-subsequence](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0300-longest-increasing-subsequence/) | Medium |
 | [0303-range-sum-query-immutable](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0303-range-sum-query-immutable/) | Easy |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0309-best-time-to-buy-and-sell-stock-with-cooldown/) | Medium |
 | [0334-increasing-triplet-subsequence](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0334-increasing-triplet-subsequence/) | Medium |
@@ -418,6 +419,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0222-count-complete-tree-nodes](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0222-count-complete-tree-nodes/) | Easy |
 | [0268-missing-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0268-missing-number/) | Easy |
 | [0278-first-bad-version](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0278-first-bad-version/) | Easy |
+| [0300-longest-increasing-subsequence](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0300-longest-increasing-subsequence/) | Medium |
 | [0349-intersection-of-two-arrays](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0349-intersection-of-two-arrays/) | Easy |
 | [0350-intersection-of-two-arrays-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0350-intersection-of-two-arrays-ii/) | Easy |
 | [0367-valid-perfect-square](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0367-valid-perfect-square/) | Easy |
@@ -472,6 +474,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0123-best-time-to-buy-and-sell-stock-iii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Hard/0123-best-time-to-buy-and-sell-stock-iii/) | Hard |
 | [0188-best-time-to-buy-and-sell-stock-iv](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Hard/0188-best-time-to-buy-and-sell-stock-iv/) | Hard |
 | [0198-house-robber](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0198-house-robber/) | Medium |
+| [0300-longest-increasing-subsequence](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0300-longest-increasing-subsequence/) | Medium |
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0309-best-time-to-buy-and-sell-stock-with-cooldown/) | Medium |
 | [0338-counting-bits](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0338-counting-bits/) | Easy |
 | [0392-is-subsequence](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0392-is-subsequence/) | Easy |
@@ -591,4 +594,8 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | ------- | ------- |
 | [0583-delete-operation-for-two-strings](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0583-delete-operation-for-two-strings/) | Medium |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0712-minimum-ascii-delete-sum-for-two-strings/) | Medium |
+## Longest Increasing Subsequence
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0300-longest-increasing-subsequence](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0300-longest-increasing-subsequence/) | Medium |
 <!---LeetCode Topics End-->
