@@ -8,7 +8,7 @@ class Solution:
         for n in nums:
             if num_1 >= n:
                 num_1 = n
-            elif num_2 > n:
+            elif num_2 >= n:
                 num_2 = n
             elif n > num_2:
                 return True
