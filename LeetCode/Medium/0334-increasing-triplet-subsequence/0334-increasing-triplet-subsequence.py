@@ -4,14 +4,13 @@ class Solution:
             return False
         num_1 = float("inf")
         num_2 = float("inf")
-        num_3 = float("inf")
 
         for n in nums:
-            if num_1 > n:
+            if num_1 >= n:
                 num_1 = n
-            elif num_2 > n > num_1:
+            elif num_2 > n:
                 num_2 = n
-            elif num_3 > n > num_2:
+            elif n > num_2:
                 return True
 
         return False
