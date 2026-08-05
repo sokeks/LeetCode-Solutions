@@ -15,11 +15,13 @@ class Solution:
 
         subsequence_tails = [nums[0]]
 
-        for n in nums:
+        for n in islice(nums, 1, None):
             if n > subsequence_tails[-1]:
                 subsequence_tails.append(n)
             else:
-                substitute_first_bigger(subsequence_tails, n)
+                idx = bisect.bisect_left(subsequence_tails, n)
+                subsequence_tails[idx] = n
+                # substitute_first_bigger(subsequence_tails, n)
         
         return len(subsequence_tails)
 
