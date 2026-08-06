@@ -9,8 +9,8 @@ class Solution:
         for i in range(1, longer_len + 1):
             prev_diagonal = dp[0]
             for j in range(1, shorter_len + 1):
-                if longer[i - 1] == shorter[j - 1] and dp[j] == prev_diagonal:
-                    prev_diagonal, dp[j] = dp[j], 1 + dp[j]
+                if longer[i - 1] == shorter[j - 1]:
+                    prev_diagonal, dp[j] = dp[j], 1 + prev_diagonal
                 else:
                     prev_diagonal, dp[j] = dp[j], dp[j] if dp[j] > dp[j - 1] else dp[j - 1]
 
