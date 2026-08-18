@@ -309,6 +309,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0238-product-of-array-except-self](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0238-product-of-array-except-self/) | Medium |
 | [0303-range-sum-query-immutable](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0303-range-sum-query-immutable/) | Easy |
 | [0560-subarray-sum-equals-k](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0560-subarray-sum-equals-k/) | Medium |
+| [2209-minimum-white-tiles-after-covering-with-carpets](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Hard/2209-minimum-white-tiles-after-covering-with-carpets/) | Hard |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -373,6 +374,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0902-numbers-at-most-n-given-digit-set](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Hard/0902-numbers-at-most-n-given-digit-set/) | Hard |
 | [1143-longest-common-subsequence](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/1143-longest-common-subsequence/) | Medium |
 | [1668-maximum-repeating-substring](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/1668-maximum-repeating-substring/) | Easy |
+| [2209-minimum-white-tiles-after-covering-with-carpets](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Hard/2209-minimum-white-tiles-after-covering-with-carpets/) | Hard |
 | [2900-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/2900-longest-unequal-adjacent-groups-subsequence-i/) | Easy |
 | [2937-make-three-strings-equal](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/2937-make-three-strings-equal/) | Easy |
 ## Sorting
@@ -492,6 +494,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [1143-longest-common-subsequence](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/1143-longest-common-subsequence/) | Medium |
 | [1372-longest-zigzag-path-in-a-binary-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/1372-longest-zigzag-path-in-a-binary-tree/) | Medium |
 | [1668-maximum-repeating-substring](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/1668-maximum-repeating-substring/) | Easy |
+| [2209-minimum-white-tiles-after-covering-with-carpets](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Hard/2209-minimum-white-tiles-after-covering-with-carpets/) | Hard |
 | [2900-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/2900-longest-unequal-adjacent-groups-subsequence-i/) | Easy |
 | [3573-best-time-to-buy-and-sell-stock-v](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/3573-best-time-to-buy-and-sell-stock-v/) | Medium |
 | [3954-sum-of-compatible-numbers-in-range-i](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/3954-sum-of-compatible-numbers-in-range-i/) | Easy |
