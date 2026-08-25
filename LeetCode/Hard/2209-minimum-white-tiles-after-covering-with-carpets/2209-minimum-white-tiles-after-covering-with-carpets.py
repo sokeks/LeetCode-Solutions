@@ -10,7 +10,8 @@ class Solution:
             if carpets == 0:
                 return floor_prefixes[tile_idx]
             
-            return min(minimum_white_tiles_rec(tile_idx - carpetLen, carpets - 1), floor_ints[tile_idx] + minimum_white_tiles_rec(tile_idx - 1, carpets))
+            return min(minimum_white_tiles_rec(tile_idx - carpetLen, carpets - 1),
+                        floor_ints[tile_idx] + minimum_white_tiles_rec(tile_idx - 1, carpets))
 
         return minimum_white_tiles_rec(len(floor_ints) - 1, numCarpets)
     
