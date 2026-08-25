@@ -7,8 +7,8 @@ class Solution:
         dp_previous = list(accumulate(floor_ints, initial=0))
         dp_current = [0] * len(dp_previous)
         
-        for c in range(1, numCarpets + 1):
-            for i in range(c * carpetLen, len(dp_previous)):
+        for carpets in range(1, numCarpets + 1):
+            for i in range(carpets * carpetLen, len(dp_previous)):
                 dp_current[i] = min(dp_current[i - 1] + floor_ints[i - 1], dp_previous[i - carpetLen])
             dp_previous, dp_current = dp_current, [0] * len(dp_previous)
 
