@@ -243,6 +243,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0443-string-compression](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0443-string-compression/) | Medium |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/2300-successful-pairs-of-spells-and-potions/) | Medium |
 | [2462-total-cost-to-hire-k-workers](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/2462-total-cost-to-hire-k-workers/) | Medium |
+| [3504-longest-palindrome-after-substring-concatenation-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Hard/3504-longest-palindrome-after-substring-concatenation-ii/) | Hard |
 ## Array
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -377,6 +378,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [2209-minimum-white-tiles-after-covering-with-carpets](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Hard/2209-minimum-white-tiles-after-covering-with-carpets/) | Hard |
 | [2900-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/2900-longest-unequal-adjacent-groups-subsequence-i/) | Easy |
 | [2937-make-three-strings-equal](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/2937-make-three-strings-equal/) | Easy |
+| [3504-longest-palindrome-after-substring-concatenation-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Hard/3504-longest-palindrome-after-substring-concatenation-ii/) | Hard |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -496,6 +498,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [1668-maximum-repeating-substring](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/1668-maximum-repeating-substring/) | Easy |
 | [2209-minimum-white-tiles-after-covering-with-carpets](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Hard/2209-minimum-white-tiles-after-covering-with-carpets/) | Hard |
 | [2900-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/2900-longest-unequal-adjacent-groups-subsequence-i/) | Easy |
+| [3504-longest-palindrome-after-substring-concatenation-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Hard/3504-longest-palindrome-after-substring-concatenation-ii/) | Hard |
 | [3573-best-time-to-buy-and-sell-stock-v](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/3573-best-time-to-buy-and-sell-stock-v/) | Medium |
 | [3954-sum-of-compatible-numbers-in-range-i](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/3954-sum-of-compatible-numbers-in-range-i/) | Easy |
 ## Counting
