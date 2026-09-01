@@ -373,6 +373,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0583-delete-operation-for-two-strings](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0583-delete-operation-for-two-strings/) | Medium |
 | [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0712-minimum-ascii-delete-sum-for-two-strings/) | Medium |
 | [0902-numbers-at-most-n-given-digit-set](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Hard/0902-numbers-at-most-n-given-digit-set/) | Hard |
+| [1061-lexicographically-smallest-equivalent-string](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/1061-lexicographically-smallest-equivalent-string/) | Medium |
 | [1143-longest-common-subsequence](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/1143-longest-common-subsequence/) | Medium |
 | [1668-maximum-repeating-substring](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/1668-maximum-repeating-substring/) | Easy |
 | [2209-minimum-white-tiles-after-covering-with-carpets](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Hard/2209-minimum-white-tiles-after-covering-with-carpets/) | Hard |
@@ -526,6 +527,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0128-longest-consecutive-sequence](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0128-longest-consecutive-sequence/) | Medium |
 | [0399-evaluate-division](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0399-evaluate-division/) | Medium |
 | [0547-number-of-provinces](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0547-number-of-provinces/) | Medium |
+| [1061-lexicographically-smallest-equivalent-string](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/1061-lexicographically-smallest-equivalent-string/) | Medium |
 ## Shortest Path
 | Problem Name | Difficulty |
 | ------- | ------- |
