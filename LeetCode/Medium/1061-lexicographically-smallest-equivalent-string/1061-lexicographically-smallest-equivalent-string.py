@@ -1,30 +1,23 @@
 class Solution:
     def smallestEquivalentString(self, s1: str, s2: str, baseStr: str) -> str:
-        targets: dict[str, str] = {x : x for x in string.ascii_lowercase}
-        # print(", ".join(f"{k}->{v}" for k,v in targets.items()))
+        parent: dict[str, str] = {x : x for x in string.ascii_lowercase}
 
         def find(c: str) -> str:
-            if c != targets[c]:
-                targets[c] = find(targets[c])
-            return targets[c]
+            if c != parent[c]:
+                parent[c] = find(parent[c])
+            return parent[c]
 
-        def union(x: str, y: str):
-            target_x = find(x)
-            target_y = find(y)
+        def union(x: str, y: str) -> None:
+            root_x = find(x)
+            root_y = find(y)
 
-            # print(f"{target_x} {target_y}")
 
-            if target_x < target_y:
-                targets[target_y] = target_x
+            if root_x < root_y:
+                parent[root_y] = root_x
             else:
-                targets[target_x] = target_y
+                parent[root_x] = root_y
 
         for x, y in zip(s1, s2):
             union(x, y)
-        # print(", ".join(f"{k}->{v}" for k,v in targets.items()))
 
-
-        base = list(baseStr)
-        for i in range(len(base)):
-            base[i] = find(base[i])
-        return "".join(base)
+        return "".join(find(c) for c in baseStr)
