@@ -4,8 +4,8 @@ class Solution:
         result = ['a'] * (len(str1) + len_str2 - 1)
         committed = set()
 
-        for i, c in enumerate(str1):
-            if c == 'F':
+        for i, condition in enumerate(str1):
+            if condition == 'F':
                 continue
             for j in range(len_str2):
                 w = i + j
@@ -15,8 +15,8 @@ class Solution:
                 committed.add(w)
         
         str2_list = list(str2)
-        for i, c in enumerate(str1):
-            if c == 'T' or result[i:i + len_str2] != str2_list:
+        for i, condition in enumerate(str1):
+            if condition == 'T' or result[i:i + len_str2] != str2_list:
                 continue
             
             for j in range(len_str2 - 1, -1, -1):
