@@ -29,7 +29,6 @@ public:
             for (auto j = str2.size(); j-- > 0;)
             {
                 auto w = i + j;
-                cout << w << endl;
                 if (fixed[w]) continue;
 
                 result[w] = 'b';
