@@ -379,6 +379,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [2209-minimum-white-tiles-after-covering-with-carpets](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Hard/2209-minimum-white-tiles-after-covering-with-carpets/) | Hard |
 | [2900-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/2900-longest-unequal-adjacent-groups-subsequence-i/) | Easy |
 | [2937-make-three-strings-equal](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/2937-make-three-strings-equal/) | Easy |
+| [3474-lexicographically-smallest-generated-string](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Hard/3474-lexicographically-smallest-generated-string/) | Hard |
 | [3504-longest-palindrome-after-substring-concatenation-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Hard/3504-longest-palindrome-after-substring-concatenation-ii/) | Hard |
 ## Sorting
 | Problem Name | Difficulty |
@@ -460,6 +461,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
 | [2542-maximum-subsequence-score](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/2542-maximum-subsequence-score/) | Medium |
 | [2900-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/2900-longest-unequal-adjacent-groups-subsequence-i/) | Easy |
+| [3474-lexicographically-smallest-generated-string](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Hard/3474-lexicographically-smallest-generated-string/) | Hard |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -581,6 +583,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | ------- | ------- |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0028-find-the-index-of-the-first-occurrence-in-a-string/) | Easy |
 | [1668-maximum-repeating-substring](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/1668-maximum-repeating-substring/) | Easy |
+| [3474-lexicographically-smallest-generated-string](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Hard/3474-lexicographically-smallest-generated-string/) | Hard |
 ## Enumeration
 | Problem Name | Difficulty |
 | ------- | ------- |
