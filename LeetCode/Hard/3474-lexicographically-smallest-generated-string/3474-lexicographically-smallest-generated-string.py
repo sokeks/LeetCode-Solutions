@@ -21,7 +21,7 @@ class Solution:
             
             for j in range(len_str2 - 1, -1, -1):
                 rightmost_idx = i + j
-                if not rightmost_idx in committed:
+                if rightmost_idx not in committed:
                     result[rightmost_idx] = 'b'
                     committed.add(rightmost_idx)
                     break
