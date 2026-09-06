@@ -25,9 +25,8 @@ public:
         {
             if (condition == 'T' || string_view(result.data() + i, str2.size()) != pattern) continue;
 
-            auto j = str2.size();
-            bool wasChanged = false;
-            for (; j-- > 0;)
+            auto wasChanged = false;
+            for (auto j = str2.size(); j-- > 0;)
             {
                 auto w = i + j;
                 cout << w << endl;
