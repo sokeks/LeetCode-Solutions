@@ -1,22 +1,19 @@
 class Solution:
     def clearStars(self, s: str) -> str:
-        occurrences:dict[str, list[int]] = defaultdict(list)
-        smallests = []
+        chars_positions:dict[str, deque[int]] = defaultdict(deque)
+        sorted_chars = []
 
-        result_pattern = list(s)
-        for i, c in enumerate(result_pattern):
+        result = list(s)
+        for i, c in enumerate(result):
             if c == '*':
-                candidate = smallests[0]
-                result_pattern[-heapq.heappop(occurrences[candidate])] = '*'
-                if len(occurrences[candidate]) == 0:
-                    heapq.heappop(smallests)
+                smallest = sorted_chars[0]
+                result[chars_positions[smallest].pop()] = '*'
+                if not chars_positions[smallest]:
+                    heapq.heappop(sorted_chars)
             else:
-                if len(occurrences[c]) == 0:
-                    heapq.heappush(smallests, c)
+                if not chars_positions[c]:
+                    heapq.heappush(sorted_chars, c)
                 
-                heapq.heappush(occurrences[c], -i)
+                chars_positions[c].append(i)
 
-
-        return "".join(c for c in result_pattern if c != '*')
-
-        
+        return "".join(c for c in result if c != '*')
