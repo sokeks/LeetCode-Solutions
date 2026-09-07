@@ -196,6 +196,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0232-implement-queue-using-stacks](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0232-implement-queue-using-stacks/) | Easy |
 | [0234-palindrome-linked-list](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0234-palindrome-linked-list/) | Easy |
 | [0394-decode-string](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0394-decode-string/) | Medium |
+| [3170-lexicographically-minimum-string-after-removing-stars](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/3170-lexicographically-minimum-string-after-removing-stars/) | Medium |
 ## Design
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -337,6 +338,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0409-longest-palindrome](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0409-longest-palindrome/) | Easy |
 | [0560-subarray-sum-equals-k](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0560-subarray-sum-equals-k/) | Medium |
 | [2336-smallest-number-in-infinite-set](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/2336-smallest-number-in-infinite-set/) | Medium |
+| [3170-lexicographically-minimum-string-after-removing-stars](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/3170-lexicographically-minimum-string-after-removing-stars/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -379,6 +381,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [2209-minimum-white-tiles-after-covering-with-carpets](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Hard/2209-minimum-white-tiles-after-covering-with-carpets/) | Hard |
 | [2900-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/2900-longest-unequal-adjacent-groups-subsequence-i/) | Easy |
 | [2937-make-three-strings-equal](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/2937-make-three-strings-equal/) | Easy |
+| [3170-lexicographically-minimum-string-after-removing-stars](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/3170-lexicographically-minimum-string-after-removing-stars/) | Medium |
 | [3474-lexicographically-smallest-generated-string](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Hard/3474-lexicographically-smallest-generated-string/) | Hard |
 | [3504-longest-palindrome-after-substring-concatenation-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Hard/3504-longest-palindrome-after-substring-concatenation-ii/) | Hard |
 ## Sorting
@@ -461,6 +464,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0714-best-time-to-buy-and-sell-stock-with-transaction-fee](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0714-best-time-to-buy-and-sell-stock-with-transaction-fee/) | Medium |
 | [2542-maximum-subsequence-score](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/2542-maximum-subsequence-score/) | Medium |
 | [2900-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/2900-longest-unequal-adjacent-groups-subsequence-i/) | Easy |
+| [3170-lexicographically-minimum-string-after-removing-stars](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/3170-lexicographically-minimum-string-after-removing-stars/) | Medium |
 | [3474-lexicographically-smallest-generated-string](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Hard/3474-lexicographically-smallest-generated-string/) | Hard |
 ## Dynamic Programming
 | Problem Name | Difficulty |
@@ -558,6 +562,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [2336-smallest-number-in-infinite-set](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/2336-smallest-number-in-infinite-set/) | Medium |
 | [2462-total-cost-to-hire-k-workers](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/2462-total-cost-to-hire-k-workers/) | Medium |
 | [2542-maximum-subsequence-score](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/2542-maximum-subsequence-score/) | Medium |
+| [3170-lexicographically-minimum-string-after-removing-stars](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/3170-lexicographically-minimum-string-after-removing-stars/) | Medium |
 ## Quickselect
 | Problem Name | Difficulty |
 | ------- | ------- |
