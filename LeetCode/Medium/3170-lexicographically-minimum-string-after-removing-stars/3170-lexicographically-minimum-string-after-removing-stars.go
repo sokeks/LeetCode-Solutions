@@ -1,6 +1,6 @@
 type MinHeap []byte
 
-// Implemente sort.Interface
+// Implement sort.Interface
 func (h MinHeap) Len() int              { return len(h) }
 func (h MinHeap) Less(i, j int) bool    { return h[i] < h[j] }
 func (h MinHeap) Swap(i, j int)         { h[i], h[j] = h[j], h[i] }
@@ -26,38 +26,39 @@ func (s *Stack) Pop() int {
     *s = (*s)[:n-1]
     return val
 }
+func (s Stack) Len() int { return len(s) }
 
 
 
 func clearStars(s string) string {
-    available_chars_heap := MinHeap{}
-    char_positions := [26]Stack{}
+    availableCharsHeap := MinHeap{}
+    charPositions := [26]Stack{}
 
     result := []byte(s)
     for i := 0; i < len(s); i++ {
         if s[i] != '*' {
             idx := s[i] - 'a'
-            if len(char_positions[idx]) == 0 {
-                heap.Push(&available_chars_heap, s[i])
+            if len(charPositions[idx]) == 0 {
+                heap.Push(&availableCharsHeap, s[i])
             }
-            char_positions[idx].Push(i)
+            charPositions[idx].Push(i)
         } else {
-            char := available_chars_heap[0]
-            idx := char - 'a'
-            result[char_positions[idx].Pop()] = '*'
-            if len(char_positions[idx]) == 0 {
-                heap.Pop(&available_chars_heap)
+            letter := availableCharsHeap[0]
+            idx := letter - 'a'
+            result[charPositions[idx].Pop()] = '*'
+            if charPositions[idx].Len() == 0 {
+                heap.Pop(&availableCharsHeap)
             }
         }
     }
 
     n := 0
-    for _, char := range result {
-        if char != '*' {
-            result[n] = char
+    for _, letter := range result {
+        if letter != '*' {
+            result[n] = letter
             n++
         }
     }
     
-    return string(result[:n]);
+    return string(result[:n])
 }
