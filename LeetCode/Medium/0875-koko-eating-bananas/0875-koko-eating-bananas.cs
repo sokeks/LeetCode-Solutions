@@ -1,6 +1,5 @@
 public class Solution {
     public int MinEatingSpeed(int[] piles, int h) {
-        if (piles.Length == 1) return (piles[0] + h - 1) / h;
         var minEatingSpeed = 1;
         var maxEatingSpeed = piles.Max();
 
@@ -24,11 +23,14 @@ public class Solution {
             var spentTime = 0L;
             foreach (var p in piles)
             {
-                spentTime += (p + eatingSpeed - 1) / eatingSpeed;
+                spentTime += CeilDivide(p, eatingSpeed);
                 if (spentTime > h) return false;
             }
 
             return true;
         }
+
+        static long CeilDivide(long a, long b)
+            => (a + b - 1) / b;
     }
 }
