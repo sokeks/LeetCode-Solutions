@@ -44,7 +44,7 @@ class Solution:
                     next_litter_mask = litter_mask | (1 << (litter_idxs[next_row, next_col]) if classroom[next_row][next_col] == 'L' else 0)
                     next_energy = energy if classroom[next_row][next_col] == 'R' else energy_remaining - 1
 
-                    if next_energy > current_highest_energy[litter_mask][next_row][next_col]:
+                    if next_energy > current_highest_energy[next_litter_mask][next_row][next_col]:
                         current_highest_energy[next_litter_mask][next_row][next_col] = next_energy
                         queue.append((next_row, next_col, next_litter_mask, next_energy))                        
 
