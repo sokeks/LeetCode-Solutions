@@ -109,6 +109,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [1161-maximum-level-sum-of-a-binary-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/1161-maximum-level-sum-of-a-binary-tree/) | Medium |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero/) | Medium |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/1926-nearest-exit-from-entrance-in-maze/) | Medium |
+| [3568-minimum-moves-to-clean-the-classroom](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/3568-minimum-moves-to-clean-the-classroom/) | Medium |
 ## Binary Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -172,6 +173,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0389-find-the-difference](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0389-find-the-difference/) | Easy |
 | [0401-binary-watch](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0401-binary-watch/) | Easy |
 | [3095-shortest-subarray-with-or-at-least-k-i](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/3095-shortest-subarray-with-or-at-least-k-i/) | Easy |
+| [3568-minimum-moves-to-clean-the-classroom](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/3568-minimum-moves-to-clean-the-classroom/) | Medium |
 | [3954-sum-of-compatible-numbers-in-range-i](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/3954-sum-of-compatible-numbers-in-range-i/) | Easy |
 ## Recursion
 | Problem Name | Difficulty |
@@ -303,6 +305,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [2542-maximum-subsequence-score](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/2542-maximum-subsequence-score/) | Medium |
 | [2900-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/2900-longest-unequal-adjacent-groups-subsequence-i/) | Easy |
 | [3095-shortest-subarray-with-or-at-least-k-i](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/3095-shortest-subarray-with-or-at-least-k-i/) | Easy |
+| [3568-minimum-moves-to-clean-the-classroom](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/3568-minimum-moves-to-clean-the-classroom/) | Medium |
 | [3573-best-time-to-buy-and-sell-stock-v](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/3573-best-time-to-buy-and-sell-stock-v/) | Medium |
 ## Prefix Sum
 | Problem Name | Difficulty |
@@ -339,6 +342,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0560-subarray-sum-equals-k](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0560-subarray-sum-equals-k/) | Medium |
 | [2336-smallest-number-in-infinite-set](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/2336-smallest-number-in-infinite-set/) | Medium |
 | [3170-lexicographically-minimum-string-after-removing-stars](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/3170-lexicographically-minimum-string-after-removing-stars/) | Medium |
+| [3568-minimum-moves-to-clean-the-classroom](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/3568-minimum-moves-to-clean-the-classroom/) | Medium |
 ## String
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -545,6 +549,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0064-minimum-path-sum](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0064-minimum-path-sum/) | Medium |
 | [0994-rotting-oranges](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0994-rotting-oranges/) | Medium |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/1926-nearest-exit-from-entrance-in-maze/) | Medium |
+| [3568-minimum-moves-to-clean-the-classroom](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/3568-minimum-moves-to-clean-the-classroom/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
