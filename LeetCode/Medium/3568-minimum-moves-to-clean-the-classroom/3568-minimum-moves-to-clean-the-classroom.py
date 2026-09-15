@@ -18,6 +18,7 @@ class Solution:
         def calculate_next_moves(row: int, col: int) -> list[tuple[int, int]]:
             def is_move_allowed(row: int, col: int) -> bool:
                 return 0 <= row < len(classroom) and 0 <= col < len(classroom[0]) and classroom[row][col] != 'X'
+            
             return [(row + change_row, col + change_col) for change_row, change_col in changes
                         if is_move_allowed(row + change_row, col + change_col)]
 
