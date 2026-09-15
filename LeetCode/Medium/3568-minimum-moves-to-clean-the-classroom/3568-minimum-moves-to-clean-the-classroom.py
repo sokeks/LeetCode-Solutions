@@ -14,8 +14,20 @@ class Solution:
 
             return (1 << litter_count) - 1, start, litter_pos_to_idx
         
-        def is_move_allowed(row: int, col: int) -> bool:
-            return 0 <= row < len(classroom) and 0 <= col < len(classroom[0]) and classroom[row][col] != 'X'
+        def calculate_next_moves(row: int, col: int) -> list[tuple[int, int]]:
+            def is_move_allowed(row: int, col: int) -> bool:
+                return 0 <= row < len(classroom) and 0 <= col < len(classroom[0]) and classroom[row][col] != 'X'
+            moves = []
+            if is_move_allowed(row, col - 1):
+                moves.append((row, col - 1))
+            if is_move_allowed(row - 1, col):
+                moves.append((row - 1, col))
+            if is_move_allowed(row, col + 1):
+                moves.append((row, col + 1))
+            if is_move_allowed(row + 1, col):
+                moves.append((row + 1, col))
+            return moves
+
 
         all_litter_mask, (s_row, s_col), litter_pos_to_idx = analyze_classroom()
         highest_energy_seen: list[list[list[int]]] = [[[-1 for _ in row] for row in classroom] for _ in range(all_litter_mask + 1)]        
@@ -37,10 +49,7 @@ class Solution:
                 if energy_remaining == 0:
                     continue
 
-                for row_change, col_change in next_moves:
-                    next_row, next_col = row + row_change, col + col_change
-                    if  not is_move_allowed(next_row, next_col):
-                        continue
+                for next_row, next_col in calculate_next_moves(row, col):
                     next_cell = classroom[next_row][next_col]
                     next_litter_mask = litter_mask | (1 << (litter_pos_to_idx[next_row, next_col]) if next_cell == 'L' else 0)
                     next_energy = energy if next_cell == 'R' else energy_remaining - 1
