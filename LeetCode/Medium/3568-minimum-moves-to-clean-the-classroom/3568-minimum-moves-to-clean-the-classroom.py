@@ -14,19 +14,12 @@ class Solution:
 
             return (1 << litter_count) - 1, start, litter_pos_to_idx
         
+        changes = [(1, 0), (-1, 0), (0, 1), (0, -1)]
         def calculate_next_moves(row: int, col: int) -> list[tuple[int, int]]:
             def is_move_allowed(row: int, col: int) -> bool:
                 return 0 <= row < len(classroom) and 0 <= col < len(classroom[0]) and classroom[row][col] != 'X'
-            moves = []
-            if is_move_allowed(row, col - 1):
-                moves.append((row, col - 1))
-            if is_move_allowed(row - 1, col):
-                moves.append((row - 1, col))
-            if is_move_allowed(row, col + 1):
-                moves.append((row, col + 1))
-            if is_move_allowed(row + 1, col):
-                moves.append((row + 1, col))
-            return moves
+            return [(row + change_row, col + change_col) for change_row, change_col in changes
+                        if is_move_allowed(row + change_row, col + change_col)]
 
 
         all_litter_mask, (s_row, s_col), litter_pos_to_idx = analyze_classroom()
