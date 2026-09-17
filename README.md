@@ -158,6 +158,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0902-numbers-at-most-n-given-digit-set](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Hard/0902-numbers-at-most-n-given-digit-set/) | Hard |
 | [1025-divisor-game](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/1025-divisor-game/) | Easy |
 | [1137-n-th-tribonacci-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/1137-n-th-tribonacci-number/) | Easy |
+| [3871-count-commas-in-range-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/3871-count-commas-in-range-ii/) | Medium |
 ## Bit Manipulation
 | Problem Name | Difficulty |
 | ------- | ------- |
