@@ -7,19 +7,10 @@ class Solution:
                     pair_mismatches[ord(s) - ord('a')][ord(t) - ord('a')] += 1
             
             operations_count = 0
-            for s, t in zip(source, target):
-                if s == t:
-                    continue
-                
-                s_idx = ord(s) - ord('a')
-                t_idx = ord(t) - ord('a')
-                if pair_mismatches[s_idx][t_idx] == 0:
-                    continue
+            for i in range(26):
+                for j in range(i + 1, 26):
+                    operations_count += max(pair_mismatches[i][j], pair_mismatches[j][i])
 
-                operations_count += max(pair_mismatches[s_idx][t_idx], pair_mismatches[t_idx][s_idx])
-                pair_mismatches[s_idx][t_idx] = 0
-                pair_mismatches[t_idx][s_idx] = 0
-            
             return operations_count
 
         dp = []
