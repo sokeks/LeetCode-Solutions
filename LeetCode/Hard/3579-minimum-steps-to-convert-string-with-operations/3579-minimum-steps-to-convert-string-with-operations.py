@@ -16,7 +16,7 @@ class Solution:
                 if pair_mismatches[s_idx][t_idx] == 0:
                     continue
 
-                operations_count += pair_mismatches[s_idx][t_idx] + pair_mismatches[t_idx][s_idx] - min(pair_mismatches[s_idx][t_idx], pair_mismatches[t_idx][s_idx])
+                operations_count += max(pair_mismatches[s_idx][t_idx], pair_mismatches[t_idx][s_idx])
                 pair_mismatches[s_idx][t_idx] = 0
                 pair_mismatches[t_idx][s_idx] = 0
             
