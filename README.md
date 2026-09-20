@@ -389,6 +389,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [3170-lexicographically-minimum-string-after-removing-stars](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/3170-lexicographically-minimum-string-after-removing-stars/) | Medium |
 | [3474-lexicographically-smallest-generated-string](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Hard/3474-lexicographically-smallest-generated-string/) | Hard |
 | [3504-longest-palindrome-after-substring-concatenation-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Hard/3504-longest-palindrome-after-substring-concatenation-ii/) | Hard |
+| [3579-minimum-steps-to-convert-string-with-operations](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Hard/3579-minimum-steps-to-convert-string-with-operations/) | Hard |
 ## Sorting
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -512,6 +513,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [2900-longest-unequal-adjacent-groups-subsequence-i](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/2900-longest-unequal-adjacent-groups-subsequence-i/) | Easy |
 | [3504-longest-palindrome-after-substring-concatenation-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Hard/3504-longest-palindrome-after-substring-concatenation-ii/) | Hard |
 | [3573-best-time-to-buy-and-sell-stock-v](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/3573-best-time-to-buy-and-sell-stock-v/) | Medium |
+| [3579-minimum-steps-to-convert-string-with-operations](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Hard/3579-minimum-steps-to-convert-string-with-operations/) | Hard |
 | [3954-sum-of-compatible-numbers-in-range-i](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/3954-sum-of-compatible-numbers-in-range-i/) | Easy |
 ## Counting
 | Problem Name | Difficulty |
