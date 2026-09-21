@@ -5,7 +5,7 @@ public:
 
         for (auto prefixLength = 1uz; prefixLength <= word1.length(); ++prefixLength)
         {
-            auto minOperationsCount = prefixLength;
+            auto minOperationsCount = static_cast<int>(prefixLength);
             for (auto start = 0uz; start < prefixLength; ++start)
             {
                 string_view source(word1.data() + start, prefixLength - start);
@@ -23,7 +23,7 @@ public:
     }
 private:
     template <typename R1, typename R2>
-    size_t countMinReplacesAndSwaps(R1&& source, R2&& target)
+    int countMinReplacesAndSwaps(R1&& source, R2&& target)
     {
         array<array<int, 26>, 26> charsMismatchesCount = {};
 
@@ -35,7 +35,7 @@ private:
             }
         }
 
-        auto operationsCount = 0uz;
+        auto operationsCount = 0;
         for (auto s = 0uz; s < charsMismatchesCount.size(); ++s)
         {
             for (auto t = s + 1; t < charsMismatchesCount.size(); ++t)
