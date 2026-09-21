@@ -10,24 +10,13 @@ public:
             {
                 string_view source(word1.data() + start, currentLength - start);
                 string_view target(word2.data() + start, currentLength - start);
-                                cout << source << endl ; 
-                cout << target << endl ; 
-
 
                 auto nonReversedOperations = countReplacesAndSwaps(source, target);
-                cout << nonReversedOperations << endl ; 
-
                 auto reversedOperations = 1 + countReplacesAndSwaps(source | views::reverse, target);
-            cout << reversedOperations << endl ; 
-
 
                 minOperations = min(dp[start] + min(nonReversedOperations, reversedOperations), minOperations);
             }
-            
-
-
             dp[currentLength] = minOperations;
-            cout << "dp[currentLength]=" << dp[currentLength] << endl ; 
         }
 
         return dp.back();
@@ -54,8 +43,6 @@ private:
                 operationsCount += max(pair_mismatches[s][t], pair_mismatches[t][s]);
             }
         }
-
-        // cout <<operationsCount << endl ; 
 
         return operationsCount;
     } 
