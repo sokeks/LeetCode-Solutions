@@ -11,8 +11,8 @@ public:
                 string_view source(word1.data() + start, prefixLength - start);
                 string_view target(word2.data() + start, prefixLength - start);
 
-                auto nonReversedOperations = countReplacesAndSwaps(source, target);
-                auto reversedOperations = 1 + countReplacesAndSwaps(source | views::reverse, target);
+                auto nonReversedOperations = countMinReplacesAndSwaps(source, target);
+                auto reversedOperations = 1 + countMinReplacesAndSwaps(source | views::reverse, target);
 
                 minOperationsCount = min(dp[start] + min(nonReversedOperations, reversedOperations), minOperationsCount);
             }
@@ -23,24 +23,24 @@ public:
     }
 private:
     template <typename R1, typename R2>
-    size_t countReplacesAndSwaps(R1&& source, R2&& target)
+    size_t countMinReplacesAndSwaps(R1&& source, R2&& target)
     {
-        array<array<int, 26>, 26> pair_mismatches = {};
+        array<array<int, 26>, 26> charsMismatchesCount = {};
 
         for (auto [s, t] : views::zip(source, target))
         {
             if (s != t)
             {
-                pair_mismatches[s - 'a'][t - 'a']++;
+                charsMismatchesCount[s - 'a'][t - 'a']++;
             }
         }
 
         auto operationsCount = 0uz;
-        for (auto s = 0uz; s < pair_mismatches.size(); ++s)
+        for (auto s = 0uz; s < charsMismatchesCount.size(); ++s)
         {
-            for (auto t = s + 1; t < pair_mismatches.size(); ++t)
+            for (auto t = s + 1; t < charsMismatchesCount.size(); ++t)
             {
-                operationsCount += max(pair_mismatches[s][t], pair_mismatches[t][s]);
+                operationsCount += max(charsMismatchesCount[s][t], charsMismatchesCount[t][s]);
             }
         }
 
