@@ -299,6 +299,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0994-rotting-oranges](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0994-rotting-oranges/) | Medium |
 | [1035-uncrossed-lines](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/1035-uncrossed-lines/) | Medium |
 | [1926-nearest-exit-from-entrance-in-maze](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/1926-nearest-exit-from-entrance-in-maze/) | Medium |
+| [1995-count-special-quadruplets](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/1995-count-special-quadruplets/) | Easy |
 | [2012-sum-of-beauty-in-the-array](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/2012-sum-of-beauty-in-the-array/) | Medium |
 | [2016-maximum-difference-between-increasing-elements](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/2016-maximum-difference-between-increasing-elements/) | Easy |
 | [2300-successful-pairs-of-spells-and-potions](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/2300-successful-pairs-of-spells-and-potions/) | Medium |
@@ -341,6 +342,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0389-find-the-difference](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0389-find-the-difference/) | Easy |
 | [0409-longest-palindrome](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0409-longest-palindrome/) | Easy |
 | [0560-subarray-sum-equals-k](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0560-subarray-sum-equals-k/) | Medium |
+| [1995-count-special-quadruplets](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/1995-count-special-quadruplets/) | Easy |
 | [2336-smallest-number-in-infinite-set](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/2336-smallest-number-in-infinite-set/) | Medium |
 | [3170-lexicographically-minimum-string-after-removing-stars](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/3170-lexicographically-minimum-string-after-removing-stars/) | Medium |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/3568-minimum-moves-to-clean-the-classroom/) | Medium |
@@ -600,6 +602,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 ## Enumeration
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1995-count-special-quadruplets](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/1995-count-special-quadruplets/) | Easy |
 | [3954-sum-of-compatible-numbers-in-range-i](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/3954-sum-of-compatible-numbers-in-range-i/) | Easy |
 ## Combinatorics
 | Problem Name | Difficulty |
