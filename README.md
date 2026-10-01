@@ -52,6 +52,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0094-binary-tree-inorder-traversal/) | Easy |
+| [0095-unique-binary-search-trees-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0095-unique-binary-search-trees-ii/) | Medium |
 | [0100-same-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0100-same-tree/) | Easy |
 | [0101-symmetric-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0101-symmetric-tree/) | Easy |
 | [0104-maximum-depth-of-binary-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
@@ -114,6 +115,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0094-binary-tree-inorder-traversal/) | Easy |
+| [0095-unique-binary-search-trees-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0095-unique-binary-search-trees-ii/) | Medium |
 | [0100-same-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0100-same-tree/) | Easy |
 | [0101-symmetric-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0101-symmetric-tree/) | Easy |
 | [0104-maximum-depth-of-binary-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0104-maximum-depth-of-binary-tree/) | Easy |
@@ -413,6 +415,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | ------- | ------- |
 | [0017-letter-combinations-of-a-phone-number](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0017-letter-combinations-of-a-phone-number/) | Medium |
 | [0022-generate-parentheses](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0022-generate-parentheses/) | Medium |
+| [0095-unique-binary-search-trees-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0095-unique-binary-search-trees-ii/) | Medium |
 | [0216-combination-sum-iii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0216-combination-sum-iii/) | Medium |
 | [0257-binary-tree-paths](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0257-binary-tree-paths/) | Easy |
 | [0401-binary-watch](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0401-binary-watch/) | Easy |
@@ -489,6 +492,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 | [0070-climbing-stairs](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0070-climbing-stairs/) | Easy |
 | [0072-edit-distance](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0072-edit-distance/) | Medium |
 | [0091-decode-ways](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0091-decode-ways/) | Medium |
+| [0095-unique-binary-search-trees-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0095-unique-binary-search-trees-ii/) | Medium |
 | [0118-pascals-triangle](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0118-pascals-triangle/) | Easy |
 | [0119-pascals-triangle-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0119-pascals-triangle-ii/) | Easy |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0121-best-time-to-buy-and-sell-stock/) | Easy |
@@ -528,6 +532,7 @@ Have fun exploring! Always happy to discuss certain resolutions I've decided to 
 ## Binary Search Tree
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0095-unique-binary-search-trees-ii](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0095-unique-binary-search-trees-ii/) | Medium |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0108-convert-sorted-array-to-binary-search-tree/) | Easy |
 | [0450-delete-node-in-a-bst](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Medium/0450-delete-node-in-a-bst/) | Medium |
 | [0700-search-in-a-binary-search-tree](https://github.com/sokeks/LeetCode-Solutions/tree/main/LeetCode/Easy/0700-search-in-a-binary-search-tree/) | Easy |
