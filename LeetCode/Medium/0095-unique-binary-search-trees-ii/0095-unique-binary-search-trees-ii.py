@@ -6,6 +6,44 @@
 #         self.right = right
 class Solution:
     def generateTrees(self, n: int) -> list[TreeNode | None]:
+    # recursive version, when each tree is dependent, we use existing trees - less time, but less prouction ready (fulfill tasks)
+    # version with dependent trees is much easier in recursive version, comparing to iterative
+
+        def build_trees(start: int, end: int) -> list[TreeNode]:
+            if start > end:
+                return [None]
+            
+            trees = []
+            for root in range(start, end + 1):
+                left_trees = build_trees(start, root - 1)
+                right_trees = build_trees(root + 1, end)
+                for left in left_trees:
+                    for right in right_trees:
+                        trees.append(TreeNode(val=root, left=left, right=right))
+
+            return trees
+
+        return build_trees(1, n)  
+
+    # # each tree is dependent, we use existing trees - less time, but less prouction ready (fulfill tasks)
+    #     dp = [TreeNode(val=i) for i in range(n)]
+
+    #     for i in range(1, n + 1):
+    #         trees = []
+    #         for root in range(1, i + 1):
+    #             left_trees = [dp[j] for j in range(root)]
+    #             right_trees = [dp[j] if j < len(dp) else None for j in range(root + 1, i + 1)]
+                
+    #             for left in left_trees:
+    #                 for right in right_trees:
+    #                     trees.append(TreeNode(val=root, left=left, right=right))
+                
+    #         dp.append(trees)
+
+    #     return dp[-1]
+
+
+    # each tree is independent, we do a full copy with adding new node - more time, but more production type of solution (however not requested by the task)
         previous_bsts = [TreeNode(val=1)]
 
         def copy_tree_with_dummy(tree: TreeNode) -> TreeNode:
