@@ -9,6 +9,7 @@ class Solution:
     # recursive version, when each tree is dependent, we use existing trees - less time, but less prouction ready (fulfill tasks)
     # version with dependent trees is much easier in recursive version, comparing to iterative
 
+        @cache
         def build_trees(start: int, end: int) -> list[TreeNode]:
             if start > end:
                 return [None]
@@ -25,22 +26,26 @@ class Solution:
 
         return build_trees(1, n)  
 
-    # # each tree is dependent, we use existing trees - less time, but less prouction ready (fulfill tasks)
-    #     dp = [TreeNode(val=i) for i in range(n)]
+    # recursive version, when each tree is dependent, we use existing trees - less time, but less prouction ready (fulfill tasks)
+    # version with dependent trees is harder in recursive version, comparing to iterative
+        dp = [TreeNode(val=i) for i in range(n)]
 
-    #     for i in range(1, n + 1):
-    #         trees = []
-    #         for root in range(1, i + 1):
-    #             left_trees = [dp[j] for j in range(root)]
-    #             right_trees = [dp[j] if j < len(dp) else None for j in range(root + 1, i + 1)]
-                
-    #             for left in left_trees:
-    #                 for right in right_trees:
-    #                     trees.append(TreeNode(val=root, left=left, right=right))
-                
-    #         dp.append(trees)
+        for i in range(n):
+            
 
-    #     return dp[-1]
+
+            trees = []
+            for root in range(1, i + 1):
+                left_trees = [dp[j] for j in range(root)]
+                right_trees = [dp[j] if j < len(dp) else None for j in range(root + 1, i + 1)]
+                
+                for left in left_trees:
+                    for right in right_trees:
+                        trees.append(TreeNode(val=root, left=left, right=right))
+                
+            dp.append(trees)
+
+        return dp[-1]
 
 
     # each tree is independent, we do a full copy with adding new node - more time, but more production type of solution (however not requested by the task)
